@@ -5,7 +5,6 @@
     {{- with .Params.images -}}
       {{- range first 1 . -}}
         <div class="post--feature-image">
-            {{ partial "cloudinary/image" (dict "pg" $ "image" . "alt" ($.Params.headline | default $.Title) "max_width" "2280") }}
         </div>
       {{- end -}}
     {{- end -}}

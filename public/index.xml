@@ -13,16 +13,6 @@
     
     
     <item>
-      <title>Details Matter- UX Critique for pnyv.sh (I know)</title>
-      <link>/blog/talkingaboutredundancies/</link>
-      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/talkingaboutredundancies/</guid>
-      <description>Details Matter 002: My own blog -&amp;gt; I wrote an article on how Svbtle had some UI / UX flaws, and while browsing through my own blog I found some flaws glaring back at me as well. I plan on constantly updating this article, as you never know what part of my own blog I miss due to not paying enough attention to the details here.
-Redundancy one- the nav.</description>
-    </item>
-    
-    <item>
       <title>Details Matter- UX Microcopy for Svbtle</title>
       <link>/blog/detailsmatterone-svbtle/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
@@ -30,6 +20,17 @@ Redundancy one- the nav.</description>
       <guid>/blog/detailsmatterone-svbtle/</guid>
       <description>Details Matter 001: Svtble -&amp;gt; Before settling on a configuration utilizing Hugo and Netlify in order to serve this site up to you readers, I admittedly hopped around on my blog-wagon, jumping from one platform to the other- be it WordPress, Ghost, Jekyll, Grav, Postach.io or even the likes of Squarespace, Wix and Webflow.
 During my &amp;ldquo;tours,&amp;rdquo; I stumbled across a rather eye-catching platform- (you guessed it) Svbtle. The reason I choose to write this first post dedicated to Svbtle&amp;rsquo;s inconsistencies in the UI / UX decisions is because had Svbtle accepted Debit Cards, you would&amp;rsquo;ve been looking at a Svbtle blog.</description>
+    </item>
+    
+    <item>
+      <title>5 Ways to Handle Forms on Your Static Site</title>
+      <link>/blog/talkingaboutredundancies/</link>
+      <pubDate>Fri, 15 Jun 2018 03:30:13 -1100</pubDate>
+      
+      <guid>/blog/talkingaboutredundancies/</guid>
+      <description>When I first started exploring the potential of static sites, I was attracted by their speed and simplicity. I knew these benefits came at a cost, however: since static sites can’t run backend code, there are limits to what you can accomplish with a static solution.
+I no longer see things this way.
+JAMStack is not about sacrificing features for the sake of a performant, easy to maintain website. Rather, it is about re-evaluating how much of your desired functionality should be delegated to your web frontend.</description>
     </item>
     
   </channel>
