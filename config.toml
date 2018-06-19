@@ -70,55 +70,8 @@ ghrepo_new = "https://github.com/forestryio/forestry.io/issues/new"
 gtmid = "GTM-KL5HP9Q"
 images = ["/uploads/2018/01/OGimage-01-3x.jpg"]
 mixpanelid = "8aaf5d792dd5bf875adae0b2adac8900"
-[params.algolia]
-params = ["tags", "categories", "authors"]
-vars = ["date", "description", "dir", "path", "expirydate", "fuzzywordcount", "keywords", "kind", "lang", "lastmod", "permalink", "publishdate", "readingtime", "relpermalink", "summary", "title", "type", "url", "weight", "wordcount", "section"]
-[params.cloudinary]
-cloud_name = "forestry-demo"
-use_upload = false
-[params.cloudinary.lazysizes]
-enabled = true
-[params.cloudinary.presets.content]
-max_width = 1920
-min_width = 320
-quality = 80
-sizes = "auto"
-steps = 10
-width = 640
-[params.cloudinary.presets.default]
-quality = 80
-[params.cloudinary.presets.feature]
-max_width = 1920
-min_width = 320
-quality = 80
-sizes = "(max-width: 76px) 100%, 800px"
-steps = 10
-width = 640
-[related]
-includeNewer = true
-threshold = 10
-toLower = true
-[[related.indices]]
-name = "Section"
-weight = 200
-[[related.indices]]
-name = "keywords"
-weight = 150
-[[related.indices]]
-name = "categories"
-weight = 150
-[[related.indices]]
-name = "tags"
-weight = 100
-[[related.indices]]
-name = "date"
-pattern = "2006"
-weight = 10
+
 [social]
 email = "support@forestry.io"
 slack = "https://t.co/OANAJYol8Y"
 twitter = "forestryio"
-[taxonomies]
-author = "authors"
-category = "categories"
-tag = "tags"
