@@ -1,0 +1,9 @@
+[{
+    "Condition": {
+        "KeyPrefixEquals": "/remote/"
+    },
+    "Redirect": {
+        "HttpRedirectCode": "301",
+        "Protocol": "https",
+        "ReplaceKeyPrefixWith":"/"}
+}]
