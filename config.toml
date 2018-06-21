@@ -1,20 +1,12 @@
 baseurl = "/"
-copyright = ""
+copyright = "pnyv dot sh"
 defaultContentLanguage = "en"
-destination = "../dist/"
 enableEmoji = true
 enableRobotsTXT = true
 languageCode = "en"
 metaDataFormat = "yaml"
 paginate = 10
-pluralizeListTitles = false
-relativeURLs = false
-title = "Forestry.io"
-[blackfriday]
-angledQuotes = false
-hrefTargetBlank = false
-latexDashes = true
-plainIDAnchors = true
+title = "pnyv dot sh"
 [[menu.docs]]
 name = "Settings & Configuration"
 weight = 7
@@ -52,22 +44,6 @@ weight = 2
 identifier = "signup"
 name = "Sign up"
 url = "https://app.forestry.io/signup"
-weight = 8
-[[menu.main]]
-identifier = "userdashboard"
-name = "Dashboard"
-url = "https://app.forestry.io/dashboard"
-weight = 7
-[[menu.main]]
-identifier = "useraccount"
-name = "My Account"
-url = "https://app.forestry.io/settings"
-weight = 5
-[[menu.main]]
-identifier = "login"
-name = "Login"
-url = "https://app.forestry.io/login"
-weight = 6
 [outputFormats.Algolia]
 baseName = "algolia"
 isPlainText = true
