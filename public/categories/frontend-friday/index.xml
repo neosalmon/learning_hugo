@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Frontend Friday on Forestry.io</title>
-    <link>https://forestry.io/categories/frontend-friday/</link>
-    <description>Recent content in Frontend Friday on Forestry.io</description>
+    <title>Frontend Friday on pnyv dot sh</title>
+    <link>/categories/frontend-friday/</link>
+    <description>Recent content in Frontend Friday on pnyv dot sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>pnyv dot sh</copyright>
     <lastBuildDate>Fri, 15 Jun 2018 03:30:13 -1100</lastBuildDate>
     
-	<atom:link href="https://forestry.io/categories/frontend-friday/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/frontend-friday/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>5 Ways to Handle Forms on Your Static Site</title>
-      <link>https://forestry.io/blog/5-ways-to-handle-forms-on-your-static-site/</link>
+      <link>/blog/5-ways-to-handle-forms-on-your-static-site/</link>
       <pubDate>Fri, 15 Jun 2018 03:30:13 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/5-ways-to-handle-forms-on-your-static-site/</guid>
+      <guid>/blog/5-ways-to-handle-forms-on-your-static-site/</guid>
       <description>When I first started exploring the potential of static sites, I was attracted by their speed and simplicity. I knew these benefits came at a cost, however: since static sites can’t run backend code, there are limits to what you can accomplish with a static solution.
 I no longer see things this way.
 JAMStack is not about sacrificing features for the sake of a performant, easy to maintain website. Rather, it is about re-evaluating how much of your desired functionality should be delegated to your web frontend.</description>
@@ -24,10 +25,10 @@ JAMStack is not about sacrificing features for the sake of a performant, easy to
     
     <item>
       <title>For Static Sites, There’s No Excuse Not to Use a CDN</title>
-      <link>https://forestry.io/blog/for-static-sites-theres-no-excuse-not-to-use-a-cdn/</link>
+      <link>/blog/for-static-sites-theres-no-excuse-not-to-use-a-cdn/</link>
       <pubDate>Fri, 08 Jun 2018 04:00:11 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/for-static-sites-theres-no-excuse-not-to-use-a-cdn/</guid>
+      <guid>/blog/for-static-sites-theres-no-excuse-not-to-use-a-cdn/</guid>
       <description>Are you getting the most out of your static site? If you’re not hosting your site on a CDN, you definitely aren’t.
 CDNs, or Content Delivery Networks, are commonly used to distribute static resources like images, videos, and client-side code (CSS and JavaScript.) Since a static site is composed entirely of static resources (including the HTML pages,) it is possible to serve the entire website through a CDN!
 In this article, we will explore why you should be using a CDN to host your static site, and how you can do it with Netlify.</description>
@@ -35,40 +36,40 @@ In this article, we will explore why you should be using a CDN to host your stat
     
     <item>
       <title>Mastering Image Delivery With Cloudinary</title>
-      <link>https://forestry.io/blog/master-image-delivery-with-cloudinary/</link>
+      <link>/blog/master-image-delivery-with-cloudinary/</link>
       <pubDate>Fri, 01 Jun 2018 05:00:49 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/master-image-delivery-with-cloudinary/</guid>
+      <guid>/blog/master-image-delivery-with-cloudinary/</guid>
       <description>Applying a responsive strategy for displaying images means more than just adding max-width: 100%; to your image tags. You don&amp;rsquo;t want to display an image that is much larger than the area it occupies, otherwise you’re just wasting bits. You need to deliver scaled-down versions of these images where appropriate.
 A popular way to generate these scaled-down assets is to automatically resize our images during the build process, using something like a gulp task, but that solution isn&amp;rsquo;t perfect.</description>
     </item>
     
     <item>
       <title>Enhance Your Hugo JSON API Using Custom Output Formats and Netlify Redirects</title>
-      <link>https://forestry.io/blog/hugo-json-api-part-2/</link>
+      <link>/blog/hugo-json-api-part-2/</link>
       <pubDate>Fri, 25 May 2018 05:13:41 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/hugo-json-api-part-2/</guid>
+      <guid>/blog/hugo-json-api-part-2/</guid>
       <description>Hugo makes it super easy to build simple APIs with its built-in output formats. In my previous article, we built a fully functional JSON API. Today we’re going to extend the capabilities of this API and improve the user experience with better URLs.
 At the moment our API can look up specific items, but can’t look at them in relation to each other. Say you want to know what players are in a specific team: with our current API, you can&amp;rsquo;t do that easily.</description>
     </item>
     
     <item>
       <title>Snipcart Brings E‑Commerce to Your Static Site</title>
-      <link>https://forestry.io/blog/snipcart-brings-ecommerce-static-site/</link>
+      <link>/blog/snipcart-brings-ecommerce-static-site/</link>
       <pubDate>Fri, 18 May 2018 03:36:07 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/snipcart-brings-ecommerce-static-site/</guid>
+      <guid>/blog/snipcart-brings-ecommerce-static-site/</guid>
       <description>Picture this: it&amp;rsquo;s 2018, and your client needs an online store. You know that static sites are great: they&amp;rsquo;re easy to scale, have a minimal attack surface, and are very fast. However, since a static site can&amp;rsquo;t run backend code, it won&amp;rsquo;t be able to do some things necessary for e-commerce, such as process customer orders. Can you really use a static site to operate an e-commerce storefront?
 Of course you can!</description>
     </item>
     
     <item>
       <title>What&#39;s New in Jekyll 3.8</title>
-      <link>https://forestry.io/blog/what-s-new-in-jekyll-3.8/</link>
+      <link>/blog/what-s-new-in-jekyll-3.8/</link>
       <pubDate>Fri, 11 May 2018 08:14:47 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/what-s-new-in-jekyll-3.8/</guid>
+      <guid>/blog/what-s-new-in-jekyll-3.8/</guid>
       <description>What’s new in Jekyll 3.8 Jekyll 3.8.1 was released on the 1st of May 2018, just two weeks after 3.8.0. The project has come a long way since I last wrote a Jekyll update on Forestry. Olivia is now Jekyll’s new Lead Developer since Parker Moore decided to step down after four years leading the project.
 So what does Jekyll bring us this time?
 Performance optimizations Large sites containing a huge amount of posts are going to see a massive reduction in their total build times especially if they are doing multiple calls to the where filter with the same input and property parameter.</description>
@@ -76,48 +77,48 @@ Performance optimizations Large sites containing a huge amount of posts are goin
     
     <item>
       <title>Automatically Publish Scheduled Posts For Your Static Site</title>
-      <link>https://forestry.io/blog/automatically-publish-scheduled-posts-for-static-site/</link>
+      <link>/blog/automatically-publish-scheduled-posts-for-static-site/</link>
       <pubDate>Fri, 04 May 2018 07:10:15 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/automatically-publish-scheduled-posts-for-static-site/</guid>
+      <guid>/blog/automatically-publish-scheduled-posts-for-static-site/</guid>
       <description>Part of our mission at Forestry is to dissolve the perceived limitations of static sites. In reality, static sites are easy to understand and integrate with, and the belief that static sites are not capable of feature X is largely a failure of imagination. With a little cleverness and determination, virtually anything is possible on a static platform.
 Previously, we showed you how to set up Algolia with Jekyll as well as with Hugo to make your content searchable.</description>
     </item>
     
     <item>
       <title>Sawmill: A Razor-sharp Layout Composer for Hugo and Forestry</title>
-      <link>https://forestry.io/blog/sawmill-layout-composer-for-hugo-and-forestry/</link>
+      <link>/blog/sawmill-layout-composer-for-hugo-and-forestry/</link>
       <pubDate>Fri, 20 Apr 2018 06:09:13 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/sawmill-layout-composer-for-hugo-and-forestry/</guid>
+      <guid>/blog/sawmill-layout-composer-for-hugo-and-forestry/</guid>
       <description>When it comes to creating websites, good content strategy is all about turning ideas into HTML with a minimal amount of friction. Whether using a CMS with a web interface or editing content files for a static site generator, content creators need an easy way to create visually interesting and well-structured content.
 Every approach is a compromise between flexibility and ease-of-use. Even if a developer could anticipate all of a content creator&amp;rsquo;s needs, these needs will change over time.</description>
     </item>
     
     <item>
       <title>Build a JSON API With Hugo&#39;s Custom Output Formats</title>
-      <link>https://forestry.io/blog/build-a-json-api-with-hugo/</link>
+      <link>/blog/build-a-json-api-with-hugo/</link>
       <pubDate>Fri, 13 Apr 2018 05:00:27 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/build-a-json-api-with-hugo/</guid>
+      <guid>/blog/build-a-json-api-with-hugo/</guid>
       <description>As developers, we love open and accessible data. For example, you may want to use your local transit data for a mobile app, or maybe you want a service like Zapier or IFTTT to send you an email every time the weather forecast calls for rain. If you’re a super geek like @bdougieyo, you’ve built an app that tells you when to leave work in order to avoid traffic from your local baseball team’s home games (from his excellent talk here).</description>
     </item>
     
     <item>
       <title>Write Better JavaScript With Webpack</title>
-      <link>https://forestry.io/blog/write-better-javascript-with-webpack/</link>
+      <link>/blog/write-better-javascript-with-webpack/</link>
       <pubDate>Fri, 30 Mar 2018 12:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/write-better-javascript-with-webpack/</guid>
+      <guid>/blog/write-better-javascript-with-webpack/</guid>
       <description>I get it. The JavaScript ecosystem is exhausting. There exists an abundance of tools and frameworks, and each one wants to rescue you from the shortcomings of its peers. Attempting to learn and keep up with these tools takes time and energy that you would rather devote to your project. Reducing cognitive overhead is a core component of Forestry.io&amp;rsquo;s philosophy — we designed a static site CMS that is easy to set up and use.</description>
     </item>
     
     <item>
       <title>Automate Your Static Site Deployment with CircleCI</title>
-      <link>https://forestry.io/blog/automate-deploy-w-circle-ci/</link>
+      <link>/blog/automate-deploy-w-circle-ci/</link>
       <pubDate>Fri, 23 Mar 2018 12:38:35 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/automate-deploy-w-circle-ci/</guid>
+      <guid>/blog/automate-deploy-w-circle-ci/</guid>
       <description>This tutorial was updated on April 3, 2018 to use bep/s3deploy in place of aws/aws-cli.
  This article is part of our on-going Frontend Friday modern web development series
 Tools like Hugo, Jekyll, and Gatsby have made building static sites a popular and practical choice for developers. One major disadvantage these tools have, however, is the need to regenerate and redeploy their files every time there is new content to publish.</description>
@@ -125,10 +126,10 @@ Tools like Hugo, Jekyll, and Gatsby have made building static sites a popular an
     
     <item>
       <title>Up &amp; Running With Hugo Part I: Building Your First Site</title>
-      <link>https://forestry.io/blog/up-and-running-with-hugo/</link>
+      <link>/blog/up-and-running-with-hugo/</link>
       <pubDate>Fri, 09 Mar 2018 05:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/blog/up-and-running-with-hugo/</guid>
+      <guid>/blog/up-and-running-with-hugo/</guid>
       <description>This guide was most recently updated on March 9, 2018.
  --- -- The popular static site generator written in GoLang - Hugo - has taken the community by storm. It brings all the benefits of a static site generator - 100% Flexibility, Security, Speed - but also steals the show otherwise 👉 Hugo + Jekyll Benchmarked. In fact, the Forestry.io website is built with Hugo.
 For this week on Frontend Friday, we&amp;rsquo;ll be covering how to get set up with Hugo on your local machine, including setting up a theme and customizing it, as well as writing your own CSS &amp;amp; JS.</description>
@@ -136,30 +137,30 @@ For this week on Frontend Friday, we&amp;rsquo;ll be covering how to get set up 
     
     <item>
       <title>Static site search with Hugo &#43; Algolia</title>
-      <link>https://forestry.io/blog/search-with-algolia-in-hugo/</link>
+      <link>/blog/search-with-algolia-in-hugo/</link>
       <pubDate>Fri, 02 Mar 2018 05:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/blog/search-with-algolia-in-hugo/</guid>
+      <guid>/blog/search-with-algolia-in-hugo/</guid>
       <description>For this week on Frontend Friday, we&amp;rsquo;ll be covering how to set up lightning ⚡️ fast search for your Hugo site using Algolia, the SaaS (Search as a Service 😉 ) provider. We published a Jekyll-focused version of this guide last week.
 Algolia&amp;rsquo;s self-proclaimed claim-to-fame is that they are&amp;ldquo;the most reliable platform for building search into your business,&amp;rdquo; and honestly, it&amp;rsquo;s hard to disagree. Forestry&amp;rsquo;s search is powered by Algolia (just try searching for Algolia in the search above!</description>
     </item>
     
     <item>
       <title>Jekyll Search with Algolia and Webtasks</title>
-      <link>https://forestry.io/blog/search-with-algolia-in-jekyll/</link>
+      <link>/blog/search-with-algolia-in-jekyll/</link>
       <pubDate>Tue, 06 Feb 2018 14:08:22 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/search-with-algolia-in-jekyll/</guid>
+      <guid>/blog/search-with-algolia-in-jekyll/</guid>
       <description>For this week on Frontend Friday, we&amp;rsquo;ll be covering how to set up lightning ⚡️ fast search for your Jekyll site using Algolia, the SaaS (Search as a Service 😉 ) provider.
 Algolia&amp;rsquo;s self-proclaimed claim-to-fame is that they are &amp;ldquo;the most reliable platform for building search into your business,&amp;rdquo; and honestly, it&amp;rsquo;s hard to disagree. Forestry&amp;rsquo;s search is powered by Algolia (just try searching for Algolia in the search above!</description>
     </item>
     
     <item>
       <title>Hugo vs Jekyll: Benchmarked</title>
-      <link>https://forestry.io/blog/hugo-vs-jekyll-benchmark/</link>
+      <link>/blog/hugo-vs-jekyll-benchmark/</link>
       <pubDate>Fri, 26 Jan 2018 09:22:55 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/hugo-vs-jekyll-benchmark/</guid>
+      <guid>/blog/hugo-vs-jekyll-benchmark/</guid>
       <description>We&amp;rsquo;ve also compared Jekyll &amp;amp; Hugo features across 6 dimensions. Learn More
  Hugo and Jekyll are the leading static site generators according to StaticGen.com, and both supported by our CMS. We&amp;rsquo;re often asked which tool performs better so we decided to do an analysis.
 TL;DR We ran two tests to measure build times with Hugo and Jekyll. The basic test used the default installation of Jekyll and Hugo to build sites with 10 posts,100 posts, 1,000 posts and 10,000 posts.</description>

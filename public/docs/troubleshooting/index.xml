@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Troubleshooting on Forestry.io</title>
-    <link>https://forestry.io/docs/troubleshooting/</link>
-    <description>Recent content in Troubleshooting on Forestry.io</description>
+    <title>Troubleshooting on pnyv dot sh</title>
+    <link>/docs/troubleshooting/</link>
+    <description>Recent content in Troubleshooting on pnyv dot sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>pnyv dot sh</copyright>
     <lastBuildDate>Sun, 31 Dec 2017 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://forestry.io/docs/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/docs/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GitLab SSH error</title>
-      <link>https://forestry.io/docs/troubleshooting/gitlab-ssh-error/</link>
+      <link>/docs/troubleshooting/gitlab-ssh-error/</link>
       <pubDate>Tue, 24 Apr 2018 08:26:34 -1100</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/gitlab-ssh-error/</guid>
+      <guid>/docs/troubleshooting/gitlab-ssh-error/</guid>
       <description>If you are getting an error when authenticating with GitLab that looks like this:
 Failed to authenticate SSH session: Waiting for USERAUTH response  1. Go to https://app.forestry.io/sites/SITE-ID/disconnect/gitlab
 (where SITE-ID is the unique string in the URL when you visit your Forestry CMS). This will disconnect your account from GitLab.
@@ -27,19 +28,19 @@ Failed to authenticate SSH session: Waiting for USERAUTH response  1. Go to http
     
     <item>
       <title>Could not locate Gemfile or .bundle/ directory</title>
-      <link>https://forestry.io/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</link>
+      <link>/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</link>
       <pubDate>Thu, 22 Feb 2018 11:56:06 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</guid>
+      <guid>/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</guid>
       <description>When I view an error log from Forestry I see: Could not locate Gemfile or .bundle/ directory What this error means Gemfiles include a list of project dependencies and where to find them. Bundler is a dependency manager for the Ruby programming language that can read Gemfiles, resolve the dependency graph and install those gems. Jekyll is a ruby application and can use Bundler to manage your project dependencies. Forestry requires that your Jekyll projects contain a Gemfile at the root of the repository.</description>
     </item>
     
     <item>
       <title>Using a Git Submodule for Your Theme</title>
-      <link>https://forestry.io/docs/troubleshooting/using-a-git-submodule-for-your-theme/</link>
+      <link>/docs/troubleshooting/using-a-git-submodule-for-your-theme/</link>
       <pubDate>Thu, 01 Feb 2018 10:37:36 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/using-a-git-submodule-for-your-theme/</guid>
+      <guid>/docs/troubleshooting/using-a-git-submodule-for-your-theme/</guid>
       <description>If you have a repository for your Jekyll or Hugo project and you want use a different repository for your theme, you should set up your theme repo as a Git Submodule.
 To add a theme as a Git Submodule, run the following command from the root of your project:
 git submodule add https://github.com/spf13/hyde.git themes/hyde  Be sure to add the correct URL to your theme repo and the correct path to where you want this repo to live within your project.</description>
@@ -47,20 +48,20 @@ git submodule add https://github.com/spf13/hyde.git themes/hyde  Be sure to add 
     
     <item>
       <title>Can&#39;t publish, preview, or save</title>
-      <link>https://forestry.io/docs/troubleshooting/cant-publish-preview-or-save/</link>
+      <link>/docs/troubleshooting/cant-publish-preview-or-save/</link>
       <pubDate>Tue, 02 Jan 2018 15:23:56 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/cant-publish-preview-or-save/</guid>
+      <guid>/docs/troubleshooting/cant-publish-preview-or-save/</guid>
       <description>When publishing, previewing, or saving a draft, there are a multitude of reasons why your site may fail to import. Generally, they boil down to 3 reasons:
  Your content files are improperly formatted. Your layout files are improperly formatted or have a build error. Our service messed up. Our bad.  We output the error the caused the import to fail and allow you to view it in order to help you debug.</description>
     </item>
     
     <item>
       <title>How do I add a CNAME to my site?</title>
-      <link>https://forestry.io/docs/troubleshooting/cname/</link>
+      <link>/docs/troubleshooting/cname/</link>
       <pubDate>Tue, 02 Jan 2018 15:23:56 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/cname/</guid>
+      <guid>/docs/troubleshooting/cname/</guid>
       <description>For some hosting providers (such as GitHub pages) you will need to place a CNAME file in the root of your site.
 You&amp;rsquo;ll need to ensure that the CNAME file is treated as a static file, so that it is copied to the root of your site during the build.
 Make sure you place your CNAME file in your source directory, not your build directory. Otherwise it will be deleted during the next build</description>
@@ -68,10 +69,10 @@ Make sure you place your CNAME file in your source directory, not your build dir
     
     <item>
       <title>CSS, JS, &amp; Media not working</title>
-      <link>https://forestry.io/docs/troubleshooting/css-js-and-media-not-working/</link>
+      <link>/docs/troubleshooting/css-js-and-media-not-working/</link>
       <pubDate>Tue, 02 Jan 2018 11:53:51 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/css-js-and-media-not-working/</guid>
+      <guid>/docs/troubleshooting/css-js-and-media-not-working/</guid>
       <description>Sometimes you’ll find your assets aren’t loading when you preview or publish your site. This is almost always due to path issues.
 The best way to solve this issue is to ensure you&amp;rsquo;re always allowing your SSG (Static Site Generator) to generate URLs.
 For example, we have a CSS file named main.css that isn’t loading when viewing subpages.

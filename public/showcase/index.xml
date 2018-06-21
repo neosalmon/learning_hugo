@@ -1,49 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Showcase on Forestry.io</title>
-    <link>https://forestry.io/showcase/</link>
-    <description>Recent content in Showcase on Forestry.io</description>
+    <title>Showcases on pnyv dot sh</title>
+    <link>/showcase/</link>
+    <description>Recent content in Showcases on pnyv dot sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>pnyv dot sh</copyright>
     <lastBuildDate>Sun, 31 Dec 2017 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://forestry.io/showcase/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/showcase/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Boris FX</title>
-      <link>https://forestry.io/showcase/borisfx/</link>
+      <link>/showcase/borisfx/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/showcase/borisfx/</guid>
+      <guid>/showcase/borisfx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Developer Ecosystem</title>
-      <link>https://forestry.io/showcase/developerecosystem/</link>
+      <link>/showcase/developerecosystem/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/showcase/developerecosystem/</guid>
+      <guid>/showcase/developerecosystem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Small Multiples - Data Visualization Specialists</title>
-      <link>https://forestry.io/showcase/smallmultiples/</link>
+      <link>/showcase/smallmultiples/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/showcase/smallmultiples/</guid>
+      <guid>/showcase/smallmultiples/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yieldmo - Data By Design</title>
-      <link>https://forestry.io/showcase/yieldmo/</link>
+      <link>/showcase/yieldmo/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/showcase/yieldmo/</guid>
+      <guid>/showcase/yieldmo/</guid>
       <description></description>
     </item>
     

@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jekyll on Forestry.io</title>
-    <link>https://forestry.io/categories/jekyll/</link>
-    <description>Recent content in Jekyll on Forestry.io</description>
+    <title>Jekyll on pnyv dot sh</title>
+    <link>/categories/jekyll/</link>
+    <description>Recent content in Jekyll on pnyv dot sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>pnyv dot sh</copyright>
     <lastBuildDate>Fri, 22 Jun 2018 14:00:06 +0000</lastBuildDate>
     
-	<atom:link href="https://forestry.io/categories/jekyll/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/jekyll/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>uBuild: A New Jekyll Theme Using Blocks</title>
-      <link>https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/</link>
+      <link>/blog/ubuild-a-new-theme-for-static-sites-using-blocks/</link>
       <pubDate>Fri, 22 Jun 2018 14:00:06 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/</guid>
+      <guid>/blog/ubuild-a-new-theme-for-static-sites-using-blocks/</guid>
       <description>Back in April we announced a feature that we believed was a game-changer for static site content managers. Blocks was here to introduce a way for you to put together sites using pre-composed site snippets inside Forestry.
 While we did our best to show you how to set them up and give you an idea of how powerful they could be, we noticed that getting to know Blocks and figuring out how to set them up from scratch wasn&amp;rsquo;t as self-explanatory as we had hoped.</description>
     </item>
     
     <item>
       <title>What&#39;s New in Jekyll 3.8</title>
-      <link>https://forestry.io/blog/what-s-new-in-jekyll-3.8/</link>
+      <link>/blog/what-s-new-in-jekyll-3.8/</link>
       <pubDate>Fri, 11 May 2018 08:14:47 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/what-s-new-in-jekyll-3.8/</guid>
+      <guid>/blog/what-s-new-in-jekyll-3.8/</guid>
       <description>What’s new in Jekyll 3.8 Jekyll 3.8.1 was released on the 1st of May 2018, just two weeks after 3.8.0. The project has come a long way since I last wrote a Jekyll update on Forestry. Olivia is now Jekyll’s new Lead Developer since Parker Moore decided to step down after four years leading the project.
 So what does Jekyll bring us this time?
 Performance optimizations Large sites containing a huge amount of posts are going to see a massive reduction in their total build times especially if they are doing multiple calls to the where filter with the same input and property parameter.</description>
@@ -34,10 +35,10 @@ Performance optimizations Large sites containing a huge amount of posts are goin
     
     <item>
       <title>Hugo or Jekyll? 6 Factors You Should Know</title>
-      <link>https://forestry.io/blog/hugo-and-jekyll-compared/</link>
+      <link>/blog/hugo-and-jekyll-compared/</link>
       <pubDate>Fri, 06 Apr 2018 12:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/hugo-and-jekyll-compared/</guid>
+      <guid>/blog/hugo-and-jekyll-compared/</guid>
       <description>Choosing the right tools to build a website isn’t easy these days. There’s just too many options! Building a static site is one of these options, which comes with many advantages like top-notch security, blazingly-fast performance, and reduced costs.
 When it comes to building static sites, the two leading solutions right now are Hugo and Jekyll. So the question is, which is right for you?
 To answer that question, we’ll take a look at the features, speed, and extensibility of each, looking for the pros and the cons of both generators.</description>
@@ -45,29 +46,29 @@ To answer that question, we’ll take a look at the features, speed, and extensi
     
     <item>
       <title>Could not locate Gemfile or .bundle/ directory</title>
-      <link>https://forestry.io/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</link>
+      <link>/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</link>
       <pubDate>Thu, 22 Feb 2018 11:56:06 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</guid>
+      <guid>/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</guid>
       <description>When I view an error log from Forestry I see: Could not locate Gemfile or .bundle/ directory What this error means Gemfiles include a list of project dependencies and where to find them. Bundler is a dependency manager for the Ruby programming language that can read Gemfiles, resolve the dependency graph and install those gems. Jekyll is a ruby application and can use Bundler to manage your project dependencies. Forestry requires that your Jekyll projects contain a Gemfile at the root of the repository.</description>
     </item>
     
     <item>
       <title>Jekyll Search with Algolia and Webtasks</title>
-      <link>https://forestry.io/blog/search-with-algolia-in-jekyll/</link>
+      <link>/blog/search-with-algolia-in-jekyll/</link>
       <pubDate>Tue, 06 Feb 2018 14:08:22 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/search-with-algolia-in-jekyll/</guid>
+      <guid>/blog/search-with-algolia-in-jekyll/</guid>
       <description>For this week on Frontend Friday, we&amp;rsquo;ll be covering how to set up lightning ⚡️ fast search for your Jekyll site using Algolia, the SaaS (Search as a Service 😉 ) provider.
 Algolia&amp;rsquo;s self-proclaimed claim-to-fame is that they are &amp;ldquo;the most reliable platform for building search into your business,&amp;rdquo; and honestly, it&amp;rsquo;s hard to disagree. Forestry&amp;rsquo;s search is powered by Algolia (just try searching for Algolia in the search above!</description>
     </item>
     
     <item>
       <title>Hugo vs Jekyll: Benchmarked</title>
-      <link>https://forestry.io/blog/hugo-vs-jekyll-benchmark/</link>
+      <link>/blog/hugo-vs-jekyll-benchmark/</link>
       <pubDate>Fri, 26 Jan 2018 09:22:55 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/hugo-vs-jekyll-benchmark/</guid>
+      <guid>/blog/hugo-vs-jekyll-benchmark/</guid>
       <description>We&amp;rsquo;ve also compared Jekyll &amp;amp; Hugo features across 6 dimensions. Learn More
  Hugo and Jekyll are the leading static site generators according to StaticGen.com, and both supported by our CMS. We&amp;rsquo;re often asked which tool performs better so we decided to do an analysis.
 TL;DR We ran two tests to measure build times with Hugo and Jekyll. The basic test used the default installation of Jekyll and Hugo to build sites with 10 posts,100 posts, 1,000 posts and 10,000 posts.</description>
@@ -75,10 +76,10 @@ TL;DR We ran two tests to measure build times with Hugo and Jekyll. The basic te
     
     <item>
       <title>What&#39;s new in Jekyll 3.4.0</title>
-      <link>https://forestry.io/blog/what-s-new-in-jekyll-3-4-0/</link>
+      <link>/blog/what-s-new-in-jekyll-3-4-0/</link>
       <pubDate>Mon, 20 Feb 2017 10:06:00 -0400</pubDate>
       
-      <guid>https://forestry.io/blog/what-s-new-in-jekyll-3-4-0/</guid>
+      <guid>/blog/what-s-new-in-jekyll-3-4-0/</guid>
       <description>Jekyll 3.4.0 was release on the 27th of January 2017 with some noteworthy enhancements that I&amp;rsquo;d like to share with you.
 So what&amp;rsquo;s new?
 Add connector param to ‘array_to_sentence_string’ filter  array - The list of strings to join. string - A string can be any text inside quotes. In this example I will use Jekyll tags. connector - The word placed before the last word in the array. The default connector Jekyll uses is the word “and”.</description>
@@ -86,10 +87,10 @@ Add connector param to ‘array_to_sentence_string’ filter  array - The list o
     
     <item>
       <title>I can finally choose static</title>
-      <link>https://forestry.io/blog/choose-static/</link>
+      <link>/blog/choose-static/</link>
       <pubDate>Tue, 02 Aug 2016 01:06:00 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/choose-static/</guid>
+      <guid>/blog/choose-static/</guid>
       <description>When it comes to the Internet, content is king. A site that has well written content concisely tells the story behind a brand, helps to inform customers about a business&amp;rsquo; products or services and helps guide a user navigate to the information that they seek.
 I&amp;rsquo;ve worked with various organizations in helping them choose the technology that is used to publish content onto their sites. When it came down to making a choice, the publishing platform options were often slimmed down by the need for non-technical users to easily publish content.</description>
     </item>

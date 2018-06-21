@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Company on Forestry.io</title>
-    <link>https://forestry.io/categories/company/</link>
-    <description>Recent content in Company on Forestry.io</description>
+    <title>Company on pnyv dot sh</title>
+    <link>/categories/company/</link>
+    <description>Recent content in Company on pnyv dot sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>pnyv dot sh</copyright>
     <lastBuildDate>Sat, 21 Oct 2017 00:41:00 +1400</lastBuildDate>
     
-	<atom:link href="https://forestry.io/categories/company/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/company/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Join our Slack community</title>
-      <link>https://forestry.io/blog/join-our-slack-community/</link>
+      <link>/blog/join-our-slack-community/</link>
       <pubDate>Sat, 21 Oct 2017 00:41:00 +1400</pubDate>
       
-      <guid>https://forestry.io/blog/join-our-slack-community/</guid>
+      <guid>/blog/join-our-slack-community/</guid>
       <description>Want to chat with the Forestry.io community about static sites, best-practices, features, and more? Join the slack community here (we&amp;rsquo;ll get back to you ASAP).
 Sign up here: Forestry.io Community Email  --</description>
     </item>
     
     <item>
       <title>March 27th Service Outage</title>
-      <link>https://forestry.io/blog/march-27th-service-outage/</link>
+      <link>/blog/march-27th-service-outage/</link>
       <pubDate>Mon, 27 Mar 2017 21:25:39 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/march-27th-service-outage/</guid>
+      <guid>/blog/march-27th-service-outage/</guid>
       <description>As some of you may have noticed, Forestry was down for about 2.5 hours between 23:00 UTC March 27 until 01:30 UTC March 28. In the spirit of full disclosure I&amp;rsquo;d like to explain what happened and why.
 Forestry is a Rails application and from time to time the number of migrations we have get unwieldy. Being an application under rapid development, things are constantly changing and migrations are created sometimes daily.</description>
     </item>
     
     <item>
       <title>Forestry.io &#43; Techstars 2016</title>
-      <link>https://forestry.io/blog/forestryio-techstars-2016/</link>
+      <link>/blog/forestryio-techstars-2016/</link>
       <pubDate>Wed, 06 Jul 2016 19:03:00 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/forestryio-techstars-2016/</guid>
+      <guid>/blog/forestryio-techstars-2016/</guid>
       <description>We&amp;rsquo;re stoked to announce that Forestry.io is going to be part of Techstars NYC. The 90-day program runs from July until the end of September 2016.
 What this means for Forestry and our users:
  We&amp;rsquo;re going to be surrounded by some of the brightest minds in New York tech We get to focus intensly on making Forestry awesome for our users. Stoked to be working 15-hour days! Over $1,000,000 in amazing &amp;ldquo;perks&amp;rdquo; (free stuff) from companies such as Amazon, Digital Ocean, Microsoft, Google, Sendgrid, etc.</description>
@@ -44,10 +45,10 @@ What this means for Forestry and our users:
     
     <item>
       <title>Why we built Forestry</title>
-      <link>https://forestry.io/blog/why-we-built-forestry/</link>
+      <link>/blog/why-we-built-forestry/</link>
       <pubDate>Wed, 06 Jan 2016 04:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/why-we-built-forestry/</guid>
+      <guid>/blog/why-we-built-forestry/</guid>
       <description>My friend, Emily, needed a simple website for her restaurant. She&amp;rsquo;s a chef and didn&amp;rsquo;t want to deal with the hassle of DNS, hosting, design, etc. As a recovering freelancer, I offered to help.
 Normally, I would use WordPress for a site like this, but I was fed up with the headaches that comes with maintaining a WordPress site. So, I took an evening and cranked out a simple 1-page static site.</description>
     </item>

@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Colin Garvey on Forestry.io</title>
-    <link>https://forestry.io/authors/colin-garvey/</link>
-    <description>Recent content in Colin Garvey on Forestry.io</description>
+    <title>Colin Garvey on pnyv dot sh</title>
+    <link>/authors/colin-garvey/</link>
+    <description>Recent content in Colin Garvey on pnyv dot sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>pnyv dot sh</copyright>
     <lastBuildDate>Fri, 11 May 2018 08:14:47 -1100</lastBuildDate>
     
-	<atom:link href="https://forestry.io/authors/colin-garvey/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/colin-garvey/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What&#39;s New in Jekyll 3.8</title>
-      <link>https://forestry.io/blog/what-s-new-in-jekyll-3.8/</link>
+      <link>/blog/what-s-new-in-jekyll-3.8/</link>
       <pubDate>Fri, 11 May 2018 08:14:47 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/what-s-new-in-jekyll-3.8/</guid>
+      <guid>/blog/what-s-new-in-jekyll-3.8/</guid>
       <description>What’s new in Jekyll 3.8 Jekyll 3.8.1 was released on the 1st of May 2018, just two weeks after 3.8.0. The project has come a long way since I last wrote a Jekyll update on Forestry. Olivia is now Jekyll’s new Lead Developer since Parker Moore decided to step down after four years leading the project.
 So what does Jekyll bring us this time?
 Performance optimizations Large sites containing a huge amount of posts are going to see a massive reduction in their total build times especially if they are doing multiple calls to the where filter with the same input and property parameter.</description>
@@ -24,10 +25,10 @@ Performance optimizations Large sites containing a huge amount of posts are goin
     
     <item>
       <title>What&#39;s new in Jekyll 3.4.0</title>
-      <link>https://forestry.io/blog/what-s-new-in-jekyll-3-4-0/</link>
+      <link>/blog/what-s-new-in-jekyll-3-4-0/</link>
       <pubDate>Mon, 20 Feb 2017 10:06:00 -0400</pubDate>
       
-      <guid>https://forestry.io/blog/what-s-new-in-jekyll-3-4-0/</guid>
+      <guid>/blog/what-s-new-in-jekyll-3-4-0/</guid>
       <description>Jekyll 3.4.0 was release on the 27th of January 2017 with some noteworthy enhancements that I&amp;rsquo;d like to share with you.
 So what&amp;rsquo;s new?
 Add connector param to ‘array_to_sentence_string’ filter  array - The list of strings to join. string - A string can be any text inside quotes. In this example I will use Jekyll tags. connector - The word placed before the last word in the array. The default connector Jekyll uses is the word “and”.</description>

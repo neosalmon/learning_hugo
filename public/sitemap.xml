@@ -1,418 +1,418 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://forestry.io/docs/media/</loc>
+    <loc>/docs/media/</loc>
     <lastmod>2018-05-25T16:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/cancel-legacy-plan/</loc>
+    <loc>/docs/faqs/cancel-legacy-plan/</loc>
     <lastmod>2018-03-28T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/transferring-site/</loc>
+    <loc>/docs/faqs/transferring-site/</loc>
     <lastmod>2018-03-28T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/glossary/ci-cd/</loc>
+    <loc>/docs/faqs/glossary/ci-cd/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/glossary/content-files/</loc>
+    <loc>/docs/faqs/glossary/content-files/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/</loc>
+    <loc>/docs/faqs/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/glossary/front-matter/</loc>
+    <loc>/docs/faqs/glossary/front-matter/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/guides/</loc>
+    <loc>/docs/guides/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/backups/</loc>
+    <loc>/docs/faqs/backups/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/front-matter-fallbacks/</loc>
+    <loc>/docs/faqs/front-matter-fallbacks/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/welcome/</loc>
+    <loc>/docs/welcome/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/hosting/</loc>
+    <loc>/docs/hosting/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/settings/</loc>
+    <loc>/docs/settings/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/pricing/</loc>
+    <loc>/pricing/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/glossary/static-files/</loc>
+    <loc>/docs/faqs/glossary/static-files/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/glossary/static-site-generators/</loc>
+    <loc>/docs/faqs/glossary/static-site-generators/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/glossary/static-sites/</loc>
+    <loc>/docs/faqs/glossary/static-sites/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/support/</loc>
+    <loc>/support/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/troubleshooting/</loc>
+    <loc>/docs/troubleshooting/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/guides/hosting/github-pages-jekyll/</loc>
+    <loc>/docs/guides/hosting/github-pages-jekyll/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/hugo-version/</loc>
+    <loc>/docs/faqs/hugo-version/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/jekyll-version/</loc>
+    <loc>/docs/faqs/jekyll-version/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/forestry-files/</loc>
+    <loc>/docs/faqs/forestry-files/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/forestry-changed-code/</loc>
+    <loc>/docs/faqs/forestry-changed-code/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/git-sync/</loc>
+    <loc>/docs/git-sync/</loc>
     <lastmod>2017-04-06T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/editing/</loc>
+    <loc>/docs/editing/</loc>
     <lastmod>2017-03-28T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/guides/developing-with-hugo/</loc>
+    <loc>/docs/guides/developing-with-hugo/</loc>
     <lastmod>2013-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/guides/developing-with-jekyll/</loc>
+    <loc>/docs/guides/developing-with-jekyll/</loc>
     <lastmod>2013-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/quickstart/configure-cms/</loc>
+    <loc>/docs/quickstart/configure-cms/</loc>
     <lastmod>2017-03-23T04:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/quickstart/setup-site/</loc>
+    <loc>/docs/quickstart/setup-site/</loc>
     <lastmod>2017-03-23T04:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/terms/</loc>
+    <loc>/terms/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/privacy/</loc>
+    <loc>/privacy/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/quickstart/tour/</loc>
+    <loc>/docs/quickstart/tour/</loc>
     <lastmod>2017-03-23T04:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/changelog/</loc>
+    <loc>/docs/changelog/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/</loc>
+    <loc>/blog/ubuild-a-new-theme-for-static-sites-using-blocks/</loc>
     <lastmod>2018-06-22T14:00:06+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/hugo-support-sorting-for-pages-and-more/</loc>
+    <loc>/blog/hugo-support-sorting-for-pages-and-more/</loc>
     <lastmod>2018-06-18T23:32:20-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/5-ways-to-handle-forms-on-your-static-site/</loc>
+    <loc>/blog/5-ways-to-handle-forms-on-your-static-site/</loc>
     <lastmod>2018-06-15T03:30:13-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/renaming-files-and-improving-team-editing/</loc>
+    <loc>/blog/renaming-files-and-improving-team-editing/</loc>
     <lastmod>2018-06-08T04:39:03-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/for-static-sites-theres-no-excuse-not-to-use-a-cdn/</loc>
+    <loc>/blog/for-static-sites-theres-no-excuse-not-to-use-a-cdn/</loc>
     <lastmod>2018-06-08T04:00:11-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/master-image-delivery-with-cloudinary/</loc>
+    <loc>/blog/master-image-delivery-with-cloudinary/</loc>
     <lastmod>2018-06-01T05:00:49-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/cloudinary-integration/</loc>
+    <loc>/blog/cloudinary-integration/</loc>
     <lastmod>2018-05-28T15:12:40-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/changelog/2018-5-28-changelog/</loc>
+    <loc>/docs/changelog/2018-5-28-changelog/</loc>
     <lastmod>2018-05-28T06:24:44-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/hugo-json-api-part-2/</loc>
+    <loc>/blog/hugo-json-api-part-2/</loc>
     <lastmod>2018-05-25T05:13:41-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/how-to-use-hugo-s-image-processing-with-forestry/</loc>
+    <loc>/blog/how-to-use-hugo-s-image-processing-with-forestry/</loc>
     <lastmod>2018-05-21T20:09:02-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/snipcart-brings-ecommerce-static-site/</loc>
+    <loc>/blog/snipcart-brings-ecommerce-static-site/</loc>
     <lastmod>2018-05-18T03:36:07-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/what-s-new-in-jekyll-3.8/</loc>
+    <loc>/blog/what-s-new-in-jekyll-3.8/</loc>
     <lastmod>2018-05-11T08:14:47-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/automatically-publish-scheduled-posts-for-static-site/</loc>
+    <loc>/blog/automatically-publish-scheduled-posts-for-static-site/</loc>
     <lastmod>2018-05-04T07:10:15-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/instant-production-ready-scaffolding-with-create-static-site/</loc>
+    <loc>/blog/instant-production-ready-scaffolding-with-create-static-site/</loc>
     <lastmod>2018-04-27T09:38:55-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/troubleshooting/gitlab-ssh-error/</loc>
+    <loc>/docs/troubleshooting/gitlab-ssh-error/</loc>
     <lastmod>2018-04-24T08:26:34-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/sawmill-layout-composer-for-hugo-and-forestry/</loc>
+    <loc>/blog/sawmill-layout-composer-for-hugo-and-forestry/</loc>
     <lastmod>2018-04-20T06:09:13-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/blocks-give-your-editors-the-power-to-build-pages/</loc>
+    <loc>/blog/blocks-give-your-editors-the-power-to-build-pages/</loc>
     <lastmod>2018-04-19T14:41:00-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/discontinuing-wysiwyg-editor-new-focus-on-markdown/</loc>
+    <loc>/blog/discontinuing-wysiwyg-editor-new-focus-on-markdown/</loc>
     <lastmod>2018-04-15T21:57:29-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/build-a-json-api-with-hugo/</loc>
+    <loc>/blog/build-a-json-api-with-hugo/</loc>
     <lastmod>2018-04-13T05:00:27-11:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/changelog/2018-4-9-changelog/</loc>
+    <loc>/docs/changelog/2018-4-9-changelog/</loc>
     <lastmod>2018-04-09T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/hugo-and-jekyll-compared/</loc>
+    <loc>/blog/hugo-and-jekyll-compared/</loc>
     <lastmod>2018-04-06T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/faqs/guests/</loc>
+    <loc>/docs/faqs/guests/</loc>
     <lastmod>2018-04-03T10:36:49+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/write-better-javascript-with-webpack/</loc>
+    <loc>/blog/write-better-javascript-with-webpack/</loc>
     <lastmod>2018-03-30T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/circleci-deploy-via-rsync/</loc>
+    <loc>/blog/circleci-deploy-via-rsync/</loc>
     <lastmod>2018-03-29T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/new-pricing-organization-accounts/</loc>
+    <loc>/blog/new-pricing-organization-accounts/</loc>
     <lastmod>2018-03-28T12:38:35+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/automate-deploy-w-circle-ci/</loc>
+    <loc>/blog/automate-deploy-w-circle-ci/</loc>
     <lastmod>2018-03-23T12:38:35+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/up-and-running-with-hugo-part-2/</loc>
+    <loc>/blog/up-and-running-with-hugo-part-2/</loc>
     <lastmod>2018-03-16T15:47:26+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/up-and-running-with-hugo/</loc>
+    <loc>/blog/up-and-running-with-hugo/</loc>
     <lastmod>2018-03-09T05:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/search-with-algolia-in-hugo/</loc>
+    <loc>/blog/search-with-algolia-in-hugo/</loc>
     <lastmod>2018-03-02T05:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</loc>
+    <loc>/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</loc>
     <lastmod>2018-02-22T11:56:06+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/search-with-algolia-in-jekyll/</loc>
+    <loc>/blog/search-with-algolia-in-jekyll/</loc>
     <lastmod>2018-02-06T14:08:22+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/troubleshooting/using-a-git-submodule-for-your-theme/</loc>
+    <loc>/docs/troubleshooting/using-a-git-submodule-for-your-theme/</loc>
     <lastmod>2018-02-01T10:37:36+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/changelog/2018-2-9-changelog/</loc>
+    <loc>/docs/changelog/2018-2-9-changelog/</loc>
     <lastmod>2018-01-29T17:03:23+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/changelog/2018-2-2-changelog/</loc>
+    <loc>/docs/changelog/2018-2-2-changelog/</loc>
     <lastmod>2018-01-29T17:02:01+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/changelog/2018-1-29-changelog/</loc>
+    <loc>/docs/changelog/2018-1-29-changelog/</loc>
     <lastmod>2018-01-29T14:40:49+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/hugo-vs-jekyll-benchmark/</loc>
+    <loc>/blog/hugo-vs-jekyll-benchmark/</loc>
     <lastmod>2018-01-26T09:22:55+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/a-new-and-improved-media-library/</loc>
+    <loc>/blog/a-new-and-improved-media-library/</loc>
     <lastmod>2018-01-11T04:00:00+14:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/changelog/2018-1-9-changelog/</loc>
+    <loc>/docs/changelog/2018-1-9-changelog/</loc>
     <lastmod>2018-01-09T15:02:44+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/troubleshooting/cant-publish-preview-or-save/</loc>
+    <loc>/docs/troubleshooting/cant-publish-preview-or-save/</loc>
     <lastmod>2018-01-02T15:23:56+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/troubleshooting/cname/</loc>
+    <loc>/docs/troubleshooting/cname/</loc>
     <lastmod>2018-01-02T15:23:56+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/troubleshooting/css-js-and-media-not-working/</loc>
+    <loc>/docs/troubleshooting/css-js-and-media-not-working/</loc>
     <lastmod>2018-01-02T11:53:51+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/careers/</loc>
+    <loc>/careers/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/docs/index.xml</loc>
+    <loc>/docs/index.xml</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/</loc>
+    <loc>/</loc>
     <lastmod>2017-12-31T04:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/join-our-slack-community/</loc>
+    <loc>/blog/join-our-slack-community/</loc>
     <lastmod>2017-10-21T00:41:00+14:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/discontinuing-zip-sites/</loc>
+    <loc>/blog/discontinuing-zip-sites/</loc>
     <lastmod>2017-10-12T14:54:52+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/introducing-forestry-config-files/</loc>
+    <loc>/blog/introducing-forestry-config-files/</loc>
     <lastmod>2017-08-30T16:09:44+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/careers/software-engineer/</loc>
+    <loc>/careers/software-engineer/</loc>
     <lastmod>2017-08-09T10:20:51+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/wysiwyg-formatting-in-front-matter/</loc>
+    <loc>/blog/wysiwyg-formatting-in-front-matter/</loc>
     <lastmod>2017-07-26T11:26:03+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/big-improvements-to-front-matter-templates/</loc>
+    <loc>/blog/big-improvements-to-front-matter-templates/</loc>
     <lastmod>2017-07-10T10:00:00-03:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/a-hugo-update-everyone-should-be-talking-about/</loc>
+    <loc>/blog/a-hugo-update-everyone-should-be-talking-about/</loc>
     <lastmod>2017-06-26T12:00:00-03:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/improved-collaboration-and-more/</loc>
+    <loc>/blog/improved-collaboration-and-more/</loc>
     <lastmod>2017-06-20T16:30:00-03:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/layout-improvements/</loc>
+    <loc>/blog/layout-improvements/</loc>
     <lastmod>2017-06-14T09:00:00-03:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/bigger-better-editor/</loc>
+    <loc>/blog/bigger-better-editor/</loc>
     <lastmod>2017-05-30T14:01:35+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/introducing-media-management/</loc>
+    <loc>/blog/introducing-media-management/</loc>
     <lastmod>2017-04-17T11:46:07+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/march-27th-service-outage/</loc>
+    <loc>/blog/march-27th-service-outage/</loc>
     <lastmod>2017-03-27T21:25:39+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/what-s-new-in-jekyll-3-4-0/</loc>
+    <loc>/blog/what-s-new-in-jekyll-3-4-0/</loc>
     <lastmod>2017-02-20T10:06:00-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/front-matter-templates/</loc>
+    <loc>/blog/front-matter-templates/</loc>
     <lastmod>2017-02-13T10:47:46-05:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/the-new-forestry-io/</loc>
+    <loc>/blog/the-new-forestry-io/</loc>
     <lastmod>2016-11-01T19:36:26-04:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/forestry-gitlab/</loc>
+    <loc>/blog/forestry-gitlab/</loc>
     <lastmod>2016-09-06T23:45:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/choose-static/</loc>
+    <loc>/blog/choose-static/</loc>
     <lastmod>2016-08-02T01:06:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/forestryio-techstars-2016/</loc>
+    <loc>/blog/forestryio-techstars-2016/</loc>
     <lastmod>2016-07-06T19:03:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/blog/why-we-built-forestry/</loc>
+    <loc>/blog/why-we-built-forestry/</loc>
     <lastmod>2016-01-06T04:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://forestry.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2013-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/docs/front-matter-templates/</loc>
+    <loc>/docs/front-matter-templates/</loc>
   </url><url>
-    <loc>https://forestry.io/authors/</loc>
+    <loc>/authors/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/categories/beyond-static/</loc>
+    <loc>/categories/beyond-static/</loc>
     <lastmod>2018-06-15T03:30:13-11:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/tags/blocks/</loc>
+    <loc>/tags/blocks/</loc>
     <lastmod>2018-05-18T03:36:07-11:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2018-06-15T03:30:13-11:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/authors/chris-macrae/</loc>
+    <loc>/authors/chris-macrae/</loc>
     <lastmod>2018-04-06T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/categories/cicd/</loc>
+    <loc>/categories/cicd/</loc>
     <lastmod>2018-03-29T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/categories/cms/</loc>
+    <loc>/categories/cms/</loc>
     <lastmod>2018-06-22T14:00:06+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/authors/colin-garvey/</loc>
+    <loc>/authors/colin-garvey/</loc>
     <lastmod>2018-05-11T08:14:47-11:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/categories/company/</loc>
+    <loc>/categories/company/</loc>
     <lastmod>2017-10-21T00:41:00+14:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/categories/development-tools/</loc>
+    <loc>/categories/development-tools/</loc>
     <lastmod>2018-03-30T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/authors/dj-walker/</loc>
+    <loc>/authors/dj-walker/</loc>
     <lastmod>2018-06-15T03:30:13-11:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/authors/forestry-team/</loc>
+    <loc>/authors/forestry-team/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/authors/forestryio/</loc>
+    <loc>/authors/forestryio/</loc>
     <lastmod>2017-12-31T04:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/tags/frontend-friday/</loc>
-    <lastmod>2018-04-27T09:38:55-11:00</lastmod>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://forestry.io/categories/frontend-friday/</loc>
+    <loc>/categories/frontend-friday/</loc>
     <lastmod>2018-06-15T03:30:13-11:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/tags/hugo/</loc>
-    <lastmod>2018-05-18T03:36:07-11:00</lastmod>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://forestry.io/categories/hugo/</loc>
-    <lastmod>2018-06-22T14:00:06+00:00</lastmod>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://forestry.io/tags/jekyll/</loc>
+    <loc>/tags/frontend-friday/</loc>
     <lastmod>2018-04-27T09:38:55-11:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/categories/jekyll/</loc>
+    <loc>/categories/hugo/</loc>
     <lastmod>2018-06-22T14:00:06+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/authors/jordan-patterson/</loc>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2018-05-18T03:36:07-11:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>/categories/jekyll/</loc>
+    <lastmod>2018-06-22T14:00:06+00:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>/tags/jekyll/</loc>
+    <lastmod>2018-04-27T09:38:55-11:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>/authors/jordan-patterson/</loc>
     <lastmod>2016-09-06T23:45:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/authors/michael-soolee/</loc>
+    <loc>/authors/michael-soolee/</loc>
     <lastmod>2016-08-02T01:06:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/authors/r%C3%A9gis-philibert/</loc>
+    <loc>/authors/r%C3%A9gis-philibert/</loc>
     <lastmod>2018-05-25T05:13:41-11:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/authors/scott-gallant/</loc>
+    <loc>/authors/scott-gallant/</loc>
     <lastmod>2018-03-28T12:38:35+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/authors/sebastian-engels/</loc>
+    <loc>/authors/sebastian-engels/</loc>
     <lastmod>2018-06-22T14:00:06+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/showcase/</loc>
+    <loc>/showcase/</loc>
     <lastmod>2017-12-31T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/categories/static-sites/</loc>
+    <loc>/categories/static-sites/</loc>
     <lastmod>2018-06-22T14:00:06+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2013-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/authors/team-forestry/</loc>
+    <loc>/authors/team-forestry/</loc>
     <lastmod>2018-05-28T06:24:44-11:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://forestry.io/tags/webpack/</loc>
+    <loc>/tags/webpack/</loc>
     <lastmod>2018-03-30T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url></urlset>

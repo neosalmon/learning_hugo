@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Forestryio on Forestry.io</title>
-    <link>https://forestry.io/authors/forestryio/</link>
-    <description>Recent content in Forestryio on Forestry.io</description>
+    <title>Forestryio on pnyv dot sh</title>
+    <link>/authors/forestryio/</link>
+    <description>Recent content in Forestryio on pnyv dot sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>pnyv dot sh</copyright>
     <lastBuildDate>Sun, 31 Dec 2017 04:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://forestry.io/authors/forestryio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/forestryio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Static CMS for Hugo &amp; Jekyll</title>
-      <link>https://forestry.io/</link>
+      <link>/</link>
       <pubDate>Sun, 31 Dec 2017 04:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/</guid>
+      <guid>/</guid>
       <description></description>
     </item>
     

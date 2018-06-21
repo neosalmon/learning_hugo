@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Static CMS for Hugo &amp; Jekyll on Forestry.io</title>
-    <link>https://forestry.io/</link>
-    <description>Recent content in Static CMS for Hugo &amp; Jekyll on Forestry.io</description>
+    <title>Static CMS for Hugo &amp; Jekyll on pnyv dot sh</title>
+    <link>/</link>
+    <description>Recent content in Static CMS for Hugo &amp; Jekyll on pnyv dot sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>pnyv dot sh</copyright>
     <lastBuildDate>Sun, 31 Dec 2017 04:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://forestry.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Storing Media Files</title>
-      <link>https://forestry.io/docs/media/</link>
+      <link>/docs/media/</link>
       <pubDate>Fri, 25 May 2018 16:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/media/</guid>
+      <guid>/docs/media/</guid>
       <description>Forestry provides multiple options for media storage.
 Git The most basic option for storing media is to commit it to your git repo like the rest of your content. This is the default setting for new projects.
 If your site has a large number of media files, we highly recommend you select a different storage option. Very large git repos are slower to clone and work with and will not present an optimal development experience.</description>
@@ -24,10 +25,10 @@ If your site has a large number of media files, we highly recommend you select a
     
     <item>
       <title>How To Cancel/Downgrade a Per-Site Plan?</title>
-      <link>https://forestry.io/docs/faqs/cancel-legacy-plan/</link>
+      <link>/docs/faqs/cancel-legacy-plan/</link>
       <pubDate>Wed, 28 Mar 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/cancel-legacy-plan/</guid>
+      <guid>/docs/faqs/cancel-legacy-plan/</guid>
       <description>To cancel a legacy plan (e.g. the Team Plan) navigate to your dashboard and click on the &amp;ldquo;&amp;hellip;&amp;rdquo; next to your site name. From there, select &amp;ldquo;Downgrade Plan&amp;rdquo; in the dropdown.
 Please read the warning carefully and if you&amp;rsquo;re certain you want take this action please click on &amp;ldquo;Downgrade&amp;rdquo;.
 Please note that when you downgrade a plan you can&amp;rsquo;t have more than 3 Users on a site unless a site is inside an Organization - see Team Management</description>
@@ -35,10 +36,10 @@ Please note that when you downgrade a plan you can&amp;rsquo;t have more than 3 
     
     <item>
       <title>How To Transfer a Site to an Organization?</title>
-      <link>https://forestry.io/docs/faqs/transferring-site/</link>
+      <link>/docs/faqs/transferring-site/</link>
       <pubDate>Wed, 28 Mar 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/transferring-site/</guid>
+      <guid>/docs/faqs/transferring-site/</guid>
       <description>Navigate to a site on your Dashboard (e.g. &amp;ldquo;My Sites&amp;rdquo;). Click on the &amp;ldquo;&amp;hellip;&amp;rdquo; next to a site and select &amp;ldquo;Transfer Site&amp;rdquo; in the dropdown. On the next screen you can choose between &amp;ldquo;My sites&amp;rdquo; or an &amp;ldquo;Organization&amp;rdquo;.
 If you selected &amp;ldquo;Organization&amp;rdquo;, you&amp;rsquo;ll be able to choose the destination from the dropdown menu, once you made your decision click on &amp;ldquo;Transfer&amp;rdquo;.
 ROLESYou can only transfer sites to Organizations if your role for that Organization permits it.</description>
@@ -46,30 +47,30 @@ ROLESYou can only transfer sites to Organizations if your role for that Organiza
     
     <item>
       <title>CI/CD</title>
-      <link>https://forestry.io/docs/faqs/glossary/ci-cd/</link>
+      <link>/docs/faqs/glossary/ci-cd/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/glossary/ci-cd/</guid>
+      <guid>/docs/faqs/glossary/ci-cd/</guid>
       <description>Continuous Integration (CI) Continuous Integration (CI) is a development practice where developers check-in code to a version control tool multiple times per day. Each time code is checked-in, an automated build is performed, allowing developers to identify problems with code quickly.
 Continuous Delivery (CD) Continuous Delivery (CD) is a development practice where developers produce software in short cycles, ensuring that software can be easily released at any time. This ensures that developers are producing quality code and are identifying problems quickly.</description>
     </item>
     
     <item>
       <title>Content Files</title>
-      <link>https://forestry.io/docs/faqs/glossary/content-files/</link>
+      <link>/docs/faqs/glossary/content-files/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/glossary/content-files/</guid>
+      <guid>/docs/faqs/glossary/content-files/</guid>
       <description>Content files are files that are processed by your static site generator and output in a different format (usually .html).
 They are usually Markdown files (.md, .markdown) or HTML files (.html).</description>
     </item>
     
     <item>
       <title>Front Matter</title>
-      <link>https://forestry.io/docs/faqs/glossary/front-matter/</link>
+      <link>/docs/faqs/glossary/front-matter/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/glossary/front-matter/</guid>
+      <guid>/docs/faqs/glossary/front-matter/</guid>
       <description>Front matter is structured metadata that is stored at the top of a content file, and is identified by delimiters before and after the metadata.
 This metadata is available to your templates when generating your site, and allows you to build robust, dynamic features into your static site.
 Depending your static site generator, Front Matter can be formatted as YAML, TOML, or JSON.
@@ -78,10 +79,10 @@ Examples YAML --- title: My New Post date: 2018-07-01 04:00:00 +0000 images: - /
     
     <item>
       <title>How do I backup my site?</title>
-      <link>https://forestry.io/docs/faqs/backups/</link>
+      <link>/docs/faqs/backups/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/backups/</guid>
+      <guid>/docs/faqs/backups/</guid>
       <description> For developers, backups are inherent due to the Git-backed nature of Forestry. Every change made to your site through Forestry is stored in version control.
 However, a zip backup of your site can be downloaded from the dashboard if necessary.
 Steps  Navigate to the dashboard Click the ... button beside the site you wish to download a backup of Choose &amp;ldquo;Download&amp;rdquo; from the menu  </description>
@@ -89,10 +90,10 @@ Steps  Navigate to the dashboard Click the ... button beside the site you wish t
     
     <item>
       <title>How do I set fallback/hidden values for Front Matter?</title>
-      <link>https://forestry.io/docs/faqs/front-matter-fallbacks/</link>
+      <link>/docs/faqs/front-matter-fallbacks/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/front-matter-fallbacks/</guid>
+      <guid>/docs/faqs/front-matter-fallbacks/</guid>
       <description>Adding Front Matter to your content allows you to add variables and configuration to your pages that can be used in your templates.
 Often times, you will find that you are repeating the same front matter values across many files. For example, setting the same layout, or adding the same author across many posts.
 Or you may want to provide a default value for optional fields.
@@ -101,10 +102,10 @@ In this scenario, it&amp;rsquo;s possible to provide a fallback or hidden value.
     
     <item>
       <title>Introduction</title>
-      <link>https://forestry.io/docs/welcome/</link>
+      <link>/docs/welcome/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/welcome/</guid>
+      <guid>/docs/welcome/</guid>
       <description>Forestry.io is a Git-backed CMS (content management system) for websites and web products built using static site generators. Forestry bridges the gap between developers and their teams, by making development fun and easy, while providing powerful content management for their teams.
 Sign up for free today, or learn more about our pricing for teams.
  What is Forestry? The main thing to understand is that Forestry &amp;ndash; unlike other content management systems &amp;ndash; is entirely backed by Git.</description>
@@ -112,10 +113,10 @@ Sign up for free today, or learn more about our pricing for teams.
     
     <item>
       <title>Options</title>
-      <link>https://forestry.io/docs/hosting/</link>
+      <link>/docs/hosting/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/hosting/</guid>
+      <guid>/docs/hosting/</guid>
       <description>The Hosting settings allow you to use Forestry to handle deployment of your static site. Forestry can build your site and then deploy the static files to a hosting provider of your choice.
 Guides Forestry has a selection of built-in hosting options that make hosting your static site easy.
 Commit to source repo only Enabling &amp;ldquo;commit to source repo only&amp;rdquo; will enable Forestry to only commit changes made in the CMS back to the branch and repository your site was imported from.</description>
@@ -123,10 +124,10 @@ Commit to source repo only Enabling &amp;ldquo;commit to source repo only&amp;rd
     
     <item>
       <title>Overview</title>
-      <link>https://forestry.io/docs/settings/</link>
+      <link>/docs/settings/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/settings/</guid>
+      <guid>/docs/settings/</guid>
       <description>Logo The logo setting allows you to customize the branding of Forestry CMS by allowing you to replace the Forestry logo in various touchpoints in the CMS.
 Site Name Site name allows you to customize the display name of your site in the Forestry UI. This will update the display in the dashboard, in notifications, and various touchpoints.
 URL The URL setting allows you to provide the URL to your production website, which allows editors to open the production website from the sidebar.</description>
@@ -134,29 +135,29 @@ URL The URL setting allows you to provide the URL to your production website, wh
     
     <item>
       <title>Pricing</title>
-      <link>https://forestry.io/pricing/</link>
+      <link>/pricing/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/pricing/</guid>
+      <guid>/pricing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Static Files</title>
-      <link>https://forestry.io/docs/faqs/glossary/static-files/</link>
+      <link>/docs/faqs/glossary/static-files/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/glossary/static-files/</guid>
+      <guid>/docs/faqs/glossary/static-files/</guid>
       <description> Static files are files that are not processed by your static site generator. Instead, they are just copied over as-is at built time.
 Examples  Jekyll: in Jekyll, this is any file without front matter. Hugo: in Hugo, this is any file in the staticDir, which defaults to static/  </description>
     </item>
     
     <item>
       <title>Static Site Generators</title>
-      <link>https://forestry.io/docs/faqs/glossary/static-site-generators/</link>
+      <link>/docs/faqs/glossary/static-site-generators/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/glossary/static-site-generators/</guid>
+      <guid>/docs/faqs/glossary/static-site-generators/</guid>
       <description> Static Site Generators are developer tools that convert various data formats into static sites.
 These data formats are generally content files stored in a Git repository. They can also be data pulled from third-party services.
 Examples  Jekyll is the static site generator written in Ruby and created by GitHub founder, Tom Preston Werner. Hugo is the static site generator written in GoLang and created by Steve Francia.  </description>
@@ -164,10 +165,10 @@ Examples  Jekyll is the static site generator written in Ruby and created by Git
     
     <item>
       <title>Static Sites</title>
-      <link>https://forestry.io/docs/faqs/glossary/static-sites/</link>
+      <link>/docs/faqs/glossary/static-sites/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/glossary/static-sites/</guid>
+      <guid>/docs/faqs/glossary/static-sites/</guid>
       <description>Static sites are websites built using static, unchanging files. They require no server processing time to deliver the content to the user, which makes them very fast and performant.
 Static site generators are the modern way of building static sites. They convert simple, text-based content files in static files ready for the web.
 They’re fantastic for developers because they are extremely fast, are built to work with version-control, and require little-to-no setup compared to existing monolithic CMS solutions like Wordpress.</description>
@@ -175,20 +176,20 @@ They’re fantastic for developers because they are extremely fast, are built to
     
     <item>
       <title>Support</title>
-      <link>https://forestry.io/support/</link>
+      <link>/support/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/support/</guid>
+      <guid>/support/</guid>
       <description> We strive to provide the best support possible for our customers! Our docs are a great place to start looking for an answer. If you can&amp;rsquo;t find your answer there, feel free to jump into our Slack Community or reach out to us here.
 What is my support coverage?     Free Team Enterprise     Community ✓ ✓ ✓   Email As available ✓ ✓   In-app As available ✓ ✓   Phone ⅹ ⅹ ✓    </description>
     </item>
     
     <item>
       <title>Using GitHub Pages to Build Your Jekyll Site</title>
-      <link>https://forestry.io/docs/guides/hosting/github-pages-jekyll/</link>
+      <link>/docs/guides/hosting/github-pages-jekyll/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/guides/hosting/github-pages-jekyll/</guid>
+      <guid>/docs/guides/hosting/github-pages-jekyll/</guid>
       <description>Using Jekyll with GitHub Pages GitHub can handle building your Jekyll site without the need of Forestry or a CI tool. GitHub will build your Jekyll site each time a new commit is pushed to GitHub and serve it automatically.
 Limitations When using GitHub to build your GitHub Pages site, you are restricted to using the white-listed GitHub Pages Jekyll version and plugins.
 Getting Started This requires the GitHub pages gem.</description>
@@ -196,10 +197,10 @@ Getting Started This requires the GitHub pages gem.</description>
     
     <item>
       <title>What versions of Hugo do you support?</title>
-      <link>https://forestry.io/docs/faqs/hugo-version/</link>
+      <link>/docs/faqs/hugo-version/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/hugo-version/</guid>
+      <guid>/docs/faqs/hugo-version/</guid>
       <description> We strive to always supports the previous 3 major versions of Hugo with their latest patch. (e.g, x.3.x, x.2.x, x.1.x).
 Backwards compatibility is always available for sites using an older version of Hugo that was supported when the site was added to Forestry.
 Note: Forestry does not provide immediate support for Hugo releases.
@@ -209,10 +210,10 @@ Other Software We also support the following software that is supported by Hugo:
     
     <item>
       <title>What versions of Jekyll do you support?</title>
-      <link>https://forestry.io/docs/faqs/jekyll-version/</link>
+      <link>/docs/faqs/jekyll-version/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/jekyll-version/</guid>
+      <guid>/docs/faqs/jekyll-version/</guid>
       <description>Forestry will use whatever version of Jekyll is specified in your Gemfile.
 If you don’t specify a version in your Gemfile, Forestry will use the default version used by GitHub Pages.
 Defaults These are the ruby gems that Forestry will bundle with your build by default, without the need for a Gemfile. Forestry also lets you specify different versions of gems by including a Gemfile with your site.
@@ -221,10 +222,10 @@ Defaults These are the ruby gems that Forestry will bundle with your build by de
     
     <item>
       <title>Why did Forestry add files to my repo?</title>
-      <link>https://forestry.io/docs/faqs/forestry-files/</link>
+      <link>/docs/faqs/forestry-files/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/forestry-files/</guid>
+      <guid>/docs/faqs/forestry-files/</guid>
       <description>Why did you add a .forestryio file? We add a file called .forestryio to the root of your project.
 This file notifies Forestry that you have previously published to this location and that it is safe to publish to this location again.
 Why did you add a .forestry folder? We add a folder called .forestry to the root of your project with the code configuration of your site.
@@ -233,10 +234,10 @@ This enables developers to edit the configuration of the CMS in their local envi
     
     <item>
       <title>Why did Forestry edit my files?</title>
-      <link>https://forestry.io/docs/faqs/forestry-changed-code/</link>
+      <link>/docs/faqs/forestry-changed-code/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/forestry-changed-code/</guid>
+      <guid>/docs/faqs/forestry-changed-code/</guid>
       <description>As devs, we hate when people mess with our code. So we try to do this as little as possible but sometimes it is unavoidable.
 Front Matter Forestry will remove comments and other formatting from front matter, and will also reorder your fields alphabetically. This is unfortunately unavoidable, as comments and order are not respected in the YAML or TOML specifications.
 Newlines New lines will be normalized so that all line endings are the same.</description>
@@ -244,20 +245,20 @@ Newlines New lines will be normalized so that all line endings are the same.</de
     
     <item>
       <title>GitHub</title>
-      <link>https://forestry.io/docs/git-sync/</link>
+      <link>/docs/git-sync/</link>
       <pubDate>Thu, 06 Apr 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/git-sync/</guid>
+      <guid>/docs/git-sync/</guid>
       <description>DisclaimerThis guide assumes you already have an existing GitHub account and repository with a Jekyll or Hugo project. If you don&amp;rsquo;t have an existing project, check out our Quick start guide, which contains guides and resources for building your first static site.
  Forestry&amp;rsquo;s allows you to import your static site through public and private GitHub repositories. This allows Forestry to sync any changes made by editors in Forestry to be committed back to GitHub.</description>
     </item>
     
     <item>
       <title>Managing Content</title>
-      <link>https://forestry.io/docs/editing/</link>
+      <link>/docs/editing/</link>
       <pubDate>Tue, 28 Mar 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/docs/editing/</guid>
+      <guid>/docs/editing/</guid>
       <description>Forestry allows editors and guests to manage their website in a variety of different ways. This enables developers to build powerful, static sites while empowering editors to take full control over their content.
 For more information on guest and editor roles see user roles
 Pages The most basic type of content in Forestry is a page. Pages are any ungrouped content in your static site, such as an about page or contact page.</description>
@@ -265,40 +266,40 @@ Pages The most basic type of content in Forestry is a page. Pages are any ungrou
     
     <item>
       <title>Introduction</title>
-      <link>https://forestry.io/docs/guides/developing-with-hugo/</link>
+      <link>/docs/guides/developing-with-hugo/</link>
       <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/guides/developing-with-hugo/</guid>
+      <guid>/docs/guides/developing-with-hugo/</guid>
       <description>Hugo is a fast static site generator, with a lot of enterprise features. If you’re building a large business, publication, or community website Hugo is likely the right choice due to features likes localization, RSS Feed &amp;amp; Sitemap generation, and much more.
 Choose Hugo if you:  Are building a site that requires a lot of enterprise features, such customizable as RSS Feeds, Sitemaps, AMP (Accelerated Mobile Pages), etc. Have a site with more than 500 pages, as Hugo is blazingly fast Feel learning a new language to build your theme templates isn’t a challenge for you.</description>
     </item>
     
     <item>
       <title>Introduction</title>
-      <link>https://forestry.io/docs/guides/developing-with-jekyll/</link>
+      <link>/docs/guides/developing-with-jekyll/</link>
       <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/guides/developing-with-jekyll/</guid>
+      <guid>/docs/guides/developing-with-jekyll/</guid>
       <description>Jekyll is one of the oldest static site generators available. Built by GitHub, it has tons of community support and is very stable. Additional features can be added onto Jekyll through the use of plugins. It also uses the templating language Liquid, which feels very familiar to developers and is also used by Shopify and other large-scale applications.
 Choose Jekyll if you:  Want a static site generator with great stability and the biggest community.</description>
     </item>
     
     <item>
       <title>Configure the CMS</title>
-      <link>https://forestry.io/docs/quickstart/configure-cms/</link>
+      <link>/docs/quickstart/configure-cms/</link>
       <pubDate>Thu, 23 Mar 2017 04:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/quickstart/configure-cms/</guid>
+      <guid>/docs/quickstart/configure-cms/</guid>
       <description>You setup your site with Forestry and now you&amp;rsquo;re ready to configure your CMS. This doc will go over:
  Setting up correct paths for images and other media Configuring your content model (the fields used on each page, post, etc)  Setting up Image Paths When your team uploads images and other media, you want to ensure they&amp;rsquo;re going to the right directory. Set this up by going to Settings &amp;gt; File Paths.</description>
     </item>
     
     <item>
       <title>Setup Your Site</title>
-      <link>https://forestry.io/docs/quickstart/setup-site/</link>
+      <link>/docs/quickstart/setup-site/</link>
       <pubDate>Thu, 23 Mar 2017 04:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/quickstart/setup-site/</guid>
+      <guid>/docs/quickstart/setup-site/</guid>
       <description>This doc will walk you through:
  Setting up your site repository with Forestry Making your first commit by publishing some changes  Import Site from Repo Sign up for a free account with Forestry.io then add a new site from your dashboard.
 If you don&amp;rsquo;t have a Jekyll or Hugo site, click the link in the bottom of the setup window to launch the demo site.
@@ -307,30 +308,30 @@ Select your Static Site Generator Before choosing your repository, Forestry need
     
     <item>
       <title>Terms of Use</title>
-      <link>https://forestry.io/terms/</link>
+      <link>/terms/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/terms/</guid>
+      <guid>/terms/</guid>
       <description>FORESTRY.IO INC. (&amp;ldquo;FORESTRY.IO&amp;rdquo; / &amp;ldquo;WE&amp;rdquo; / &amp;ldquo;US&amp;rdquo;) OWNS AND OPERATES THE WEBSITE LOCATED AT HTTPS://FORESTRY.IO (&amp;ldquo;WEBSITE&amp;rdquo;). THESE TERMS OF USE APPLY TO ALL USERS OF THE WEBSITE, INCLUDING USERS WHO UPLOAD ANY MATERIALS TO THE WEBSITE, USERS SUBSCRIBE FOR AN ACCOUNT AND WHO USE SERVICES PROVIDED THROUGH THIS WEBSITE, AND USERS WHO SIMPLY VIEW THE CONTENT ON OR AVAILABLE THROUGH THIS WEBSITE (&amp;ldquo;YOU&amp;rdquo; / &amp;ldquo;USERS&amp;rdquo;).
 BY USING THIS WEBSITE YOU INDICATE YOUR ACCEPTANCE OF THESE TERMS OF USE.</description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://forestry.io/privacy/</link>
+      <link>/privacy/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/privacy/</guid>
+      <guid>/privacy/</guid>
       <description>Forestry.io Inc. (&amp;ldquo;we&amp;rdquo;/&amp;ldquo;us&amp;rdquo;) is committed to protecting your privacy. We make the website www.forestry.io (the &amp;ldquo;Website&amp;rdquo;) available together with our services as further described in our Terms of Use (the &amp;ldquo;Services&amp;rdquo;). This Privacy Policy describes how we collect, store, use and distribute information about our users through the Website and Services.
 Consent: By using the Website or our Services you consent to the use of your Personal Information as described in this Privacy Policy.</description>
     </item>
     
     <item>
       <title>Product Tour</title>
-      <link>https://forestry.io/docs/quickstart/tour/</link>
+      <link>/docs/quickstart/tour/</link>
       <pubDate>Thu, 23 Mar 2017 04:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/quickstart/tour/</guid>
+      <guid>/docs/quickstart/tour/</guid>
       <description>Overview This tour will walk you through setting up your first site in Forestry. It demonstrates the primary features and editing functionality of the CMS.
 Getting Started Sign up for a Forestry account, and then navigate to the dashboard.
  Click &amp;ldquo;Try our Jekyll starter template!&amp;rdquo; Select your Git Provider from the list of options. A window will open asking you to give Forestry access to your repositories. If you are not already logged in, your provider will prompt you for login credentials first.</description>
@@ -338,30 +339,30 @@ Getting Started Sign up for a Forestry account, and then navigate to the dashboa
     
     <item>
       <title>uBuild: A New Jekyll Theme Using Blocks</title>
-      <link>https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/</link>
+      <link>/blog/ubuild-a-new-theme-for-static-sites-using-blocks/</link>
       <pubDate>Fri, 22 Jun 2018 14:00:06 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/</guid>
+      <guid>/blog/ubuild-a-new-theme-for-static-sites-using-blocks/</guid>
       <description>Back in April we announced a feature that we believed was a game-changer for static site content managers. Blocks was here to introduce a way for you to put together sites using pre-composed site snippets inside Forestry.
 While we did our best to show you how to set them up and give you an idea of how powerful they could be, we noticed that getting to know Blocks and figuring out how to set them up from scratch wasn&amp;rsquo;t as self-explanatory as we had hoped.</description>
     </item>
     
     <item>
       <title>Hugo Support for All Versions, Sorting for Pages and more</title>
-      <link>https://forestry.io/blog/hugo-support-sorting-for-pages-and-more/</link>
+      <link>/blog/hugo-support-sorting-for-pages-and-more/</link>
       <pubDate>Mon, 18 Jun 2018 23:32:20 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/hugo-support-sorting-for-pages-and-more/</guid>
+      <guid>/blog/hugo-support-sorting-for-pages-and-more/</guid>
       <description>We just made a big change to how we handle Hugo projects and introduced a few new features that make it easier to stay organized.
 Hugo Support for All Versions 🔥🔥🔥 Hugo has a great developer community that is constantly pushing new versions out. Until now you sometimes had to wait a few months until you were able to use the latest version of Hugo with Forestry as we were trying to catch up.</description>
     </item>
     
     <item>
       <title>5 Ways to Handle Forms on Your Static Site</title>
-      <link>https://forestry.io/blog/5-ways-to-handle-forms-on-your-static-site/</link>
+      <link>/blog/5-ways-to-handle-forms-on-your-static-site/</link>
       <pubDate>Fri, 15 Jun 2018 03:30:13 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/5-ways-to-handle-forms-on-your-static-site/</guid>
+      <guid>/blog/5-ways-to-handle-forms-on-your-static-site/</guid>
       <description>When I first started exploring the potential of static sites, I was attracted by their speed and simplicity. I knew these benefits came at a cost, however: since static sites can’t run backend code, there are limits to what you can accomplish with a static solution.
 I no longer see things this way.
 JAMStack is not about sacrificing features for the sake of a performant, easy to maintain website. Rather, it is about re-evaluating how much of your desired functionality should be delegated to your web frontend.</description>
@@ -369,10 +370,10 @@ JAMStack is not about sacrificing features for the sake of a performant, easy to
     
     <item>
       <title>Renaming Files and Improving Editing in a Team</title>
-      <link>https://forestry.io/blog/renaming-files-and-improving-team-editing/</link>
+      <link>/blog/renaming-files-and-improving-team-editing/</link>
       <pubDate>Fri, 08 Jun 2018 04:39:03 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/renaming-files-and-improving-team-editing/</guid>
+      <guid>/blog/renaming-files-and-improving-team-editing/</guid>
       <description>It’s a cloudy day ☁️ here on Prince Edward Island, the perfect opportunity to announce some new features.
 Over the past couple weeks, we were hard at work to improve the editor experience for our Git-backed content manager. Renaming files is just one of those updates. We also needed to improve notifications and indicators to make working in a team on Forestry easier.
 Renaming Files ✍️ Freshly out — you can now change the name for your content files with Forestry.</description>
@@ -380,10 +381,10 @@ Renaming Files ✍️ Freshly out — you can now change the name for your conte
     
     <item>
       <title>For Static Sites, There’s No Excuse Not to Use a CDN</title>
-      <link>https://forestry.io/blog/for-static-sites-theres-no-excuse-not-to-use-a-cdn/</link>
+      <link>/blog/for-static-sites-theres-no-excuse-not-to-use-a-cdn/</link>
       <pubDate>Fri, 08 Jun 2018 04:00:11 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/for-static-sites-theres-no-excuse-not-to-use-a-cdn/</guid>
+      <guid>/blog/for-static-sites-theres-no-excuse-not-to-use-a-cdn/</guid>
       <description>Are you getting the most out of your static site? If you’re not hosting your site on a CDN, you definitely aren’t.
 CDNs, or Content Delivery Networks, are commonly used to distribute static resources like images, videos, and client-side code (CSS and JavaScript.) Since a static site is composed entirely of static resources (including the HTML pages,) it is possible to serve the entire website through a CDN!
 In this article, we will explore why you should be using a CDN to host your static site, and how you can do it with Netlify.</description>
@@ -391,20 +392,20 @@ In this article, we will explore why you should be using a CDN to host your stat
     
     <item>
       <title>Mastering Image Delivery With Cloudinary</title>
-      <link>https://forestry.io/blog/master-image-delivery-with-cloudinary/</link>
+      <link>/blog/master-image-delivery-with-cloudinary/</link>
       <pubDate>Fri, 01 Jun 2018 05:00:49 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/master-image-delivery-with-cloudinary/</guid>
+      <guid>/blog/master-image-delivery-with-cloudinary/</guid>
       <description>Applying a responsive strategy for displaying images means more than just adding max-width: 100%; to your image tags. You don&amp;rsquo;t want to display an image that is much larger than the area it occupies, otherwise you’re just wasting bits. You need to deliver scaled-down versions of these images where appropriate.
 A popular way to generate these scaled-down assets is to automatically resize our images during the build process, using something like a gulp task, but that solution isn&amp;rsquo;t perfect.</description>
     </item>
     
     <item>
       <title>Cloudinary Integration, Data File Templates and Other Features</title>
-      <link>https://forestry.io/blog/cloudinary-integration/</link>
+      <link>/blog/cloudinary-integration/</link>
       <pubDate>Mon, 28 May 2018 15:12:40 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/cloudinary-integration/</guid>
+      <guid>/blog/cloudinary-integration/</guid>
       <description>Image Transformation and Responsive Image Delivery Today we&amp;rsquo;re proud to announce an easy way to optimize your image delivery with a Cloudinary integration for Forestry.
 As a developer you can now use the super fast Cloudinary CDN and store your assets outside your repository. While at the same time your editors can use Forestry&amp;rsquo;s Media Library and Editor to upload and manage Cloudinary assets without even knowing it.
 It&amp;rsquo;s as simple as adding your cloud name, API key and secret to your site&amp;rsquo;s settings to get started.</description>
@@ -412,48 +413,48 @@ It&amp;rsquo;s as simple as adding your cloud name, API key and secret to your s
     
     <item>
       <title>2018/05/28 Changelog</title>
-      <link>https://forestry.io/docs/changelog/2018-5-28-changelog/</link>
+      <link>/docs/changelog/2018-5-28-changelog/</link>
       <pubDate>Mon, 28 May 2018 06:24:44 -1100</pubDate>
       
-      <guid>https://forestry.io/docs/changelog/2018-5-28-changelog/</guid>
+      <guid>/docs/changelog/2018-5-28-changelog/</guid>
       <description>Features  Cloudinary Support Data-file templates  Data files can now use templates in the same way that pages can.  Color-picker front-matter field added Text strikethrough ability added to editor OAuth login added to remote admin  Enhancements  Updated Groups, Group-list, and Blocks UI Configurable media paths Date fields can be displayed in UTC instead of local timezone Group-list “Add” button applies smart labels to pluralized group names  (E.</description>
     </item>
     
     <item>
       <title>Enhance Your Hugo JSON API Using Custom Output Formats and Netlify Redirects</title>
-      <link>https://forestry.io/blog/hugo-json-api-part-2/</link>
+      <link>/blog/hugo-json-api-part-2/</link>
       <pubDate>Fri, 25 May 2018 05:13:41 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/hugo-json-api-part-2/</guid>
+      <guid>/blog/hugo-json-api-part-2/</guid>
       <description>Hugo makes it super easy to build simple APIs with its built-in output formats. In my previous article, we built a fully functional JSON API. Today we’re going to extend the capabilities of this API and improve the user experience with better URLs.
 At the moment our API can look up specific items, but can’t look at them in relation to each other. Say you want to know what players are in a specific team: with our current API, you can&amp;rsquo;t do that easily.</description>
     </item>
     
     <item>
       <title>How To Use Hugo&#39;s Image Processing With Forestry</title>
-      <link>https://forestry.io/blog/how-to-use-hugo-s-image-processing-with-forestry/</link>
+      <link>/blog/how-to-use-hugo-s-image-processing-with-forestry/</link>
       <pubDate>Mon, 21 May 2018 20:09:02 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/how-to-use-hugo-s-image-processing-with-forestry/</guid>
+      <guid>/blog/how-to-use-hugo-s-image-processing-with-forestry/</guid>
       <description>0.32 update introduced built-in image processing for certain assets. One limitation of this feature is that it only works for page resources, which are page-relative assets stored alongside your posts in the content/ directory of your site. Since Forestry’s uploads are stored in the static/uploads/ directory by default, these assets cannot be resized in your templates using Hugo’s built-in resizer. This document will provide a step-by-step guide for working around this limitation.</description>
     </item>
     
     <item>
       <title>Snipcart Brings E‑Commerce to Your Static Site</title>
-      <link>https://forestry.io/blog/snipcart-brings-ecommerce-static-site/</link>
+      <link>/blog/snipcart-brings-ecommerce-static-site/</link>
       <pubDate>Fri, 18 May 2018 03:36:07 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/snipcart-brings-ecommerce-static-site/</guid>
+      <guid>/blog/snipcart-brings-ecommerce-static-site/</guid>
       <description>Picture this: it&amp;rsquo;s 2018, and your client needs an online store. You know that static sites are great: they&amp;rsquo;re easy to scale, have a minimal attack surface, and are very fast. However, since a static site can&amp;rsquo;t run backend code, it won&amp;rsquo;t be able to do some things necessary for e-commerce, such as process customer orders. Can you really use a static site to operate an e-commerce storefront?
 Of course you can!</description>
     </item>
     
     <item>
       <title>What&#39;s New in Jekyll 3.8</title>
-      <link>https://forestry.io/blog/what-s-new-in-jekyll-3.8/</link>
+      <link>/blog/what-s-new-in-jekyll-3.8/</link>
       <pubDate>Fri, 11 May 2018 08:14:47 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/what-s-new-in-jekyll-3.8/</guid>
+      <guid>/blog/what-s-new-in-jekyll-3.8/</guid>
       <description>What’s new in Jekyll 3.8 Jekyll 3.8.1 was released on the 1st of May 2018, just two weeks after 3.8.0. The project has come a long way since I last wrote a Jekyll update on Forestry. Olivia is now Jekyll’s new Lead Developer since Parker Moore decided to step down after four years leading the project.
 So what does Jekyll bring us this time?
 Performance optimizations Large sites containing a huge amount of posts are going to see a massive reduction in their total build times especially if they are doing multiple calls to the where filter with the same input and property parameter.</description>
@@ -461,30 +462,30 @@ Performance optimizations Large sites containing a huge amount of posts are goin
     
     <item>
       <title>Automatically Publish Scheduled Posts For Your Static Site</title>
-      <link>https://forestry.io/blog/automatically-publish-scheduled-posts-for-static-site/</link>
+      <link>/blog/automatically-publish-scheduled-posts-for-static-site/</link>
       <pubDate>Fri, 04 May 2018 07:10:15 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/automatically-publish-scheduled-posts-for-static-site/</guid>
+      <guid>/blog/automatically-publish-scheduled-posts-for-static-site/</guid>
       <description>Part of our mission at Forestry is to dissolve the perceived limitations of static sites. In reality, static sites are easy to understand and integrate with, and the belief that static sites are not capable of feature X is largely a failure of imagination. With a little cleverness and determination, virtually anything is possible on a static platform.
 Previously, we showed you how to set up Algolia with Jekyll as well as with Hugo to make your content searchable.</description>
     </item>
     
     <item>
       <title>Instant Production-Ready Scaffolding With Create-Static-Site</title>
-      <link>https://forestry.io/blog/instant-production-ready-scaffolding-with-create-static-site/</link>
+      <link>/blog/instant-production-ready-scaffolding-with-create-static-site/</link>
       <pubDate>Fri, 27 Apr 2018 09:38:55 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/instant-production-ready-scaffolding-with-create-static-site/</guid>
+      <guid>/blog/instant-production-ready-scaffolding-with-create-static-site/</guid>
       <description>Create React App is a utility provided by the Facebook team in support of the React JavaScript framework. The goal of Create React App is to allow developers to quickly bootstrap a React project without having to spend time sorting out the build pipeline. With over 47,000 stars on Github (over half as many as the actual React library,) Create React App&amp;rsquo;s popularity speaks for itself.
 The success and utility of Create React App has inspired the Forestry.</description>
     </item>
     
     <item>
       <title>GitLab SSH error</title>
-      <link>https://forestry.io/docs/troubleshooting/gitlab-ssh-error/</link>
+      <link>/docs/troubleshooting/gitlab-ssh-error/</link>
       <pubDate>Tue, 24 Apr 2018 08:26:34 -1100</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/gitlab-ssh-error/</guid>
+      <guid>/docs/troubleshooting/gitlab-ssh-error/</guid>
       <description>If you are getting an error when authenticating with GitLab that looks like this:
 Failed to authenticate SSH session: Waiting for USERAUTH response  1. Go to https://app.forestry.io/sites/SITE-ID/disconnect/gitlab
 (where SITE-ID is the unique string in the URL when you visit your Forestry CMS). This will disconnect your account from GitLab.
@@ -495,20 +496,20 @@ Failed to authenticate SSH session: Waiting for USERAUTH response  1. Go to http
     
     <item>
       <title>Sawmill: A Razor-sharp Layout Composer for Hugo and Forestry</title>
-      <link>https://forestry.io/blog/sawmill-layout-composer-for-hugo-and-forestry/</link>
+      <link>/blog/sawmill-layout-composer-for-hugo-and-forestry/</link>
       <pubDate>Fri, 20 Apr 2018 06:09:13 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/sawmill-layout-composer-for-hugo-and-forestry/</guid>
+      <guid>/blog/sawmill-layout-composer-for-hugo-and-forestry/</guid>
       <description>When it comes to creating websites, good content strategy is all about turning ideas into HTML with a minimal amount of friction. Whether using a CMS with a web interface or editing content files for a static site generator, content creators need an easy way to create visually interesting and well-structured content.
 Every approach is a compromise between flexibility and ease-of-use. Even if a developer could anticipate all of a content creator&amp;rsquo;s needs, these needs will change over time.</description>
     </item>
     
     <item>
       <title>Blocks - Give Your Editors the Power to Build Pages</title>
-      <link>https://forestry.io/blog/blocks-give-your-editors-the-power-to-build-pages/</link>
+      <link>/blog/blocks-give-your-editors-the-power-to-build-pages/</link>
       <pubDate>Thu, 19 Apr 2018 14:41:00 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/blocks-give-your-editors-the-power-to-build-pages/</guid>
+      <guid>/blog/blocks-give-your-editors-the-power-to-build-pages/</guid>
       <description>Today we introduce Blocks - a powerful Field Type that enables your editors to build entire landing pages from scratch and create rich blog post layouts with a pre-defined code template, we call it a Block Template.
 This feature was inspired by CraftCMS&amp;rsquo; Matrix fields and the Wordpress Plugin Advanced Custom Fields.
 What is Blocks? Blocks is a Field Type that is made up of multiple templates, so-called Block Templates.</description>
@@ -516,39 +517,39 @@ What is Blocks? Blocks is a Field Type that is made up of multiple templates, so
     
     <item>
       <title>HTML File Contents are Moving to Plaintext Editor</title>
-      <link>https://forestry.io/blog/discontinuing-wysiwyg-editor-new-focus-on-markdown/</link>
+      <link>/blog/discontinuing-wysiwyg-editor-new-focus-on-markdown/</link>
       <pubDate>Sun, 15 Apr 2018 21:57:29 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/discontinuing-wysiwyg-editor-new-focus-on-markdown/</guid>
+      <guid>/blog/discontinuing-wysiwyg-editor-new-focus-on-markdown/</guid>
       <description>We are not changing or removing the Markdown WYSIWYG editor. Our Markdown editor will continue to offer both plaintext and WYSIWYG input modes. In fact, removing the HTML WYSIWYG editor will allow us to focus on making the Markdown editor even better.
  The HTML WYSIWYG Editor has proven to be less and less the state-of-the-art content editing experience it once set out to be. Considering the issues the HTML WYSIWYG Editor causes and the merits Markdown provides we made the decision to discontinue our WYSIWYG HTML Editor on 5/11/2018.</description>
     </item>
     
     <item>
       <title>Build a JSON API With Hugo&#39;s Custom Output Formats</title>
-      <link>https://forestry.io/blog/build-a-json-api-with-hugo/</link>
+      <link>/blog/build-a-json-api-with-hugo/</link>
       <pubDate>Fri, 13 Apr 2018 05:00:27 -1100</pubDate>
       
-      <guid>https://forestry.io/blog/build-a-json-api-with-hugo/</guid>
+      <guid>/blog/build-a-json-api-with-hugo/</guid>
       <description>As developers, we love open and accessible data. For example, you may want to use your local transit data for a mobile app, or maybe you want a service like Zapier or IFTTT to send you an email every time the weather forecast calls for rain. If you’re a super geek like @bdougieyo, you’ve built an app that tells you when to leave work in order to avoid traffic from your local baseball team’s home games (from his excellent talk here).</description>
     </item>
     
     <item>
       <title>2018/04/09 Changelog</title>
-      <link>https://forestry.io/docs/changelog/2018-4-9-changelog/</link>
+      <link>/docs/changelog/2018-4-9-changelog/</link>
       <pubDate>Mon, 09 Apr 2018 12:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/changelog/2018-4-9-changelog/</guid>
+      <guid>/docs/changelog/2018-4-9-changelog/</guid>
       <description> Hugo Support for v0.38.1 We updated our support to Hugo v0.38.1 and below. See Hugo News
 Bug Fixes  Documentation: Links to documentation were updated Github Authentication: Increased timeout length and added a more descriptive message on timeout Import: Fixed a bug that prevents a complete list of repositories being listed for Bitbucket users Import: Fixed a bug that prevents import if the config filename was provided in the import path Media: White images can now be detected in the Media Library Notifications: Team members of an Organization now receive notifications without having to refresh the page Redirect: Removing a site from an Organization does not redirect to My Sites anymore UI: Fixed cropping of icons in CMS sidebar UI: Added a more descriptive explanation to the repo step in the starter template flow User Roles: Manage Guests is now unavailable to Guests of a particular site  </description>
     </item>
     
     <item>
       <title>Hugo or Jekyll? 6 Factors You Should Know</title>
-      <link>https://forestry.io/blog/hugo-and-jekyll-compared/</link>
+      <link>/blog/hugo-and-jekyll-compared/</link>
       <pubDate>Fri, 06 Apr 2018 12:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/hugo-and-jekyll-compared/</guid>
+      <guid>/blog/hugo-and-jekyll-compared/</guid>
       <description>Choosing the right tools to build a website isn’t easy these days. There’s just too many options! Building a static site is one of these options, which comes with many advantages like top-notch security, blazingly-fast performance, and reduced costs.
 When it comes to building static sites, the two leading solutions right now are Hugo and Jekyll. So the question is, which is right for you?
 To answer that question, we’ll take a look at the features, speed, and extensibility of each, looking for the pros and the cons of both generators.</description>
@@ -556,10 +557,10 @@ To answer that question, we’ll take a look at the features, speed, and extensi
     
     <item>
       <title>Guests</title>
-      <link>https://forestry.io/docs/faqs/guests/</link>
+      <link>/docs/faqs/guests/</link>
       <pubDate>Tue, 03 Apr 2018 10:36:49 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/faqs/guests/</guid>
+      <guid>/docs/faqs/guests/</guid>
       <description>A Guest is a single-site user with limited permissions. Guests do not get access to support and are often used for clients or external colleagues.
 A Guest can only access the site that you invite them to, whereas your team (available to those on the Business Plan) can access all of your sites.
 Each site can have up to 3 Guest accounts.
@@ -568,39 +569,39 @@ For more information on managing Guests, see Team Management.</description>
     
     <item>
       <title>Write Better JavaScript With Webpack</title>
-      <link>https://forestry.io/blog/write-better-javascript-with-webpack/</link>
+      <link>/blog/write-better-javascript-with-webpack/</link>
       <pubDate>Fri, 30 Mar 2018 12:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/write-better-javascript-with-webpack/</guid>
+      <guid>/blog/write-better-javascript-with-webpack/</guid>
       <description>I get it. The JavaScript ecosystem is exhausting. There exists an abundance of tools and frameworks, and each one wants to rescue you from the shortcomings of its peers. Attempting to learn and keep up with these tools takes time and energy that you would rather devote to your project. Reducing cognitive overhead is a core component of Forestry.io&amp;rsquo;s philosophy — we designed a static site CMS that is easy to set up and use.</description>
     </item>
     
     <item>
       <title>CircleCI Followup: Deploying Via rsync</title>
-      <link>https://forestry.io/blog/circleci-deploy-via-rsync/</link>
+      <link>/blog/circleci-deploy-via-rsync/</link>
       <pubDate>Thu, 29 Mar 2018 12:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/circleci-deploy-via-rsync/</guid>
+      <guid>/blog/circleci-deploy-via-rsync/</guid>
       <description>This tutorial was updated on April 3, 2018.
  In last week&amp;rsquo;s article, we showed you how to automate the deployment of a Hugo site using CircleCI. The example we provided used the awscli utility to deploy the results of your build process to an AWS S3 bucket. In this follow-up, we will show you how to use the rsync utility to deploy your site to any rsync-enabled server.</description>
     </item>
     
     <item>
       <title>New Pricing</title>
-      <link>https://forestry.io/blog/new-pricing-organization-accounts/</link>
+      <link>/blog/new-pricing-organization-accounts/</link>
       <pubDate>Wed, 28 Mar 2018 12:38:35 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/new-pricing-organization-accounts/</guid>
+      <guid>/blog/new-pricing-organization-accounts/</guid>
       <description>We’re excited to announce new pricing!
 Now, the Personal plan supports unlimited sites and up to 3 free Guest users per site (a “Guest” is a single-site user with limited permissions, similar to an “editor”). The Business plan also supports unlimited sites, but is designed for larger teams who need to manage many users across their sites and branches. Finally, our Enterprise plan is designed for large organizations with special requirements.</description>
     </item>
     
     <item>
       <title>Automate Your Static Site Deployment with CircleCI</title>
-      <link>https://forestry.io/blog/automate-deploy-w-circle-ci/</link>
+      <link>/blog/automate-deploy-w-circle-ci/</link>
       <pubDate>Fri, 23 Mar 2018 12:38:35 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/automate-deploy-w-circle-ci/</guid>
+      <guid>/blog/automate-deploy-w-circle-ci/</guid>
       <description>This tutorial was updated on April 3, 2018 to use bep/s3deploy in place of aws/aws-cli.
  This article is part of our on-going Frontend Friday modern web development series
 Tools like Hugo, Jekyll, and Gatsby have made building static sites a popular and practical choice for developers. One major disadvantage these tools have, however, is the need to regenerate and redeploy their files every time there is new content to publish.</description>
@@ -608,10 +609,10 @@ Tools like Hugo, Jekyll, and Gatsby have made building static sites a popular an
     
     <item>
       <title>Up &amp; Running With Hugo, Part 2: Setting up GitHub &amp; Forestry (CI &amp; CD)</title>
-      <link>https://forestry.io/blog/up-and-running-with-hugo-part-2/</link>
+      <link>/blog/up-and-running-with-hugo-part-2/</link>
       <pubDate>Fri, 16 Mar 2018 15:47:26 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/up-and-running-with-hugo-part-2/</guid>
+      <guid>/blog/up-and-running-with-hugo-part-2/</guid>
       <description>This guide was most recently updated on March 16, 2018.
  --- -- For this week on Frontend Friday, we have a follow up to Up &amp;amp; Running With Hugo, Part 1: Building Your First Site. This week, we cover integrating your repository with GitHub, and setting up continuous integration and continuous deployment with Forestry.io and some other handy tools.
 Table of Contents  Introduction Setting up Git Setting up Continuous Integration Setting up Continuous Deployment with Forestry Next Steps  1) Introduction Before we continue, you might be asking What is CI &amp;amp; CD.</description>
@@ -619,10 +620,10 @@ Table of Contents  Introduction Setting up Git Setting up Continuous Integration
     
     <item>
       <title>Up &amp; Running With Hugo Part I: Building Your First Site</title>
-      <link>https://forestry.io/blog/up-and-running-with-hugo/</link>
+      <link>/blog/up-and-running-with-hugo/</link>
       <pubDate>Fri, 09 Mar 2018 05:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/blog/up-and-running-with-hugo/</guid>
+      <guid>/blog/up-and-running-with-hugo/</guid>
       <description>This guide was most recently updated on March 9, 2018.
  --- -- The popular static site generator written in GoLang - Hugo - has taken the community by storm. It brings all the benefits of a static site generator - 100% Flexibility, Security, Speed - but also steals the show otherwise 👉 Hugo + Jekyll Benchmarked. In fact, the Forestry.io website is built with Hugo.
 For this week on Frontend Friday, we&amp;rsquo;ll be covering how to get set up with Hugo on your local machine, including setting up a theme and customizing it, as well as writing your own CSS &amp;amp; JS.</description>
@@ -630,39 +631,39 @@ For this week on Frontend Friday, we&amp;rsquo;ll be covering how to get set up 
     
     <item>
       <title>Static site search with Hugo &#43; Algolia</title>
-      <link>https://forestry.io/blog/search-with-algolia-in-hugo/</link>
+      <link>/blog/search-with-algolia-in-hugo/</link>
       <pubDate>Fri, 02 Mar 2018 05:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/blog/search-with-algolia-in-hugo/</guid>
+      <guid>/blog/search-with-algolia-in-hugo/</guid>
       <description>For this week on Frontend Friday, we&amp;rsquo;ll be covering how to set up lightning ⚡️ fast search for your Hugo site using Algolia, the SaaS (Search as a Service 😉 ) provider. We published a Jekyll-focused version of this guide last week.
 Algolia&amp;rsquo;s self-proclaimed claim-to-fame is that they are&amp;ldquo;the most reliable platform for building search into your business,&amp;rdquo; and honestly, it&amp;rsquo;s hard to disagree. Forestry&amp;rsquo;s search is powered by Algolia (just try searching for Algolia in the search above!</description>
     </item>
     
     <item>
       <title>Could not locate Gemfile or .bundle/ directory</title>
-      <link>https://forestry.io/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</link>
+      <link>/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</link>
       <pubDate>Thu, 22 Feb 2018 11:56:06 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</guid>
+      <guid>/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/</guid>
       <description>When I view an error log from Forestry I see: Could not locate Gemfile or .bundle/ directory What this error means Gemfiles include a list of project dependencies and where to find them. Bundler is a dependency manager for the Ruby programming language that can read Gemfiles, resolve the dependency graph and install those gems. Jekyll is a ruby application and can use Bundler to manage your project dependencies. Forestry requires that your Jekyll projects contain a Gemfile at the root of the repository.</description>
     </item>
     
     <item>
       <title>Jekyll Search with Algolia and Webtasks</title>
-      <link>https://forestry.io/blog/search-with-algolia-in-jekyll/</link>
+      <link>/blog/search-with-algolia-in-jekyll/</link>
       <pubDate>Tue, 06 Feb 2018 14:08:22 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/search-with-algolia-in-jekyll/</guid>
+      <guid>/blog/search-with-algolia-in-jekyll/</guid>
       <description>For this week on Frontend Friday, we&amp;rsquo;ll be covering how to set up lightning ⚡️ fast search for your Jekyll site using Algolia, the SaaS (Search as a Service 😉 ) provider.
 Algolia&amp;rsquo;s self-proclaimed claim-to-fame is that they are &amp;ldquo;the most reliable platform for building search into your business,&amp;rdquo; and honestly, it&amp;rsquo;s hard to disagree. Forestry&amp;rsquo;s search is powered by Algolia (just try searching for Algolia in the search above!</description>
     </item>
     
     <item>
       <title>Using a Git Submodule for Your Theme</title>
-      <link>https://forestry.io/docs/troubleshooting/using-a-git-submodule-for-your-theme/</link>
+      <link>/docs/troubleshooting/using-a-git-submodule-for-your-theme/</link>
       <pubDate>Thu, 01 Feb 2018 10:37:36 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/using-a-git-submodule-for-your-theme/</guid>
+      <guid>/docs/troubleshooting/using-a-git-submodule-for-your-theme/</guid>
       <description>If you have a repository for your Jekyll or Hugo project and you want use a different repository for your theme, you should set up your theme repo as a Git Submodule.
 To add a theme as a Git Submodule, run the following command from the root of your project:
 git submodule add https://github.com/spf13/hyde.git themes/hyde  Be sure to add the correct URL to your theme repo and the correct path to where you want this repo to live within your project.</description>
@@ -670,38 +671,38 @@ git submodule add https://github.com/spf13/hyde.git themes/hyde  Be sure to add 
     
     <item>
       <title>2018/02/09 Changelog</title>
-      <link>https://forestry.io/docs/changelog/2018-2-9-changelog/</link>
+      <link>/docs/changelog/2018-2-9-changelog/</link>
       <pubDate>Mon, 29 Jan 2018 17:03:23 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/changelog/2018-2-9-changelog/</guid>
+      <guid>/docs/changelog/2018-2-9-changelog/</guid>
       <description> This week we have a short changelog, but keep an eye out as we prepare to release some improvements from the wood shop!
 Enhancements  New Demo Site: Our demo site was pretty crufty, so we replaced it with a site that&amp;rsquo;s setup to better show off Forestry.  Source Code Try out the demo!   </description>
     </item>
     
     <item>
       <title>2018/02/02 Changelog</title>
-      <link>https://forestry.io/docs/changelog/2018-2-2-changelog/</link>
+      <link>/docs/changelog/2018-2-2-changelog/</link>
       <pubDate>Mon, 29 Jan 2018 17:02:01 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/changelog/2018-2-2-changelog/</guid>
+      <guid>/docs/changelog/2018-2-2-changelog/</guid>
       <description>Bug Fixes  Front Matter Groups: Fixed a regression which prevented front matter groups from rendering inside data files. Import from Gitlab: Fixed an issue that prevented importing from Gitlab if a legacy ssh key existed. Import site from subdirectory (Gitlab): Fixed issue preventing the import of sites in subdirectories from Gitlab repositories.  Security Update  Mixpanel Patch: A security vulnerability was discovered in the Mixpanel javascript libraray. They released a patch to handle this vulnerability and we upgraded immediately.</description>
     </item>
     
     <item>
       <title>2018/01/29 Changelog</title>
-      <link>https://forestry.io/docs/changelog/2018-1-29-changelog/</link>
+      <link>/docs/changelog/2018-1-29-changelog/</link>
       <pubDate>Mon, 29 Jan 2018 14:40:49 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/changelog/2018-1-29-changelog/</guid>
+      <guid>/docs/changelog/2018-1-29-changelog/</guid>
       <description>Bug Fixes  Front matter template: Fix for hidden fields showing in field groups or repeatable field groups. Front matter template: Front matter templates can create a duplicate upon saving. Pages: Clarified copy surrounding unsaved changes on a document. Pages: Linking to a page that a teammate is editing is now handled properly. Pages: Deleting a page from the page form no longer shows &amp;ldquo;Connection Lost&amp;rdquo; modal. Editor: Fixed issue with emphasis and code deleting the next character.</description>
     </item>
     
     <item>
       <title>Hugo vs Jekyll: Benchmarked</title>
-      <link>https://forestry.io/blog/hugo-vs-jekyll-benchmark/</link>
+      <link>/blog/hugo-vs-jekyll-benchmark/</link>
       <pubDate>Fri, 26 Jan 2018 09:22:55 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/hugo-vs-jekyll-benchmark/</guid>
+      <guid>/blog/hugo-vs-jekyll-benchmark/</guid>
       <description>We&amp;rsquo;ve also compared Jekyll &amp;amp; Hugo features across 6 dimensions. Learn More
  Hugo and Jekyll are the leading static site generators according to StaticGen.com, and both supported by our CMS. We&amp;rsquo;re often asked which tool performs better so we decided to do an analysis.
 TL;DR We ran two tests to measure build times with Hugo and Jekyll. The basic test used the default installation of Jekyll and Hugo to build sites with 10 posts,100 posts, 1,000 posts and 10,000 posts.</description>
@@ -709,10 +710,10 @@ TL;DR We ran two tests to measure build times with Hugo and Jekyll. The basic te
     
     <item>
       <title>Changes &amp; Improvements to the Media Library</title>
-      <link>https://forestry.io/blog/a-new-and-improved-media-library/</link>
+      <link>/blog/a-new-and-improved-media-library/</link>
       <pubDate>Thu, 11 Jan 2018 04:00:00 +1400</pubDate>
       
-      <guid>https://forestry.io/blog/a-new-and-improved-media-library/</guid>
+      <guid>/blog/a-new-and-improved-media-library/</guid>
       <description>We&amp;rsquo;ve got great improvements to share with you from Forestry.io, involving Forestry’s Media Library.
 The Media Library allows content editors to easily upload images, videos, and much more without needing to understand Git.
 Single Upload Directory We&amp;rsquo;ve received a lot of feedback from the community about which media should be displayed in the media library.
@@ -721,29 +722,29 @@ Forestry used to display media from all folders throughout the project. Not all 
     
     <item>
       <title>2018/01/09 Changelog</title>
-      <link>https://forestry.io/docs/changelog/2018-1-9-changelog/</link>
+      <link>/docs/changelog/2018-1-9-changelog/</link>
       <pubDate>Tue, 09 Jan 2018 15:02:44 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/changelog/2018-1-9-changelog/</guid>
+      <guid>/docs/changelog/2018-1-9-changelog/</guid>
       <description> Bug Fixes  Front matter template: fix for editing/unediting FMT fields didn&amp;rsquo;t always update the UI git deploy settings: Clarified copy surrounding the Deploy on Git Push feature. inline code: input rule for inline code no longer marks up the previous character.  </description>
     </item>
     
     <item>
       <title>Can&#39;t publish, preview, or save</title>
-      <link>https://forestry.io/docs/troubleshooting/cant-publish-preview-or-save/</link>
+      <link>/docs/troubleshooting/cant-publish-preview-or-save/</link>
       <pubDate>Tue, 02 Jan 2018 15:23:56 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/cant-publish-preview-or-save/</guid>
+      <guid>/docs/troubleshooting/cant-publish-preview-or-save/</guid>
       <description>When publishing, previewing, or saving a draft, there are a multitude of reasons why your site may fail to import. Generally, they boil down to 3 reasons:
  Your content files are improperly formatted. Your layout files are improperly formatted or have a build error. Our service messed up. Our bad.  We output the error the caused the import to fail and allow you to view it in order to help you debug.</description>
     </item>
     
     <item>
       <title>How do I add a CNAME to my site?</title>
-      <link>https://forestry.io/docs/troubleshooting/cname/</link>
+      <link>/docs/troubleshooting/cname/</link>
       <pubDate>Tue, 02 Jan 2018 15:23:56 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/cname/</guid>
+      <guid>/docs/troubleshooting/cname/</guid>
       <description>For some hosting providers (such as GitHub pages) you will need to place a CNAME file in the root of your site.
 You&amp;rsquo;ll need to ensure that the CNAME file is treated as a static file, so that it is copied to the root of your site during the build.
 Make sure you place your CNAME file in your source directory, not your build directory. Otherwise it will be deleted during the next build</description>
@@ -751,10 +752,10 @@ Make sure you place your CNAME file in your source directory, not your build dir
     
     <item>
       <title>CSS, JS, &amp; Media not working</title>
-      <link>https://forestry.io/docs/troubleshooting/css-js-and-media-not-working/</link>
+      <link>/docs/troubleshooting/css-js-and-media-not-working/</link>
       <pubDate>Tue, 02 Jan 2018 11:53:51 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/troubleshooting/css-js-and-media-not-working/</guid>
+      <guid>/docs/troubleshooting/css-js-and-media-not-working/</guid>
       <description>Sometimes you’ll find your assets aren’t loading when you preview or publish your site. This is almost always due to path issues.
 The best way to solve this issue is to ensure you&amp;rsquo;re always allowing your SSG (Static Site Generator) to generate URLs.
 For example, we have a CSS file named main.css that isn’t loading when viewing subpages.
@@ -763,66 +764,66 @@ In the dev environment, we’re serving the site from localhost:4000, meaning th
     
     <item>
       <title>Boris FX</title>
-      <link>https://forestry.io/showcase/borisfx/</link>
+      <link>/showcase/borisfx/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/showcase/borisfx/</guid>
+      <guid>/showcase/borisfx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Developer Ecosystem</title>
-      <link>https://forestry.io/showcase/developerecosystem/</link>
+      <link>/showcase/developerecosystem/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/showcase/developerecosystem/</guid>
+      <guid>/showcase/developerecosystem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Small Multiples - Data Visualization Specialists</title>
-      <link>https://forestry.io/showcase/smallmultiples/</link>
+      <link>/showcase/smallmultiples/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/showcase/smallmultiples/</guid>
+      <guid>/showcase/smallmultiples/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yieldmo - Data By Design</title>
-      <link>https://forestry.io/showcase/yieldmo/</link>
+      <link>/showcase/yieldmo/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://forestry.io/showcase/yieldmo/</guid>
+      <guid>/showcase/yieldmo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Join our Slack community</title>
-      <link>https://forestry.io/blog/join-our-slack-community/</link>
+      <link>/blog/join-our-slack-community/</link>
       <pubDate>Sat, 21 Oct 2017 00:41:00 +1400</pubDate>
       
-      <guid>https://forestry.io/blog/join-our-slack-community/</guid>
+      <guid>/blog/join-our-slack-community/</guid>
       <description>Want to chat with the Forestry.io community about static sites, best-practices, features, and more? Join the slack community here (we&amp;rsquo;ll get back to you ASAP).
 Sign up here: Forestry.io Community Email  --</description>
     </item>
     
     <item>
       <title>Discontinuing Zip-imported Sites</title>
-      <link>https://forestry.io/blog/discontinuing-zip-sites/</link>
+      <link>/blog/discontinuing-zip-sites/</link>
       <pubDate>Thu, 12 Oct 2017 14:54:52 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/discontinuing-zip-sites/</guid>
+      <guid>/blog/discontinuing-zip-sites/</guid>
       <description>Letting developers import a site from a zip archive is a feature that a lot of our users have made use of. However, with our strong focus on Git-backed workflows, we feel that that sites imported with zips have been providing a unsatisfactory experience.
 At Forestry, we believe Git-backed content management systems are the future of content management, and that using a Git repository is the best way to manage sites.</description>
     </item>
     
     <item>
       <title>Introducing Forestry Config Files</title>
-      <link>https://forestry.io/blog/introducing-forestry-config-files/</link>
+      <link>/blog/introducing-forestry-config-files/</link>
       <pubDate>Wed, 30 Aug 2017 16:09:44 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/introducing-forestry-config-files/</guid>
+      <guid>/blog/introducing-forestry-config-files/</guid>
       <description>Introducing Forestry Config Files Last month we released a big update to Front Matter Templates, which provided an unprecedented level of control over the user interface content editors use to edit their Hugo and Jekyll sites with.
 Today we’re introducing a new feature to equally empower developers: Forestry Config Files.
 Config files allow developers to create and manage the settings and Front Matter Templates of a site directly in the Git Repo.</description>
@@ -830,10 +831,10 @@ Config files allow developers to create and manage the settings and Front Matter
     
     <item>
       <title>Software Engineer</title>
-      <link>https://forestry.io/careers/software-engineer/</link>
+      <link>/careers/software-engineer/</link>
       <pubDate>Wed, 09 Aug 2017 10:20:51 +0000</pubDate>
       
-      <guid>https://forestry.io/careers/software-engineer/</guid>
+      <guid>/careers/software-engineer/</guid>
       <description>Full-Time • Charlottetown, PE  Forestry.io is a small team, led by engineers, and based in Charlottetown, Prince Edward Island. We are hiring a software engineer to help us build a Content Management System for the next generation of websites.
 We’re taking a developer-centric approach to content management by supporting modern tools like Git, Hugo and Jekyll.
 What You Will Do  Develop a CMS that will allow our customers to build and edit the world&amp;rsquo;s best websites</description>
@@ -841,10 +842,10 @@ What You Will Do  Develop a CMS that will allow our customers to build and edit 
     
     <item>
       <title>WYSIWYG Formatting in Front Matter</title>
-      <link>https://forestry.io/blog/wysiwyg-formatting-in-front-matter/</link>
+      <link>/blog/wysiwyg-formatting-in-front-matter/</link>
       <pubDate>Wed, 26 Jul 2017 11:26:03 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/wysiwyg-formatting-in-front-matter/</guid>
+      <guid>/blog/wysiwyg-formatting-in-front-matter/</guid>
       <description>This week we’ve got a small, but very useful update we&amp;rsquo;re excited to share with you.
 WYSIWYG Formatting in Textareas Our textarea Front Matter field has been upgraded to allow for WYSIWYG input. Enjoy being able to add bold, italic, underline, and code formatting.
 Enable WYSIWYG for Textareas You can enable the WYSIWYG features by enabling the “WYSIWYG” toggle on any textarea Front Matter field.
@@ -853,10 +854,10 @@ Give Us Feedback While the WYSIWYG features are inline only right now, we’re l
     
     <item>
       <title>Big Improvements to Front Matter Templates</title>
-      <link>https://forestry.io/blog/big-improvements-to-front-matter-templates/</link>
+      <link>/blog/big-improvements-to-front-matter-templates/</link>
       <pubDate>Mon, 10 Jul 2017 10:00:00 -0300</pubDate>
       
-      <guid>https://forestry.io/blog/big-improvements-to-front-matter-templates/</guid>
+      <guid>/blog/big-improvements-to-front-matter-templates/</guid>
       <description>We&amp;rsquo;ve got great improvements to share with you from Forestry.io, involving Forestry’s Front Matter Templates.
 Front Matter Templates allow you to customize the UI of your front matter fields in Forestry, providing the tools necessary to create the exact CMS you need.
 Improved Editing Experience Forestry&amp;rsquo;s Front Matter Template editor is now two-paned. A preview of your fields is on the left, giving you a realistic preview of how they will appear when editing content.</description>
@@ -864,10 +865,10 @@ Improved Editing Experience Forestry&amp;rsquo;s Front Matter Template editor is
     
     <item>
       <title>A Hugo Update Everyone Should Be Talking About</title>
-      <link>https://forestry.io/blog/a-hugo-update-everyone-should-be-talking-about/</link>
+      <link>/blog/a-hugo-update-everyone-should-be-talking-about/</link>
       <pubDate>Mon, 26 Jun 2017 12:00:00 -0300</pubDate>
       
-      <guid>https://forestry.io/blog/a-hugo-update-everyone-should-be-talking-about/</guid>
+      <guid>/blog/a-hugo-update-everyone-should-be-talking-about/</guid>
       <description>For Hugo users a few great updates came out recently with a long-awaited feature: nested sections. Along with nested sections, Hugo 0.22-0.24 added a series of improvements that make building websites even easier.
 Nested Sections, What’s The Big Deal? If you’re not familiar with Hugo, sections are the different types of content your Hugo site has. For example Posts, Pages, and Press Releases.
 Until Hugo 0.22, nesting sections weren’t supported as a feature, meaning you couldn’t easily have a hierarchical relationship between different types of content.</description>
@@ -875,39 +876,39 @@ Until Hugo 0.22, nesting sections weren’t supported as a feature, meaning you 
     
     <item>
       <title>Improved Collaboration &amp; More</title>
-      <link>https://forestry.io/blog/improved-collaboration-and-more/</link>
+      <link>/blog/improved-collaboration-and-more/</link>
       <pubDate>Tue, 20 Jun 2017 16:30:00 -0300</pubDate>
       
-      <guid>https://forestry.io/blog/improved-collaboration-and-more/</guid>
+      <guid>/blog/improved-collaboration-and-more/</guid>
       <description>Document Locking &amp;amp; Collaboration To prevent accidental overwrites and the tango of content editing, we’ve added in a locking feature to your content and data files. If you attempt to edit a page another user is editing, you’ll get a notification.
 We’ve also made collaboration more powerful by making drafts shared. If you make changes to a document without publishing, the rest of your team will see these changes when they view the page.</description>
     </item>
     
     <item>
       <title>Announcing Layout Improvements</title>
-      <link>https://forestry.io/blog/layout-improvements/</link>
+      <link>/blog/layout-improvements/</link>
       <pubDate>Wed, 14 Jun 2017 09:00:00 -0300</pubDate>
       
-      <guid>https://forestry.io/blog/layout-improvements/</guid>
+      <guid>/blog/layout-improvements/</guid>
       <description>We’ve been hard at work this month at Forestry.io, focusing on improving the editing experience and overall usability of the application and we’re excited to announce that it’s already here! We’ve got 3 updates to share with you that will make using Forestry much more enjoyable.
 New Editor &amp;amp; Layout Improvements We&amp;rsquo;ve built a new editor that makes editing your content much easier and so much more enjoyable. We&amp;rsquo;ve also improved the app&amp;rsquo;s UI altogether.</description>
     </item>
     
     <item>
       <title>3 Reasons Why Our New Editor Is Our Best Static Site Editor Yet</title>
-      <link>https://forestry.io/blog/bigger-better-editor/</link>
+      <link>/blog/bigger-better-editor/</link>
       <pubDate>Tue, 30 May 2017 14:01:35 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/bigger-better-editor/</guid>
+      <guid>/blog/bigger-better-editor/</guid>
       <description>For the past few weeks, Nichlas and Nolan have been hard at work on the Forestry content editor. We wanted to make the easiest-to-use, most configurable static site content editor ever built. With their hard work, we now have some big improvements to share that get us that much closer. We’ve built a new and improved editor that makes managing your site easier and more effective than ever before. Both on the desktop and on mobile devices.</description>
     </item>
     
     <item>
       <title>Introducing Media Management</title>
-      <link>https://forestry.io/blog/introducing-media-management/</link>
+      <link>/blog/introducing-media-management/</link>
       <pubDate>Mon, 17 Apr 2017 11:46:07 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/introducing-media-management/</guid>
+      <guid>/blog/introducing-media-management/</guid>
       <description>We all love working with Markdown but one of it&amp;rsquo;s biggest limitations is adding images to your content. That&amp;rsquo;s why we&amp;rsquo;re happy to announce the Forestry.io Media Manager. Nolan and Nichlas put a lot of work into crafting an amazing UX for this, so we hope you like it. --
 Media Manager Drag multiple files Handy if you have large image galleries.
 Manage other files Also manage non-image files like PDFs, text files, etc.</description>
@@ -915,20 +916,20 @@ Manage other files Also manage non-image files like PDFs, text files, etc.</desc
     
     <item>
       <title>March 27th Service Outage</title>
-      <link>https://forestry.io/blog/march-27th-service-outage/</link>
+      <link>/blog/march-27th-service-outage/</link>
       <pubDate>Mon, 27 Mar 2017 21:25:39 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/march-27th-service-outage/</guid>
+      <guid>/blog/march-27th-service-outage/</guid>
       <description>As some of you may have noticed, Forestry was down for about 2.5 hours between 23:00 UTC March 27 until 01:30 UTC March 28. In the spirit of full disclosure I&amp;rsquo;d like to explain what happened and why.
 Forestry is a Rails application and from time to time the number of migrations we have get unwieldy. Being an application under rapid development, things are constantly changing and migrations are created sometimes daily.</description>
     </item>
     
     <item>
       <title>What&#39;s new in Jekyll 3.4.0</title>
-      <link>https://forestry.io/blog/what-s-new-in-jekyll-3-4-0/</link>
+      <link>/blog/what-s-new-in-jekyll-3-4-0/</link>
       <pubDate>Mon, 20 Feb 2017 10:06:00 -0400</pubDate>
       
-      <guid>https://forestry.io/blog/what-s-new-in-jekyll-3-4-0/</guid>
+      <guid>/blog/what-s-new-in-jekyll-3-4-0/</guid>
       <description>Jekyll 3.4.0 was release on the 27th of January 2017 with some noteworthy enhancements that I&amp;rsquo;d like to share with you.
 So what&amp;rsquo;s new?
 Add connector param to ‘array_to_sentence_string’ filter  array - The list of strings to join. string - A string can be any text inside quotes. In this example I will use Jekyll tags. connector - The word placed before the last word in the array. The default connector Jekyll uses is the word “and”.</description>
@@ -936,10 +937,10 @@ Add connector param to ‘array_to_sentence_string’ filter  array - The list o
     
     <item>
       <title>Customize the UI with Front Matter Templates</title>
-      <link>https://forestry.io/blog/front-matter-templates/</link>
+      <link>/blog/front-matter-templates/</link>
       <pubDate>Mon, 13 Feb 2017 10:47:46 -0500</pubDate>
       
-      <guid>https://forestry.io/blog/front-matter-templates/</guid>
+      <guid>/blog/front-matter-templates/</guid>
       <description>Does the following sound familiar? You set up a WP site, hand it off to a non-dev, and then they point to some unused part of the UI and say:
  &#34;What does this do?&#34;
  To which you sheepishly reply:
@@ -950,10 +951,10 @@ Front Matter Templates (FMTs) FMTs allow you to customize the presentation of yo
     
     <item>
       <title>The New Forestry.io</title>
-      <link>https://forestry.io/blog/the-new-forestry-io/</link>
+      <link>/blog/the-new-forestry-io/</link>
       <pubDate>Tue, 01 Nov 2016 19:36:26 -0400</pubDate>
       
-      <guid>https://forestry.io/blog/the-new-forestry-io/</guid>
+      <guid>/blog/the-new-forestry-io/</guid>
       <description>We&amp;rsquo;re happy to announce some huge improvements to Forestry.io, our CMS for Jekyll and Hugo sites.
 Before I outline what&amp;rsquo;s new, I want to thank everyone who has been testing this while it was in beta (you know who you are). Your help was crucial and we&amp;rsquo;re going to continue to build an awesome CMS that you love. 👊
 What&amp;rsquo;s new: New Editor We totally rebuilt our WYSIWYG editor (inspired by Medium.</description>
@@ -961,30 +962,30 @@ What&amp;rsquo;s new: New Editor We totally rebuilt our WYSIWYG editor (inspired
     
     <item>
       <title>Forestry &#43; GitLab</title>
-      <link>https://forestry.io/blog/forestry-gitlab/</link>
+      <link>/blog/forestry-gitlab/</link>
       <pubDate>Tue, 06 Sep 2016 23:45:00 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/forestry-gitlab/</guid>
+      <guid>/blog/forestry-gitlab/</guid>
       <description>Now you can add a Forestry.io CMS to your GitLab.com static site (Jekyll or Hugo).
 I&amp;rsquo;ve been a GitLab user since their very first release in Oct of 2011. I worked at a design agency and converted everything over from SVN to Git and used an internal GitLab installation. I remember submitting a few bugs and Dmitriy was quick to fix them. We loved GitLab then, and still do today.</description>
     </item>
     
     <item>
       <title>I can finally choose static</title>
-      <link>https://forestry.io/blog/choose-static/</link>
+      <link>/blog/choose-static/</link>
       <pubDate>Tue, 02 Aug 2016 01:06:00 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/choose-static/</guid>
+      <guid>/blog/choose-static/</guid>
       <description>When it comes to the Internet, content is king. A site that has well written content concisely tells the story behind a brand, helps to inform customers about a business&amp;rsquo; products or services and helps guide a user navigate to the information that they seek.
 I&amp;rsquo;ve worked with various organizations in helping them choose the technology that is used to publish content onto their sites. When it came down to making a choice, the publishing platform options were often slimmed down by the need for non-technical users to easily publish content.</description>
     </item>
     
     <item>
       <title>Forestry.io &#43; Techstars 2016</title>
-      <link>https://forestry.io/blog/forestryio-techstars-2016/</link>
+      <link>/blog/forestryio-techstars-2016/</link>
       <pubDate>Wed, 06 Jul 2016 19:03:00 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/forestryio-techstars-2016/</guid>
+      <guid>/blog/forestryio-techstars-2016/</guid>
       <description>We&amp;rsquo;re stoked to announce that Forestry.io is going to be part of Techstars NYC. The 90-day program runs from July until the end of September 2016.
 What this means for Forestry and our users:
  We&amp;rsquo;re going to be surrounded by some of the brightest minds in New York tech We get to focus intensly on making Forestry awesome for our users. Stoked to be working 15-hour days! Over $1,000,000 in amazing &amp;ldquo;perks&amp;rdquo; (free stuff) from companies such as Amazon, Digital Ocean, Microsoft, Google, Sendgrid, etc.</description>
@@ -992,20 +993,20 @@ What this means for Forestry and our users:
     
     <item>
       <title>Why we built Forestry</title>
-      <link>https://forestry.io/blog/why-we-built-forestry/</link>
+      <link>/blog/why-we-built-forestry/</link>
       <pubDate>Wed, 06 Jan 2016 04:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/blog/why-we-built-forestry/</guid>
+      <guid>/blog/why-we-built-forestry/</guid>
       <description>My friend, Emily, needed a simple website for her restaurant. She&amp;rsquo;s a chef and didn&amp;rsquo;t want to deal with the hassle of DNS, hosting, design, etc. As a recovering freelancer, I offered to help.
 Normally, I would use WordPress for a site like this, but I was fed up with the headaches that comes with maintaining a WordPress site. So, I took an evening and cranked out a simple 1-page static site.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://forestry.io/docs/front-matter-templates/</link>
+      <link>/docs/front-matter-templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://forestry.io/docs/front-matter-templates/</guid>
+      <guid>/docs/front-matter-templates/</guid>
       <description></description>
     </item>
     
