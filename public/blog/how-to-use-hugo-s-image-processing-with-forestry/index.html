@@ -18,7 +18,7 @@
 <meta property="article:section" content="blog" />
   <meta itemprop="name" content="How To Use Hugo&#39;s Image Processing With Forestry">
 <meta itemprop="description" content="0.32 update introduced built-in image processing for certain assets. One limitation of this feature is that it only works for page resources, which are page-relative assets stored alongside your posts in the content/ directory of your site. Since Forestry’s uploads are stored in the static/uploads/ directory by default, these assets cannot be resized in your templates using Hugo’s built-in resizer. This document will provide a step-by-step guide for working around this limitation."><meta itemprop="datePublished" content="2018-05-22T04:00:00&#43;00:00" /><meta itemprop="dateModified" content="2018-05-21T20:09:02-11:00" /><meta itemprop="wordCount" content="451"><meta itemprop="image" content="/uploads/2018/04/hugo-forestry-img-processing.png">
-  <meta itemprop="keywords" content="chris-macrae,colin-garvey,dj-walker,forestry-team,forestryio,jordan-patterson,michael-soolee,régis-philibert,scott-gallant,sebastian-engels,team-forestry,beyond-static,cicd,cms,company,development-tools,frontend-friday,hugo,jekyll,static-sites,,blocks,frontend-friday,hugo,jekyll,webpack," /><meta name="twitter:card" content="summary_large_image"/>
+  <meta itemprop="keywords" content="chris-macrae,colin-garvey,dj-walker,jordan-patterson,michael-soolee,régis-philibert,scott-gallant,sebastian-engels,beyond-static,cicd,cms,company,development-tools,frontend-friday,hugo,jekyll,static-sites,blocks,frontend-friday,hugo,jekyll,webpack," /><meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:image:src" content="/uploads/2018/04/hugo-forestry-img-processing.png"/><meta name="twitter:title" content="How To Use Hugo&#39;s Image Processing With Forestry"/>
 <meta name="twitter:description" content="0.32 update introduced built-in image processing for certain assets. One limitation of this feature is that it only works for page resources, which are page-relative assets stored alongside your posts in the content/ directory of your site. Since Forestry’s uploads are stored in the static/uploads/ directory by default, these assets cannot be resized in your templates using Hugo’s built-in resizer. This document will provide a step-by-step guide for working around this limitation."/><meta name="twitter:site" content="@forestryio"/><meta name="generator" content="Hugo 0.42.1" />
 <link rel="stylesheet" href="/css/styles.min.css?8bc5e92b0a0323c085841879264ee2f8" type="text/css" /><link rel="manifest" href="/favicons/manifest.json" />
@@ -57,10 +57,6 @@
       <div class="nav-content">
         <a href="/" class="mini-nav--logo"></a>
         <ul class="main-nav-items"><li>
-              <a href="/pricing/" class="nav-item">Pricing</a>
-            </li><li>
-              <a href="/docs/welcome/" class="nav-item">Docs</a>
-            </li><li>
               <a href="/blog/" class="nav-item">Blog</a>
             </li><li data-signed-out="true">
               <a class="signup-button button small primary" href="https://app.forestry.io/signup">Sign up</a>
@@ -77,15 +73,7 @@
         </div><div class="container">
       <h1 class="post--title">How To Use Hugo&#39;s Image Processing With Forestry</h1>
       <div class="post--meta"><div class="author">
-          <span class="post--meta-label">Written by</span><a href="/authors/dj-walker/" class="author--wrapper">
-                <div class="author--avatar">
-                  <img src="/uploads/2018/03/DJ.jpg" alt="DJ Walker">
-                </div>
-                <div class="author--info">
-                  <span class="author--name">DJ Walker</span>
-                  <span class="author--title">Developer Relations</span>
-                </div>
-              </a></div><div class="post--info">
+          <span class="post--meta-label">Written by</span></div><div class="post--info">
           <span class="post--meta-label">Posted on</span>
           <span class="post--date">May 22, 2018</span></div>
       </div>
@@ -289,8 +277,8 @@ headless: true
           <img src="/img/forestry-symbol.svg" width="auto" height="24" alt="Forestry Logo">
         </a>
       </div><div class="column">
-        <span class="footer-title">Product</span><ul><li><a href="/pricing/">Pricing</a></li><li><a href="/docs/guides/">Guides</a></li><li><a href="/docs/welcome/">Docs</a></li></ul></div><div class="column">
-        <span class="footer-title">Company</span><ul><li><a href="/support/">Support</a></li><li><a href="/careers/">Careers</a></li><li><a href="/privacy/">Privacy Policy</a></li><li><a href="/terms/">Terms of Use</a></li></ul></div><div class="column">
+        <span class="footer-title">Product</span></div><div class="column">
+        <span class="footer-title">Company</span></div><div class="column">
         <p>Join our slack community and get daily
         updates on product updates.</p>
         <a href="https://t.co/OANAJYol8Y" target="_blank">
