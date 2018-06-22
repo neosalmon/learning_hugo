@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><title>GitHub | Forestry.io</title><meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Accept-CH" content="DPR,Width,Viewport-Width" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="apple-mobile-web-app-title" content="Forestry.io" />
+<meta name="application-name" content="Forestry.io" />
+<meta name="msapplication-config" content="/favicons/browserconfig.xml" />
+<meta name="theme-color" content="#ffffff" />
+<meta name="description" content=" /"><meta name="robots" content="noindex, nofollow" />
+<meta property="og:title" content="GitHub" />
+<meta property="og:description" content="DisclaimerThis guide assumes you already have an existing GitHub account and repository with a Jekyll or Hugo project. If you don&rsquo;t have an existing project, check out our Quick start guide, which contains guides and resources for building your first static site.
+ Forestry&rsquo;s allows you to import your static site through public and private GitHub repositories. This allows Forestry to sync any changes made by editors in Forestry to be committed back to GitHub." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/git-sync/" /><meta property="og:image" content="https://forestry.io/uploads/2018/01/OGimage-01-docs-3x.jpg" /><meta property="og:image:alt" content="DisclaimerThis guide assumes you already have an existing GitHub account and repository with a Jekyll or Hugo project. If you don&rsquo;t have an existing project, check out our Quick start guide, which contains guides and resources for building your first static site.
+ Forestry&rsquo;s allows you to import your static site through public and private GitHub repositories. This allows Forestry to sync any changes made by editors in Forestry to be committed back to GitHub." /><meta property="article:published_time" content="2017-12-31T04:00:00&#43;00:00"/>
+  <meta property="article:modified_time" content="2017-04-06T00:00:00-04:00"/><meta property="og:locale" content="en" />
+<meta property="article:section" content="docs" />
+  <meta itemprop="name" content="GitHub">
+<meta itemprop="description" content="DisclaimerThis guide assumes you already have an existing GitHub account and repository with a Jekyll or Hugo project. If you don&rsquo;t have an existing project, check out our Quick start guide, which contains guides and resources for building your first static site.
+ Forestry&rsquo;s allows you to import your static site through public and private GitHub repositories. This allows Forestry to sync any changes made by editors in Forestry to be committed back to GitHub."><meta itemprop="datePublished" content="2017-12-31T04:00:00&#43;00:00" /><meta itemprop="dateModified" content="2017-04-06T00:00:00-04:00" /><meta itemprop="wordCount" content="472"><meta itemprop="image" content="https://forestry.io/uploads/2018/01/OGimage-01-docs-3x.jpg">
+  <meta itemprop="keywords" content="chris-macrae,colin-garvey,dj-walker,forestry-team,forestryio,jordan-patterson,michael-soolee,régis-philibert,scott-gallant,sebastian-engels,team-forestry,beyond-static,cicd,cms,company,development-tools,frontend-friday,hugo,jekyll,static-sites,,blocks,frontend-friday,hugo,jekyll,webpack," /><meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image:src" content="https://forestry.io/uploads/2018/01/OGimage-01-docs-3x.jpg"/><meta name="twitter:title" content="GitHub"/>
+<meta name="twitter:description" content="DisclaimerThis guide assumes you already have an existing GitHub account and repository with a Jekyll or Hugo project. If you don&rsquo;t have an existing project, check out our Quick start guide, which contains guides and resources for building your first static site.
+ Forestry&rsquo;s allows you to import your static site through public and private GitHub repositories. This allows Forestry to sync any changes made by editors in Forestry to be committed back to GitHub."/><meta name="twitter:site" content="@forestryio"/><meta name="generator" content="Hugo 0.42.1" />
+<link rel="stylesheet" href="/css/styles.min.css?8bc5e92b0a0323c085841879264ee2f8" type="text/css" /><link rel="manifest" href="/favicons/manifest.json" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#00c7b7" />
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KL5HP9Q');</script>
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "https://forestry.io",
+    "logo": "/img/forestry-full.svg",
+    "sameAs": ["https://www.twitter.com/forestryio"]
+  }
+  </script>
+</head>
+  <body class="section-docs kind-page type-docs ">
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL5HP9Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <header class="header container docs">
+  <div class="left-block">
+    <a href="/" title="Go to homepage" class="logo"></a>
+  </div>
+  <div class="right-block"><div class="search">
+      <input type="search" name="search" placeholder="Search the docs..." class="search--input">
+    </div><nav class="nav">
+      <div class="nav-content">
+        <a href="/" class="mini-nav--logo"></a>
+        <ul class="main-nav-items"><li>
+              <a href="/pricing/" class="nav-item">Pricing</a>
+            </li><li>
+              <a href="/docs/welcome/" class="nav-item">Docs</a>
+            </li><li>
+              <a href="/blog/" class="nav-item">Blog</a>
+            </li><li data-signed-in="false" data-user>
+              <a href="https://app.forestry.io/settings" class="nav-item">My Account</a>
+            </li><li data-signed-out="true">
+              <a href="https://app.forestry.io/login" class="nav-item">Login</a>
+            </li><li class="nav-item" data-signed-in="false">
+                <a class="signup-button button small primary" href="https://app.forestry.io/dashboard">Dashboard</a>
+              </li><li data-signed-out="true">
+              <a class="signup-button button small primary" href="https://app.forestry.io/signup">Sign up</a>
+            </li></ul><div class="docs-nav-items"><h3>Welcome</h3>
+  <ul><li><a href="/docs/welcome/">Introduction</a></li></ul><h3>Quick Start</h3>
+  <ul><li><a href="/docs/quickstart/tour/">Product Tour</a></li><li><a href="/docs/quickstart/setup-site/">Setup Your Site</a></li><li><a href="/docs/quickstart/configure-cms/">Configure the CMS</a></li></ul><h3>Git Sync</h3>
+  <ul><li><a href="/docs/git-sync/" class="active">GitHub</a></li><ul class="table-of-contents"><li class="level-2">
+              <a href="https://forestry.io/docs/git-sync/#importing-from-github">Importing from GitHub</a>
+            </li><li class="level-2">
+              <a href="https://forestry.io/docs/git-sync/#importing-from-a-github-organization">Importing from a GitHub organization</a>
+            </li></ul></ul><h3>Editing</h3>
+  <ul><li><a href="/docs/editing/">Managing Content</a></li></ul><h3>Hosting</h3>
+  <ul><li><a href="/docs/hosting/">Hosting Options</a></li></ul><h3>Media</h3>
+  <ul><li><a href="/docs/media/">Storing Media Files</a></li></ul><h3>Settings &amp; Configuration</h3>
+  <ul><li><a href="/docs/settings/">All Settings</a></li></ul><h3>Other</h3>
+  <ul><li><a href="/docs/troubleshooting/">Troubleshooting</a></li><li><a href="/docs/guides/">Guides</a></li><li><a href="/docs/faqs/">Frequently Asked Questions</a></li><li><a href="/docs/changelog/">Changelog</a></li></ul></div></div>
+    </nav>
+    <div class="mini-nav--toggle"><img class="toggle-open" src="/img/navtoggle-open.svg" alt="Open nav"><img class="toggle-close" src="/img/navtoggle-close.svg" alt="Close nav">
+    </div>
+  </div>
+</header><main class="docs-container">
+    <div class="sidebar">
+      <aside class="sidebar-inner">
+        <h2>
+          <a href="/docs">
+            Docs
+          </a>
+        </h2><div class="docs-nav-items"><h3>Welcome</h3>
+  <ul><li><a href="/docs/welcome/">Introduction</a></li></ul><h3>Quick Start</h3>
+  <ul><li><a href="/docs/quickstart/tour/">Product Tour</a></li><li><a href="/docs/quickstart/setup-site/">Setup Your Site</a></li><li><a href="/docs/quickstart/configure-cms/">Configure the CMS</a></li></ul><h3>Git Sync</h3>
+  <ul><li><a href="/docs/git-sync/" class="active">GitHub</a></li><ul class="table-of-contents"><li class="level-2">
+              <a href="https://forestry.io/docs/git-sync/#importing-from-github">Importing from GitHub</a>
+            </li><li class="level-2">
+              <a href="https://forestry.io/docs/git-sync/#importing-from-a-github-organization">Importing from a GitHub organization</a>
+            </li></ul></ul><h3>Editing</h3>
+  <ul><li><a href="/docs/editing/">Managing Content</a></li></ul><h3>Hosting</h3>
+  <ul><li><a href="/docs/hosting/">Hosting Options</a></li></ul><h3>Media</h3>
+  <ul><li><a href="/docs/media/">Storing Media Files</a></li></ul><h3>Settings &amp; Configuration</h3>
+  <ul><li><a href="/docs/settings/">All Settings</a></li></ul><h3>Other</h3>
+  <ul><li><a href="/docs/troubleshooting/">Troubleshooting</a></li><li><a href="/docs/guides/">Guides</a></li><li><a href="/docs/faqs/">Frequently Asked Questions</a></li><li><a href="/docs/changelog/">Changelog</a></li></ul></div></aside>
+    </div>
+    <section class="docs-content">
+      <div class="container md-content">
+        <h1>GitHub</h1>
+        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+    
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  
+
+<div class="shortcode-tip"><h4>Disclaimer</h4><p>This guide assumes you already have an existing <a href="https://github.com/signup">GitHub account</a> and repository with a Jekyll or Hugo project. If you don&rsquo;t have an existing project, check out our <a href="/docs/quickstart/tour/">Quick start guide</a>, which contains guides and resources for building your first static site.</p>
+
+</div>
+
+<p>Forestry&rsquo;s allows you to import your static site through public and private GitHub repositories. This allows Forestry to sync any changes made by editors in Forestry to be committed back to GitHub. This also allows developers to work on your website on their local machine, and have all changes synced back to Forestry.</p>
+
+<h2 id="importing-from-github">Importing from GitHub</h2>
+
+<p>To import a site with GitHub, <a href="https://app.forestry.io/login">login</a> to Forestry and follow these instructions:</p>
+
+<p>
+  <img src="/uploads/2018/04/add-site-flow-choose-generator-2.png" data-src="/uploads/2018/04/add-site-flow-choose-generator-2.png" data-srcset="/uploads/2018/04/add-site-flow-choose-generator-2.png 320w, /uploads/2018/04/add-site-flow-choose-generator-2.png 497w, /uploads/2018/04/add-site-flow-choose-generator-2.png 674w, /uploads/2018/04/add-site-flow-choose-generator-2.png 851w, /uploads/2018/04/add-site-flow-choose-generator-2.png 1028w, /uploads/2018/04/add-site-flow-choose-generator-2.png 1205w, /uploads/2018/04/add-site-flow-choose-generator-2.png 1382w, /uploads/2018/04/add-site-flow-choose-generator-2.png 1559w, /uploads/2018/04/add-site-flow-choose-generator-2.png 1736w, /uploads/2018/04/add-site-flow-choose-generator-2.png 1913w, /uploads/2018/04/add-site-flow-choose-generator-2.png 1920w" data-sizes="auto" alt="/uploads/2018/04/add-site-flow-choose-generator-2.png" title="/uploads/2018/04/add-site-flow-choose-generator-2.png" class="lazyload" /></p>
+
+<p>From the <a href="https://app.forestry.io/dashboard">dashboard</a>, click &ldquo;Add Site&rdquo;. In the modal that opens, choose Choose the static site generator your site is built with from the dropdown menu, and then press &ldquo;Next&rdquo;.</p>
+
+<p>
+  <img src="/uploads/2018/04/add-site-flow-select-provider.png" data-src="/uploads/2018/04/add-site-flow-select-provider.png" data-srcset="/uploads/2018/04/add-site-flow-select-provider.png 320w, /uploads/2018/04/add-site-flow-select-provider.png 497w, /uploads/2018/04/add-site-flow-select-provider.png 674w, /uploads/2018/04/add-site-flow-select-provider.png 851w, /uploads/2018/04/add-site-flow-select-provider.png 1028w, /uploads/2018/04/add-site-flow-select-provider.png 1205w, /uploads/2018/04/add-site-flow-select-provider.png 1382w, /uploads/2018/04/add-site-flow-select-provider.png 1559w, /uploads/2018/04/add-site-flow-select-provider.png 1736w, /uploads/2018/04/add-site-flow-select-provider.png 1913w, /uploads/2018/04/add-site-flow-select-provider.png 1920w" data-sizes="auto" alt="/uploads/2018/04/add-site-flow-select-provider.png" title="/uploads/2018/04/add-site-flow-select-provider.png" class="lazyload" /></p>
+
+<p>Now, choose &ldquo;GitHub&rdquo; from the list of options.</p>
+
+<p>
+  <img src="/uploads/2018/01/1.png" data-src="/uploads/2018/01/1.png" data-srcset="/uploads/2018/01/1.png 320w, /uploads/2018/01/1.png 497w, /uploads/2018/01/1.png 674w, /uploads/2018/01/1.png 851w, /uploads/2018/01/1.png 1028w, /uploads/2018/01/1.png 1205w, /uploads/2018/01/1.png 1382w, /uploads/2018/01/1.png 1559w, /uploads/2018/01/1.png 1736w, /uploads/2018/01/1.png 1913w, /uploads/2018/01/1.png 1920w" data-sizes="auto" alt="/uploads/2018/01/1.png" title="/uploads/2018/01/1.png" class="lazyload" /></p>
+
+<p>This will redirect you to GitHub, and prompt you to enter your login credentials if you are not already logged in.</p>
+
+<p>
+  <img src="/uploads/2018/01/45.png" data-src="/uploads/2018/01/45.png" data-srcset="/uploads/2018/01/45.png 320w, /uploads/2018/01/45.png 497w, /uploads/2018/01/45.png 674w, /uploads/2018/01/45.png 851w, /uploads/2018/01/45.png 1028w, /uploads/2018/01/45.png 1205w, /uploads/2018/01/45.png 1382w, /uploads/2018/01/45.png 1559w, /uploads/2018/01/45.png 1736w, /uploads/2018/01/45.png 1913w, /uploads/2018/01/45.png 1920w" data-sizes="auto" alt="/uploads/2018/01/45.png" title="/uploads/2018/01/45.png" class="lazyload" /></p>
+
+<p>Give Forestry access to your GitHub repositories by clicking &ldquo;Authorize application&rdquo;. You can also request access to any <a href="#importing-from-a-github-organization">GitHub organizations</a> you are a member of.</p>
+
+<div class="shortcode-warning"><h4> </h4><p>In order to import a site from GitHub, you will need <a href="https://help.github.com/articles/repository-permission-levels-for-an-organization/">admin permissions</a> for the repository. This is because Forestry needs to add a webhook to your repository in order to watch for changes.</p>
+
+</div>
+
+<p>
+  <img src="/uploads/2018/04/add-site-flow-choose-repo.png" data-src="/uploads/2018/04/add-site-flow-choose-repo.png" data-srcset="/uploads/2018/04/add-site-flow-choose-repo.png 320w, /uploads/2018/04/add-site-flow-choose-repo.png 497w, /uploads/2018/04/add-site-flow-choose-repo.png 674w, /uploads/2018/04/add-site-flow-choose-repo.png 851w, /uploads/2018/04/add-site-flow-choose-repo.png 1028w, /uploads/2018/04/add-site-flow-choose-repo.png 1205w, /uploads/2018/04/add-site-flow-choose-repo.png 1382w, /uploads/2018/04/add-site-flow-choose-repo.png 1559w, /uploads/2018/04/add-site-flow-choose-repo.png 1736w, /uploads/2018/04/add-site-flow-choose-repo.png 1913w, /uploads/2018/04/add-site-flow-choose-repo.png 1920w" data-sizes="auto" alt="/uploads/2018/04/add-site-flow-choose-repo.png" title="/uploads/2018/04/add-site-flow-choose-repo.png" class="lazyload" /></p>
+
+<p>By default, only your &ldquo;<a href="https://help.github.com/articles/making-a-private-repository-public/">Public Repos</a>&rdquo; will be shown. To see your &ldquo;<a href="https://help.github.com/articles/making-a-public-repository-private/">Private Repos</a>&rdquo; click on the link at the top of the modal with the <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd" stroke="currentcolor" stroke-width="2"><rect width="14" height="13" x="5" y="10" rx="1"></rect><path d="M8 1h8v9H8z"></path></g></svg> in the front.</p>
+
+<p>Once authorized, you will be redirected back to Forestry to choose the repository you wish to import. From the dropdowns, choose your repository and the branch you would like to import.</p>
+
+<p>
+  <img src="/uploads/2018/04/add-site-flow-config-file.png" data-src="/uploads/2018/04/add-site-flow-config-file.png" data-srcset="/uploads/2018/04/add-site-flow-config-file.png 320w, /uploads/2018/04/add-site-flow-config-file.png 497w, /uploads/2018/04/add-site-flow-config-file.png 674w, /uploads/2018/04/add-site-flow-config-file.png 851w, /uploads/2018/04/add-site-flow-config-file.png 1028w, /uploads/2018/04/add-site-flow-config-file.png 1205w, /uploads/2018/04/add-site-flow-config-file.png 1382w, /uploads/2018/04/add-site-flow-config-file.png 1559w, /uploads/2018/04/add-site-flow-config-file.png 1736w, /uploads/2018/04/add-site-flow-config-file.png 1913w, /uploads/2018/04/add-site-flow-config-file.png 1920w" data-sizes="auto" alt="/uploads/2018/04/add-site-flow-config-file.png" title="/uploads/2018/04/add-site-flow-config-file.png" class="lazyload" /></p>
+
+<p>If Forestry can&rsquo;t locate your site&rsquo;s config file inside of the root of your project, you&rsquo;ll be prompted to provide the directory it is located in.</p>
+
+<p>
+  <img src="/uploads/2018/04/add-site-flow-invite-guests.png" data-src="/uploads/2018/04/add-site-flow-invite-guests.png" data-srcset="/uploads/2018/04/add-site-flow-invite-guests.png 320w, /uploads/2018/04/add-site-flow-invite-guests.png 497w, /uploads/2018/04/add-site-flow-invite-guests.png 674w, /uploads/2018/04/add-site-flow-invite-guests.png 851w, /uploads/2018/04/add-site-flow-invite-guests.png 1028w, /uploads/2018/04/add-site-flow-invite-guests.png 1205w, /uploads/2018/04/add-site-flow-invite-guests.png 1382w, /uploads/2018/04/add-site-flow-invite-guests.png 1559w, /uploads/2018/04/add-site-flow-invite-guests.png 1736w, /uploads/2018/04/add-site-flow-invite-guests.png 1913w, /uploads/2018/04/add-site-flow-invite-guests.png 1920w" data-sizes="auto" alt="/uploads/2018/04/add-site-flow-invite-guests.png" title="/uploads/2018/04/add-site-flow-invite-guests.png" class="lazyload" /></p>
+
+<p>In the final step, you can invite up to 3 Guest users to edit content on your project with you. Learn more about <a href="/docs/settings/team-management/">user roles</a>. When you&rsquo;re done just click on &ldquo;Import Site&rdquo; and let us get your site ready.</p>
+
+<h2 id="importing-from-a-github-organization">Importing from a GitHub organization</h2>
+
+<p>GitHub organizations may be set up to restrict access to third-party applications like Forestry without permission from an organizations administrator. In this scenario, if you are not an administrator of your organization, you will need to request access on behalf of Forestry.</p>
+
+<p>
+  <img src="/uploads/2018/01/51.png" data-src="/uploads/2018/01/51.png" data-srcset="/uploads/2018/01/51.png 320w, /uploads/2018/01/51.png 497w, /uploads/2018/01/51.png 674w, /uploads/2018/01/51.png 851w, /uploads/2018/01/51.png 1028w, /uploads/2018/01/51.png 1205w, /uploads/2018/01/51.png 1382w, /uploads/2018/01/51.png 1559w, /uploads/2018/01/51.png 1736w, /uploads/2018/01/51.png 1913w, /uploads/2018/01/51.png 1920w" data-sizes="auto" alt="/uploads/2018/01/51.png" title="/uploads/2018/01/51.png" class="lazyload" /></p>
+
+<p>If you are an administrator of your application and have enabled third-party application restrictions, you will need to authorize Forestry to have access to your organizations repositories.</p>
+
+<p>To do so, go to the <em>Settings page</em> of your organization, and then navigate to the <em>Third-party access</em> tab.</p>
+
+<p>
+  <img src="/uploads/2018/01/49-1.png" data-src="/uploads/2018/01/49-1.png" data-srcset="/uploads/2018/01/49-1.png 320w, /uploads/2018/01/49-1.png 497w, /uploads/2018/01/49-1.png 674w, /uploads/2018/01/49-1.png 851w, /uploads/2018/01/49-1.png 1028w, /uploads/2018/01/49-1.png 1205w, /uploads/2018/01/49-1.png 1382w, /uploads/2018/01/49-1.png 1559w, /uploads/2018/01/49-1.png 1736w, /uploads/2018/01/49-1.png 1913w, /uploads/2018/01/49-1.png 1920w" data-sizes="auto" alt="/uploads/2018/01/49-1.png" title="/uploads/2018/01/49-1.png" class="lazyload" /></p>
+
+<p>To the right of &ldquo;Forestry&rdquo;, click the &ldquo;Edit&rdquo; button.</p>
+
+<p>
+  <img src="/uploads/2018/01/49.png" data-src="/uploads/2018/01/49.png" data-srcset="/uploads/2018/01/49.png 320w, /uploads/2018/01/49.png 497w, /uploads/2018/01/49.png 674w, /uploads/2018/01/49.png 851w, /uploads/2018/01/49.png 1028w, /uploads/2018/01/49.png 1205w, /uploads/2018/01/49.png 1382w, /uploads/2018/01/49.png 1559w, /uploads/2018/01/49.png 1736w, /uploads/2018/01/49.png 1913w, /uploads/2018/01/49.png 1920w" data-sizes="auto" alt="/uploads/2018/01/49.png" title="/uploads/2018/01/49.png" class="lazyload" /></p>
+
+<p>Then, click &ldquo;Grant access&rdquo; to allow your organizations members to import your sites in Forestry.</p>
+
+
+        <nav class="pagination"><a href="/docs/quickstart/configure-cms/" rel="prev"><span class="prev-doc">Configure the CMS</span></a><a href="/docs/editing/" rel="next"><span class="next-doc">Managing Content</span></a></nav><hr />
+        <div class="doc--info">
+          <span class="doc--meta-label">Last updated on</span>
+          <span class="doc--date">April 6, 2017</span>
+        </div>
+        <div class="post--feedback">
+          <p><small>Caught a mistake or want to contribute to the docs? Edit this page on <a href="https://github.com/forestryio/forestry.io/edit/master/hugo/content/docs/git-sync/index.md" target="_blank">Github</a>!</small></p>
+        </div></div>
+    </section>
+  </main><footer class="footer">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <a href="https://forestry.io" title="Go to homepage">
+          <img src="/img/forestry-symbol.svg" width="auto" height="24" alt="Forestry Logo">
+        </a>
+      </div><div class="column">
+        <span class="footer-title">Product</span><ul><li><a href="/pricing/">Pricing</a></li><li><a href="/docs/guides/">Guides</a></li><li><a href="/docs/welcome/">Docs</a></li></ul></div><div class="column">
+        <span class="footer-title">Company</span><ul><li><a href="/support/">Support</a></li><li><a href="/careers/">Careers</a></li><li><a href="/privacy/">Privacy Policy</a></li><li><a href="/terms/">Terms of Use</a></li></ul></div><div class="column">
+        <p>Join our slack community and get daily
+        updates on product updates.</p>
+        <a href="https://t.co/OANAJYol8Y" target="_blank">
+          <img class="slack-logo" src="/img/logos/slack.svg" width="auto" height="24" alt="Slack">
+        </a>
+      </div></div>
+  </div>
+  <div class="lower-footer">
+    <div class="container">
+      <div>&copy; 2015-2018 Forestry.io. All rights reserved.</div>
+      <div class="contact">
+        <ul><li><a href="https://twitter.com/forestryio" target="_blank"><img src="/img/logos/twitter.svg" height="16" alt="Twitter"></a></li><li><a href="https://t.co/OANAJYol8Y" target="_blank"><img src="/img/logos/slack-symbol.svg" height="16" alt="Slack"></a></li><li><a href="mailto:support@forestry.io"><img src="/img/email.svg" height="12" alt="Email"></a></li></div>
+    </div>
+  </div>
+</footer>
+
+<script async src="/js/ads.min.js?29266ec47ce27c430a15fdc427a3edb7" type="text/javascript"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.20.1/moment.min.js"></script>
+
+<script src="/js/scripts.min.js?82c1bc8cc6e9cab7998352a7281b74a5" type="text/javascript"></script><aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+      <div class="search-header--sticky">
+        <div class="search-results--stats">
+          <div id="stats"></div>
+          <a href="https://algolia.com" target="_blank"><img src="/img/logos/search-by-algolia.svg" alt="Powered by Algolia" width="100" class="search-results--poweredby" /></a>
+        </div>
+        <div class="search-results--filters"></div>
+      </div>
+    </section>
+    <section class="section section-search-results">
+    </section>
+  </div>
+</aside></body>
+</html>

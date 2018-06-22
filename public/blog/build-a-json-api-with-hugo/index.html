@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><title>Build a JSON API With Hugo&#39;s Custom Output Formats | Forestry.io</title><meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Accept-CH" content="DPR,Width,Viewport-Width" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="apple-mobile-web-app-title" content="Forestry.io" />
+<meta name="application-name" content="Forestry.io" />
+<meta name="msapplication-config" content="/favicons/browserconfig.xml" />
+<meta name="theme-color" content="#ffffff" />
+<meta name="description" content=" /"><meta name="robots" content="noindex, nofollow" />
+<meta property="og:title" content="Build a JSON API With Hugo&#39;s Custom Output Formats" />
+<meta property="og:description" content="As developers, we love open and accessible data. For example, you may want to use your local transit data for a mobile app, or maybe you want a service like Zapier or IFTTT to send you an email every time the weather forecast calls for rain. If you’re a super geek like @bdougieyo, you’ve built an app that tells you when to leave work in order to avoid traffic from your local baseball team’s home games (from his excellent talk here)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/build-a-json-api-with-hugo/" /><meta property="og:image" content="https://forestry.io/uploads/2018/04/aleksander-naug-84513-unsplash.png" /><meta property="og:image:alt" content="As developers, we love open and accessible data. For example, you may want to use your local transit data for a mobile app, or maybe you want a service like Zapier or IFTTT to send you an email every time the weather forecast calls for rain. If you’re a super geek like @bdougieyo, you’ve built an app that tells you when to leave work in order to avoid traffic from your local baseball team’s home games (from his excellent talk here)." /><meta property="article:published_time" content="2018-04-13T03:00:00&#43;00:00"/>
+  <meta property="article:modified_time" content="2018-04-13T05:00:27-11:00"/><meta property="og:locale" content="en" />
+<meta property="article:section" content="blog" />
+  <meta itemprop="name" content="Build a JSON API With Hugo&#39;s Custom Output Formats">
+<meta itemprop="description" content="As developers, we love open and accessible data. For example, you may want to use your local transit data for a mobile app, or maybe you want a service like Zapier or IFTTT to send you an email every time the weather forecast calls for rain. If you’re a super geek like @bdougieyo, you’ve built an app that tells you when to leave work in order to avoid traffic from your local baseball team’s home games (from his excellent talk here)."><meta itemprop="datePublished" content="2018-04-13T03:00:00&#43;00:00" /><meta itemprop="dateModified" content="2018-04-13T05:00:27-11:00" /><meta itemprop="wordCount" content="2149"><meta itemprop="image" content="https://forestry.io/uploads/2018/04/aleksander-naug-84513-unsplash.png">
+  <meta itemprop="keywords" content="chris-macrae,colin-garvey,dj-walker,forestry-team,forestryio,jordan-patterson,michael-soolee,régis-philibert,scott-gallant,sebastian-engels,team-forestry,beyond-static,cicd,cms,company,development-tools,frontend-friday,hugo,jekyll,static-sites,,blocks,frontend-friday,hugo,jekyll,webpack," /><meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image:src" content="https://forestry.io/uploads/2018/04/aleksander-naug-84513-unsplash.png"/><meta name="twitter:title" content="Build a JSON API With Hugo&#39;s Custom Output Formats"/>
+<meta name="twitter:description" content="As developers, we love open and accessible data. For example, you may want to use your local transit data for a mobile app, or maybe you want a service like Zapier or IFTTT to send you an email every time the weather forecast calls for rain. If you’re a super geek like @bdougieyo, you’ve built an app that tells you when to leave work in order to avoid traffic from your local baseball team’s home games (from his excellent talk here)."/><meta name="twitter:site" content="@forestryio"/><meta name="generator" content="Hugo 0.42.1" />
+<link rel="stylesheet" href="/css/styles.min.css?8bc5e92b0a0323c085841879264ee2f8" type="text/css" /><link rel="manifest" href="/favicons/manifest.json" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#00c7b7" />
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KL5HP9Q');</script>
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "https://forestry.io",
+    "logo": "/img/forestry-full.svg",
+    "sameAs": ["https://www.twitter.com/forestryio"]
+  }
+  </script>
+</head>
+  <body class="section-blog kind-page type-blog ">
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL5HP9Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <header class="header container">
+  <div class="left-block">
+    <a href="/" title="Go to homepage" class="logo"></a>
+  </div>
+  <div class="right-block"><div class="search">
+      <input type="search" name="search" placeholder="Search the blog..." class="search--input">
+    </div><nav class="nav">
+      <div class="nav-content">
+        <a href="/" class="mini-nav--logo"></a>
+        <ul class="main-nav-items"><li>
+              <a href="/pricing/" class="nav-item">Pricing</a>
+            </li><li>
+              <a href="/docs/welcome/" class="nav-item">Docs</a>
+            </li><li>
+              <a href="/blog/" class="nav-item">Blog</a>
+            </li><li data-signed-in="false" data-user>
+              <a href="https://app.forestry.io/settings" class="nav-item">My Account</a>
+            </li><li data-signed-out="true">
+              <a href="https://app.forestry.io/login" class="nav-item">Login</a>
+            </li><li class="nav-item" data-signed-in="false">
+                <a class="signup-button button small primary" href="https://app.forestry.io/dashboard">Dashboard</a>
+              </li><li data-signed-out="true">
+              <a class="signup-button button small primary" href="https://app.forestry.io/signup">Sign up</a>
+            </li></ul></div>
+    </nav>
+    <div class="mini-nav--toggle"><img class="toggle-open" src="/img/navtoggle-open.svg" alt="Open nav"><img class="toggle-close" src="/img/navtoggle-close.svg" alt="Close nav">
+    </div>
+  </div>
+</header><div id="root"></div>
+  <div id="modal-root"></div>
+  <main id="post-container" class="single-post"><div class="post--feature-image">
+            
+  <img src="/uploads/2018/04/aleksander-naug-84513-unsplash.png" data-src="/uploads/2018/04/aleksander-naug-84513-unsplash.png" alt="Build a JSON API With Hugo&#39;s Custom Output Formats" title="/uploads/2018/04/aleksander-naug-84513-unsplash.png" class="lazyload" />
+        </div><div class="container">
+      <h1 class="post--title">Build a JSON API With Hugo&#39;s Custom Output Formats</h1>
+      <div class="post--meta"><div class="author">
+          <span class="post--meta-label">Written by</span><a href="/authors/r%C3%A9gis-philibert/" class="author--wrapper">
+                <div class="author--avatar">
+                  <img src="/uploads/2018/04/regis-philibert.png" alt="Régis Philibert">
+                </div>
+                <div class="author--info">
+                  <span class="author--name">Régis Philibert</span>
+                  <span class="author--title">Hugo Evangelist</span>
+                </div>
+              </a></div><div class="post--info">
+          <span class="post--meta-label">Posted on</span>
+          <span class="post--date">April 13, 2018</span><span>in 
+            <a href="/categories/hugo" class="post--category" data-category="hugo">
+              Hugo
+            </a>,
+            <a href="/categories/frontend-friday" class="post--category" data-category="frontend-friday">
+              Frontend friday
+            </a></span></div>
+      </div>
+
+      <div class="md-content">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+    
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  
+
+<p>As developers, we love open and accessible data.  For example, you may want to use your local transit data for a mobile app, or maybe you want a service like <a href="https://zapier.com/">Zapier</a> or <a href="https://ifttt.com/">IFTTT</a> to send you an email every time the weather forecast calls for rain.  If you’re a super geek like <a href="https://twitter.com/bdougieyo">@bdougieyo</a>, you’ve built an app that tells you when to leave work in order to avoid traffic from your local baseball team’s home games (<a href="https://youtu.be/XpveOehxvoM?t=6m1s">from his excellent talk here</a>).</p>
+
+<p>In order to make data that is “machine friendly” like this, we can expose it with a <a href="https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming">RESTful API</a>. Normally, the quickest way to bootstrap an API like this would be to start with a popular framework like Flask or Ruby on Rails, spin up a webserver, and connect a database. We can achieve something even simpler, however, by creating a read-only API with a static site generator. In this article, we’ll use <a href="https://gohugo.io">Hugo</a> to build a JSON API using its <a href="https://gohugo.io/templates/output-formats#output-formats">Custom</a> <a href="https://gohugo.io/templates/output-formats#output-formats">Output Formats</a> feature.</p>
+
+<h2 id="planning-the-interface">Planning the Interface</h2>
+
+<p>API stands for <strong>Application Programming Interface</strong>. When it comes to building an API, designing a good  <strong>Interface</strong> is as important as the underlying software. Other developers will use this <strong>interface</strong> for <strong>programming their applications.</strong> See what I did there?</p>
+
+<div class="shortcode-tip"><p>A <strong>RESTful API</strong> is a slightly relaxed interpretation of the <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST</a> paradigm for API design: its goal is to use the built-in semantics of the HTTP standard to define the interface.
+<br />
+<br />
+One of the primary ways an API can be RESTful is by using <strong>HTTP verbs</strong> to denote the intent of the request. These verbs include <code>GET</code>, <code>PUT</code>, <code>POST</code>, and <code>DELETE</code>, and correspond to different actions that should be performed on the requested resource. Since our static site can’t run any backend code, it can’t do anything meaningful with a <code>PUT</code>, <code>POST</code>, or <code>DELETE</code> request: we will only respond to <code>GET</code>. This is why our API is <strong>read-only</strong>.</p>
+
+</div>
+
+<p>Our sample project will provide data for sports teams and players of a fictional High School.</p>
+
+<p>We’ll start with three endpoints where we’ll focus on returning listed data and individual player data:</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Endpoint</th>
+<th align="left">Resource</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">GET /</td>
+<td align="left">Lists everything</td>
+</tr>
+
+<tr>
+<td align="left">GET /players</td>
+<td align="left">Lists players</td>
+</tr>
+
+<tr>
+<td align="left">GET /players/{:slug}</td>
+<td align="left">Data for a single player</td>
+</tr>
+</tbody>
+</table>
+
+<p>Later on, we will add teams and a sports taxonomy, adding three new endpoints.</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Endpoint</th>
+<th align="left">Resource</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">GET /teams</td>
+<td align="left">Lists teams</td>
+</tr>
+
+<tr>
+<td align="left">GET /team/{:slug}</td>
+<td align="left">Team data and players</td>
+</tr>
+
+<tr>
+<td align="left">GET /sports/{:sport}</td>
+<td align="left">List of players and teams for the specified sport</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="setting-up-the-site">Setting up the Site</h2>
+
+<div class="shortcode-tip"><p>Download the <a href="https://github.com/regisphilibert/hugoGetApi/">sample project</a> to hit the ground running.</p>
+
+</div>
+
+<p>Start by creating a new Hugo site (see our <a href="https://forestry.io/blog/up-and-running-with-hugo/">Up &amp; Running with Hugo</a> series or Hugo’s <a href="https://gohugo.io/getting-started/quick-start/">quick start guide</a>).</p>
+
+<p>In our content directory, we’ll create a <code>players</code> folder and add some players to it.</p>
+
+<pre><code>├── my-hugo-project/       # The root of our Hugo project
+|   ├── content/           # Where all site content is stored 
+|   |   ├── players/       # Your players section  
+|   |   |   ├── frank-j-robinson.md
+|   |   |   └── jody-garland.md
+</code></pre>
+
+<p>Our player markdown will look something like this:</p>
+
+<pre><code>---
+title: &quot;Frank J. Robinson&quot;
+date: 2018-02-05
+age: 17
+emergency_contact: +1 (555) 555 5555
+year: junior
+---
+
+Frank, our number one second baseman!
+</code></pre>
+
+<h2 id="output-formats">Output Formats</h2>
+
+<p>By default, Hugo will build an HTML version of each page. It will also build an XML version of your home page, using its built-in RSS Output Format.</p>
+
+<p>In our case, all we need to output is a JSON formatted file for each page, section and the home page.</p>
+
+<p>The JSON output format is also <a href="https://gohugo.io/templates/output-formats/#output-formats">built-in</a>, all we need is to open our <code>config.toml</code> file and tell Hugo where to use it.</p>
+
+<pre><code>[outputs]
+  page = [&quot;json&quot;] # A player
+  section = [&quot;json&quot;] # All players
+  home = [&quot;json&quot;] # Everything
+</code></pre>
+
+<p>Next, we need to create a template for Hugo to build this format. When creating Hugo template files for a custom output format, we need to follow a specific naming convention:</p>
+
+<pre><code>{pageKind}.{outputFormatName}.{extension}
+</code></pre>
+
+<p>To build our single players page, Hugo will look for</p>
+
+<pre><code>layout/_default/single.json.json 
+</code></pre>
+
+<p>To build our section list page and our home page, Hugo will look for</p>
+
+<pre><code>layouts/_default/list.json.json
+</code></pre>
+
+<h2 id="templating">Templating</h2>
+
+<p>We will use custom templates to build the API responses for our first 3 endpoints. Each of them will use a consistent « player » object. We will need to create templates to support the following views:</p>
+
+<ul>
+<li>A list view for our players section and home page.</li>
+<li>A single item view for each player&rsquo;s details.</li>
+</ul>
+
+<p>To achieve this, we’ll create the following templates in <code>/layouts/_default/</code>:</p>
+
+<ul>
+<li><code>baseof.json.json</code> — A <a href="https://gohugo.io/templates/base/#base-template-lookup-order">base template</a> for our API response.</li>
+<li><code>item.json.json</code> — The single item object, which will be reused in all of our templates, every time we need to output a player. In Hugo we call this a <a href="https://gohugo.io/templates/views">Content View</a>, but for our API I see it more like a transformer.</li>
+<li><code>single.json.json</code> — The response output for a single player</li>
+<li><code>list.json.json</code> — The response output for a list of players</li>
+</ul>
+
+<p><a href="https://gohugo.io/templates/base">Base templates</a> are top-level templates that are the starting point for all pages in Hugo. They are usually full of HTML where we lodge in different blocks, but our JSON base will be much simpler. Our API response should contain a <code>data</code> object on success and an <code>error</code> object on error.  So we will set up the data object and use a block for the individual response.</p>
+
+<p>Our simple <code>baseof.json</code>:</p>
+
+<pre><code>{
+    &quot;data&quot; : {{ block &quot;response&quot; .}}{{ end }}
+}
+</code></pre>
+
+<h3 id="item-json-json">item.json.json</h3>
+
+<p>The Hugo docs suggest you call this template <code>li.json</code>, but for clarity we’ll call it <code>item.json</code>. This is the one item we’ll load or render every time we want to output information for a player.</p>
+
+<p>We want the output of a player object to look like this:</p>
+
+<pre><code>{
+    &quot;name&quot;: &quot;Frank J. Robinson&quot;,
+    &quot;contact&quot; : &quot;+1 555 555-555&quot;,
+    &quot;permalink&quot; : &quot;https://school.api/players/frank-j-robinson/index.json&quot;
+}
+</code></pre>
+
+<p>To achieve this, add the following to <code>item.json.json</code>:</p>
+
+<pre><code>{
+    &quot;name&quot;: &quot;{{ .Title }}&quot;,
+    &quot;contact&quot; : &quot;{{ .Params.emergency_contact }}&quot;,
+    &quot;permalink&quot; : &quot;{{ .Permalink }}&quot;
+}
+</code></pre>
+
+<p>That&rsquo;s all there is to it!</p>
+
+<h3 id="single-json-json">single.json.json</h3>
+
+<p>We just have to render our <code>item.json.json</code> inside our response block.  To do so, add this to <code>single.json.json</code>.</p>
+
+<pre><code>{{ define &quot;response&quot; }} {{ .Render &quot;item&quot; }} {{ end }}
+</code></pre>
+
+<p>Now you should be able to visit the API endpoint for a single player (<a href="http://localhost:1313/players/frank-j-robinson/index.json">http://localhost:1313/players/frank-j-robinson/index.json</a>) and get a response.</p>
+
+<div class="shortcode-warning"><p>While developing your API, you will need to run the <code>hugo serve</code> command with the <code>--disableFastRender</code> flag in order for Hugo to automatically rebuild these JSON files.
+<br /><br />
+Also, note that Hugo&rsquo;s built-in webserver can&rsquo;t live reload non-HTML documents, so you will need to manually reload the browser to see your changes.</p>
+
+</div>
+
+<pre><code>{
+    &quot;data&quot;: {
+        &quot;name&quot;: &quot;Frank J. Robinson&quot;,
+        &quot;contact&quot;: &quot;+1 (555) 555 5555&quot;,
+        &quot;permalink&quot;: &quot;https://school.api/players/frank-j-robinson/index.json&quot;
+    }
+}
+</code></pre>
+
+<h3 id="list-json-json">list.json.json</h3>
+
+<p>For our list template, we need to iterate over the current section’s pages and render our <code>item.json.json</code> template for each one inside the response block.</p>
+
+<pre><code>{{ define &quot;response&quot; }}
+[
+    {{ range $index, $e := .Data.Pages }}
+    {{ if $index }}, {{ end }}{{ .Render &quot;item&quot; }}
+    {{ end }}
+]
+{{ end }}
+</code></pre>
+
+<p>We&rsquo;re using the <code>$index</code> variable here to prevent our template from outputting a comma after the last item in our array, since that would result in invalid JSON.</p>
+
+<p>Now your players API endpoint (<a href="http://localhost:1313/players/index.json">http://localhost:1313/players/index.json</a>) should return a list</p>
+
+<pre><code>{
+    &quot;data&quot;: [
+        {
+            &quot;name&quot;: &quot;Frank J. Robinson&quot;,
+            &quot;contact&quot;: &quot;+1 (555) 555 5555&quot;,
+            &quot;permalink&quot;: &quot;http://localhost:1313/players/frank-j-robinson/index.json&quot;
+        },
+        {
+            &quot;name&quot;: &quot;Jody Garland&quot;,
+            &quot;contact&quot;: &quot;+1 (555) 555 5555&quot;,
+            &quot;permalink&quot;: &quot;http://localhost:1313/players/jody-garland/index.json&quot;
+        },
+        ...
+    ]
+}
+</code></pre>
+
+<h3 id="404-json">404.json</h3>
+
+<p>If the consumer of our API requests a nonexistent resource, it would be nice if we could return a 404 response with an error message in valid JSON. Let&rsquo;s add a <code>404.json</code> in our static directory:</p>
+
+<pre><code>{
+    &quot;error&quot; : &quot;404&quot;,
+    &quot;message&quot; : &quot;page not found&quot;
+}
+</code></pre>
+
+<p>Then, all you have to do is make sure your server redirect to this file in case of a 404. If you’re not familiar on how to set up a server redirect, check out this <a href="https://gohugo.io/templates/404/">overview</a> on different ways to go about it.</p>
+
+<h2 id="adding-teams-and-sports">Adding Teams and Sports</h2>
+
+<p>Great job! You just built a simple but fully functioning API using Hugo’s Output formats and custom templates. While we&rsquo;re on a roll, let’s keep going with some additional features.</p>
+
+<h3 id="adding-teams">Adding Teams</h3>
+
+<p>A lot of these steps are similar to creating the endpoint for <code>players</code>. First, we’ll add a <code>teams</code> section to our content directory and add team <code>.md</code> files. We’ll create <code>/content/teams/sly-turtles.md</code>.</p>
+
+<pre><code>---
+title: Sly Turtles
+mascot: Turtle Todd
+---
+
+Sly Turtles were cool before Nemo!
+</code></pre>
+
+<p>We need a new item object to display a team. All we have to do is create <code>layouts/teams/item.json.json</code> for Hugo to pick it up instantly when rendering a page from<code>teams</code>.</p>
+
+<pre><code>{
+    &quot;title&quot;: &quot;{{ .Title }}&quot;,
+    &quot;mascot&quot;: &quot;{{ .Params.mascot }}&quot;,
+    &quot;permalink&quot;: &quot;{{ .Permalink }}&quot;
+}
+</code></pre>
+
+<p>And we have a team: <a href="http://localhost:1313/teams/sly-turtles/index.json">http://localhost:1313/teams/sly-turtles/index.json</a></p>
+
+<pre><code>{
+    &quot;data&quot;: {
+        &quot;title&quot;: &quot;Sly Turtles&quot;,
+        &quot;mascot&quot;: &quot;Turtle Todd&quot;,
+        &quot;permalink&quot;: &quot;http://localhost:1313/teams/sly-turtles/index.json&quot;
+    }
+}
+</code></pre>
+
+<h3 id="improving-our-response">Improving our response</h3>
+
+<p>Now that we have two types of entries, it makes sense to provide some additional information when listing them in our <code>list.json.json</code>. This is the structure of our new response:</p>
+
+<ul>
+<li>The type of resource we&rsquo;re looking at</li>
+<li>The number of results found</li>
+<li>An array of results</li>
+</ul>
+
+<pre><code class="language-text">{{ define &quot;response&quot; }}
+{
+  {{ with .Section }}
+  &quot;section&quot; : &quot;{{ . }}&quot;,
+  {{ end }}
+  &quot;count&quot; : &quot;{{ len .Data.Pages }}&quot;,
+  &quot;items&quot; : [
+  {{ range $i, $e := .Data.Pages }}
+  {{ if $i }}, {{ end }}{{ .Render &quot;item&quot; }}
+  {{ end }}
+  ]
+}
+{{ end }}
+</code></pre>
+
+<h3 id="adding-a-taxonomy-for-sports">Adding a Taxonomy for Sports</h3>
+
+<p>Adding a sports category into the mix is not that complicated. First, we need to open <code>config.toml</code> to tell Hugo two things:</p>
+
+<ol>
+<li>We are declaring a new taxonomy called <em>sports</em>, and</li>
+<li>Taxonomies are also compatible with our JSON output format.</li>
+</ol>
+
+<pre><code class="language-toml">[taxonomies]
+   sport = &quot;sports&quot;
+[outputs]
+   page = [&quot;json&quot;] # A player
+   section = [&quot;json&quot;] # All players
+   home = [&quot;json&quot;] # Everything
+   taxonomy = [&quot;json&quot;] # All items from a sport
+</code></pre>
+
+<p>We can now add <code>sports</code> to our players and teams:</p>
+
+<pre><code>---
+title: &quot;Frank J. Robinson&quot;
+[...]
+sports: [&quot;soccer&quot;, &quot;baseball&quot;]
+</code></pre>
+
+<p>In our <code>list.json.json</code> template, we could then add the possibility of a taxonomy page and enrich the output by checking if the page is of kind <code>section</code> or <code>taxonomy</code>.</p>
+
+<pre><code>{{ with eq .Kind  &quot;section&quot;}}
+    &quot;section&quot; : &quot;{{ $.Section }}&quot;,
+{{ end }}
+{{ with eq .Kind  &quot;taxonomy&quot;}}
+    &quot;taxonomy&quot; : &quot;{{ $.Data.Singular }}&quot;,
+    &quot;term&quot; : &quot;{{ $.Data.Term }}&quot;,
+{{ end }}
+</code></pre>
+
+<p>We now have a sport index: <a href="http://localhost:1313/sports/football/index.json">http://localhost:1313/sports/football/index.json</a></p>
+
+<pre><code>{
+    &quot;data&quot;: {
+        &quot;taxonomy&quot;: &quot;sport&quot;,
+        &quot;term&quot;: &quot;football&quot;,
+        &quot;count&quot;: &quot;3&quot;,
+        &quot;items&quot;: [
+            {
+                &quot;name&quot;: &quot;Jody Garland&quot;,
+                &quot;contact&quot;: &quot;+1 (555) 555 5555&quot;,
+                &quot;permalink&quot;: &quot;http://localhost:1313/players/jody-garland/index.json&quot;,
+                &quot;year&quot;: &quot;freshman&quot;
+            },
+            {
+                &quot;name&quot;: &quot;John Artfield&quot;,
+                &quot;contact&quot;: &quot;+1 (555) 555 5555&quot;,
+                &quot;permalink&quot;: &quot;http://localhost:1313/players/john-artfield/index.json&quot;,
+                &quot;year&quot;: &quot;sophomore&quot;
+            },
+            {
+                &quot;title&quot;: &quot;Sly Turtles&quot;,
+                &quot;type&quot;: &quot;teams&quot;,
+                &quot;mascot&quot;: &quot;Turtle Todd&quot;,
+                &quot;permalink&quot;: &quot;http://localhost:1313/teams/sly-turtles/index.json&quot;
+            }
+        ]
+    }
+}
+</code></pre>
+
+<h3 id="creating-a-generic-item-json-json">Creating a generic item.json.json</h3>
+
+<p>For the sake of simplicity we added <code>items.json.json</code> to <code>layouts/_default</code>. However, it really only caters to the <code>players</code> endpoint. Let’s move it to <code>layouts/players/item.json.json</code>.</p>
+
+<p>Instead we&rsquo;ll create a more generic <code>layouts/_default/item.json.json</code> for all other types of entries.</p>
+
+<pre><code>{
+  &quot;title&quot;: &quot;{{ .Title }}&quot;,
+  &quot;date&quot;: &quot;{{ .Date }}&quot;,
+  &quot;type&quot;: &quot;{{ .Type }}&quot;,
+  &quot;permalink&quot; : &quot;{{ .Permalink }}&quot;,
+  &quot;summary&quot; : &quot;{{ .Summary }}&quot;
+}
+</code></pre>
+
+<p>Our API is now Content-type agnostic!</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>What we built is a stand alone API, but in order to add it as an extra layer to your existing website, all you&rsquo;ll have to do is drop the templates we created today in your project&rsquo;s <code>layouts</code> directory and assign the needed output formats to your page kinds, without forgetting to mention the default ones: HTML and for some page kinds, RSS. This way Hugo will output the desired pages in HTML, RSS and JSON:</p>
+
+<pre><code>[outputs]
+  page = [&quot;HTML&quot;, &quot;json&quot;]
+  home = [&quot;HTML&quot;, &quot;RSS&quot;, &quot;json&quot;]
+  section = [&quot;HTML&quot;, &quot;RSS&quot;, &quot;json&quot;]
+  ...
+</code></pre>
+
+<p>Using Hugo&rsquo;s Output Formats we were able to tell Hugo to output our pages in JSON. We now have an out of the box RESTful GET API!</p>
+
+<p>Thanks to its templating logic we can now change or add keys to our players’ or teams’ output, add new content type and create a custom output object for them or let them use the default one.</p>
+
+<h3 id="using-forestry-for-content-management">Using Forestry for Content Management</h3>
+
+<p>
+  <img src="/uploads/2018/04/forestry_admin_demo-1.png" data-src="/uploads/2018/04/forestry_admin_demo-1.png" data-srcset="/uploads/2018/04/forestry_admin_demo-1.png 320w, /uploads/2018/04/forestry_admin_demo-1.png 497w, /uploads/2018/04/forestry_admin_demo-1.png 674w, /uploads/2018/04/forestry_admin_demo-1.png 851w, /uploads/2018/04/forestry_admin_demo-1.png 1028w, /uploads/2018/04/forestry_admin_demo-1.png 1205w, /uploads/2018/04/forestry_admin_demo-1.png 1382w, /uploads/2018/04/forestry_admin_demo-1.png 1559w, /uploads/2018/04/forestry_admin_demo-1.png 1736w, /uploads/2018/04/forestry_admin_demo-1.png 1913w, /uploads/2018/04/forestry_admin_demo-1.png 1920w" data-sizes="auto" alt="/uploads/2018/04/forestry_admin_demo-1.png" title="/uploads/2018/04/forestry_admin_demo-1.png" class="lazyload" /></p>
+
+<p>Bootstrapping an API this easily is great, but your content editors might not enjoy working with raw markdown files and dealing with a git repo. Fortunately, we can use the Forestry CMS to instantly add a content management backend for our API!</p>
+
+<div style="text-align: center;"><a href="https://app.forestry.io/signup" class="button small primary">Get Started With Forestry</a></div>
+<br /><br />
+From the content side, our JSON API is no different than a conventional Hugo site. This means that managing our content in Forestry will work the same regardless of whether we plan to output JSON or HTML (or both!)
+
+<div style="margin-top: 2em; padding: 20px 40px;background: #f7f7f7;"><h2>Join us every Friday 📅</h2><p><a href="/categories/frontend-friday/">Frontend Friday</a> is a weekly series where we write in-depth posts about modern web development.</p><p><strong>Next week:</strong> We will explore innovative content strategy options within the Forestry CMS</p><p><strong>Last week:</strong> We compared the usability and features of Hugo and Jekyll to help you decide <a href="https://forestry.io/blog/hugo-and-jekyll-compared/">which static site generator is right for you</a></p></div>
+
+<h2 id="have-something-to-add">Have something to add?</h2>
+
+<p><a style="background: #F60; display: inline-block; border-radius: 5px; color: white; padding: 2px 9px; font-size: 14px;" href="https://news.ycombinator.com/item?id=16830678">Discuss on Hacker News</a></p>
+
+      </div>
+
+      <hr /><div class="post--about"></div><aside class="social-sharing">
+  <h2 class="social-sharing--title">Share this article</h2>
+  <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+    <a class="a2a_button_facebook"></a>
+    <a class="a2a_button_twitter"></a>
+    <a class="a2a_button_reddit"></a>
+    <a class="a2a_button_hacker_news"></a>
+  </div>
+  <script>
+  var a2a_config = a2a_config || {};
+  a2a_config.linkname = "Build a JSON API With Hugo\x27s Custom Output Formats";
+  a2a_config.linkurl = "https://forestry.io\/blog\/build-a-json-api-with-hugo\/";
+  </script>
+  <script async src="https://static.addtoany.com/menu/page.js"></script>
+</aside>
+<div class="post--feedback">
+        <p><small>Caught a mistake or want to contribute to the blog? Edit this page on <a href="https://github.com/forestryio/forestry.io/edit/master/hugo/content/blog/build-a-json-api-with-hugo.md" target="_blank">Github</a>!</small></p>
+      </div></div><aside class="post--related">
+      <div class="container">
+        <h2 class="post--related-title">Other Articles You Might Like</h2><article class="blog-post column">
+    <div class="post-meta">
+        <span class="post-date">May 25, 2018</span>
+        <span class="post-category" data-category="blog"><span>in 
+                <a href="/categories/frontend-friday" class="post--category" data-category="frontend-friday">
+                Frontend friday
+                </a>,
+                <a href="/categories/hugo" class="post--category" data-category="hugo">
+                Hugo
+                </a></span></span>
+    </div>
+    <a href="/blog/hugo-json-api-part-2/"><h2 class="post-title">Enhance Your Hugo JSON API Using Custom Output Formats and Netlify Redirects</h2></a>
+    <p class="post-excerpt">Hugo makes it super easy to build simple APIs with its built-in output formats. In my previous article, we built a fully functional JSON …
+        </p>
+</article><article class="blog-post column">
+    <div class="post-meta">
+        <span class="post-date">April 20, 2018</span>
+        <span class="post-category" data-category="blog"><span>in 
+                <a href="/categories/hugo" class="post--category" data-category="hugo">
+                Hugo
+                </a>,
+                <a href="/categories/frontend-friday" class="post--category" data-category="frontend-friday">
+                Frontend friday
+                </a></span></span>
+    </div>
+    <a href="/blog/sawmill-layout-composer-for-hugo-and-forestry/"><h2 class="post-title">Sawmill: A Razor-sharp Layout Composer for Hugo and Forestry</h2></a>
+    <p class="post-excerpt">When it comes to creating websites, good content strategy is all about turning ideas into HTML with a minimal amount of friction. Whether …
+        </p>
+</article><article class="blog-post column">
+    <div class="post-meta">
+        <span class="post-date">March 23, 2018</span>
+        <span class="post-category" data-category="blog"><span>in 
+                <a href="/categories/frontend-friday" class="post--category" data-category="frontend-friday">
+                Frontend friday
+                </a>,
+                <a href="/categories/cicd" class="post--category" data-category="cicd">
+                Cicd
+                </a>,
+                <a href="/categories/hugo" class="post--category" data-category="hugo">
+                Hugo
+                </a></span></span>
+    </div>
+    <a href="/blog/automate-deploy-w-circle-ci/"><h2 class="post-title">Automate Your Static Site Deployment with CircleCI</h2></a>
+    <p class="post-excerpt">This tutorial was updated on April 3, 2018 to use bep/s3deploy in place of aws/aws-cli.
+ This article is part of our on-going Frontend …
+        </p>
+</article><article class="blog-post column">
+    <div class="post-meta">
+        <span class="post-date">March 9, 2018</span>
+        <span class="post-category" data-category="blog"><span>in 
+                <a href="/categories/hugo" class="post--category" data-category="hugo">
+                Hugo
+                </a>,
+                <a href="/categories/frontend-friday" class="post--category" data-category="frontend-friday">
+                Frontend friday
+                </a></span></span>
+    </div>
+    <a href="/blog/up-and-running-with-hugo/"><h2 class="post-title">Up &amp; Running With Hugo Part I: Building Your First Site</h2></a>
+    <p class="post-excerpt">This guide was most recently updated on March 9, 2018.
+ &mdash; &ndash; The popular static site generator written in GoLang - Hugo - has …
+        </p>
+</article></div>
+    </aside></main><div id="slide-in-cta" class="slide-in-cta container">
+  <img class="slide-in-cta--close toggle-close" src="/img/navtoggle-close.svg" onClick="closeSlideIn()" alt="Close nav">
+  <h2 class="slide-in-cta--title" style="margin-bottom: initial;">Want to hear it first?</h2>
+  <p class="slide-in-cta--text">Subscribe to our newsletter to get the posts directly in your inbox.</p>
+  <br><form action="https://www.getrevue.co/profile/forestryio/add_subscriber" method="post" name="revue-form" target="_blank">
+      <div class="newsletter-signup--field form--joined">
+        <input class="revue-form-field" placeholder="your.name@example.com" type="email" name="member[email]">
+        <button type="submit" value="Subscribe" name="member[subscribe]" class="button primary small">Subscribe</button>
+      </div>
+    </form></div>
+
+<script type="text/javascript">
+  
+  var slideInSeen = false
+  var scrollTimer, lastScrollFireTime = 0;
+
+  window.onscroll = function() {
+    if (slideInSeen == false) {
+      
+      var minScrollTime = 1000;
+      var now = new Date().getTime();
+
+      function checkSlideIn() {
+        
+        let d = document.documentElement;
+        let offset = window.pageYOffset + window.innerHeight;
+        let height = document.getElementById("post-container").scrollHeight * 0.5; 
+
+        console.log(offset)
+        console.log(height)
+
+        if (offset >= height && slideInSeen == false) {
+          
+          document.getElementById("slide-in-cta").style.transform = "translateX(0)";
+          slideInSeen = true;
+        }
+      }
+
+      if (!scrollTimer) {
+        
+          if (now - lastScrollFireTime > (3 * minScrollTime)) {
+              checkSlideIn();   
+              lastScrollFireTime = now;
+          }
+          scrollTimer = setTimeout(function() {
+              scrollTimer = null;
+              lastScrollFireTime = new Date().getTime();
+              checkSlideIn();
+          }, minScrollTime);
+      }
+    }
+  };
+
+  function closeSlideIn() {
+    document.getElementById("slide-in-cta").style.transform = "translateX(100%)";
+  };
+</script> 
+<section class="section section-cta center" id="footer-cta">
+  <div class="container">
+    <h2 class="section--title">Want to hear it first?</h2>
+    <p class="section--sub is-center">Subscribe to our newsletter to get the posts directly in your inbox as they get posted.</p>
+    <br><br><form action="https://www.getrevue.co/profile/forestryio/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
+      <div class="newsletter-signup--field form--joined form--large form--center">
+        <input class="revue-form-field" placeholder="your.name@example.com" type="email" name="member[email]" id="member_email">
+        <button type="submit" value="Subscribe" name="member[subscribe]" id="member_submit" class="button primary small">Subscribe</button>
+      </div>
+    </form></div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <a href="https://forestry.io" title="Go to homepage">
+          <img src="/img/forestry-symbol.svg" width="auto" height="24" alt="Forestry Logo">
+        </a>
+      </div><div class="column">
+        <span class="footer-title">Product</span><ul><li><a href="/pricing/">Pricing</a></li><li><a href="/docs/guides/">Guides</a></li><li><a href="/docs/welcome/">Docs</a></li></ul></div><div class="column">
+        <span class="footer-title">Company</span><ul><li><a href="/support/">Support</a></li><li><a href="/careers/">Careers</a></li><li><a href="/privacy/">Privacy Policy</a></li><li><a href="/terms/">Terms of Use</a></li></ul></div><div class="column">
+        <p>Join our slack community and get daily
+        updates on product updates.</p>
+        <a href="https://t.co/OANAJYol8Y" target="_blank">
+          <img class="slack-logo" src="/img/logos/slack.svg" width="auto" height="24" alt="Slack">
+        </a>
+      </div></div>
+  </div>
+  <div class="lower-footer">
+    <div class="container">
+      <div>&copy; 2015-2018 Forestry.io. All rights reserved.</div>
+      <div class="contact">
+        <ul><li><a href="https://twitter.com/forestryio" target="_blank"><img src="/img/logos/twitter.svg" height="16" alt="Twitter"></a></li><li><a href="https://t.co/OANAJYol8Y" target="_blank"><img src="/img/logos/slack-symbol.svg" height="16" alt="Slack"></a></li><li><a href="mailto:support@forestry.io"><img src="/img/email.svg" height="12" alt="Email"></a></li></div>
+    </div>
+  </div>
+</footer>
+
+<script async src="/js/ads.min.js?29266ec47ce27c430a15fdc427a3edb7" type="text/javascript"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.20.1/moment.min.js"></script>
+
+<script src="/js/scripts.min.js?82c1bc8cc6e9cab7998352a7281b74a5" type="text/javascript"></script><aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+      <div class="search-header--sticky">
+        <div class="search-results--stats">
+          <div id="stats"></div>
+          <a href="https://algolia.com" target="_blank"><img src="/img/logos/search-by-algolia.svg" alt="Powered by Algolia" width="100" class="search-results--poweredby" /></a>
+        </div>
+        <div class="search-results--filters"></div>
+      </div>
+    </section>
+    <section class="section section-search-results">
+    </section>
+  </div>
+</aside></body>
+</html>

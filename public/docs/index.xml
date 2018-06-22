@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation on Forestry.io</title>
+    <link>https://forestry.io/docs/index.xml</link>
+    <description>Recent content in Documentation on Forestry.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Dec 2017 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://forestry.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Storing Media Files</title>
+      <link>https://forestry.io/docs/media/</link>
+      <pubDate>Fri, 25 May 2018 16:00:00 -0400</pubDate>
+      
+      <guid>https://forestry.io/docs/media/</guid>
+      <description>Forestry provides multiple options for media storage.
+Git The most basic option for storing media is to commit it to your git repo like the rest of your content. This is the default setting for new projects.
+If your site has a large number of media files, we highly recommend you select a different storage option. Very large git repos are slower to clone and work with and will not present an optimal development experience.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://forestry.io/docs/welcome/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://forestry.io/docs/welcome/</guid>
+      <description>Forestry.io is a Git-backed CMS (content management system) for websites and web products built using static site generators. Forestry bridges the gap between developers and their teams, by making development fun and easy, while providing powerful content management for their teams.
+Sign up for free today, or learn more about our pricing for teams.
+ What is Forestry? The main thing to understand is that Forestry &amp;ndash; unlike other content management systems &amp;ndash; is entirely backed by Git.</description>
+    </item>
+    
+    <item>
+      <title>Options</title>
+      <link>https://forestry.io/docs/hosting/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://forestry.io/docs/hosting/</guid>
+      <description>The Hosting settings allow you to use Forestry to handle deployment of your static site. Forestry can build your site and then deploy the static files to a hosting provider of your choice.
+Guides Forestry has a selection of built-in hosting options that make hosting your static site easy.
+Commit to source repo only Enabling &amp;ldquo;commit to source repo only&amp;rdquo; will enable Forestry to only commit changes made in the CMS back to the branch and repository your site was imported from.</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://forestry.io/docs/settings/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://forestry.io/docs/settings/</guid>
+      <description>Logo The logo setting allows you to customize the branding of Forestry CMS by allowing you to replace the Forestry logo in various touchpoints in the CMS.
+Site Name Site name allows you to customize the display name of your site in the Forestry UI. This will update the display in the dashboard, in notifications, and various touchpoints.
+URL The URL setting allows you to provide the URL to your production website, which allows editors to open the production website from the sidebar.</description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://forestry.io/docs/git-sync/</link>
+      <pubDate>Thu, 06 Apr 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://forestry.io/docs/git-sync/</guid>
+      <description>DisclaimerThis guide assumes you already have an existing GitHub account and repository with a Jekyll or Hugo project. If you don&amp;rsquo;t have an existing project, check out our Quick start guide, which contains guides and resources for building your first static site.
+ Forestry&amp;rsquo;s allows you to import your static site through public and private GitHub repositories. This allows Forestry to sync any changes made by editors in Forestry to be committed back to GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Managing Content</title>
+      <link>https://forestry.io/docs/editing/</link>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://forestry.io/docs/editing/</guid>
+      <description>Forestry allows editors and guests to manage their website in a variety of different ways. This enables developers to build powerful, static sites while empowering editors to take full control over their content.
+For more information on guest and editor roles see user roles
+Pages The most basic type of content in Forestry is a page. Pages are any ungrouped content in your static site, such as an about page or contact page.</description>
+    </item>
+    
+    <item>
+      <title>Configure the CMS</title>
+      <link>https://forestry.io/docs/quickstart/configure-cms/</link>
+      <pubDate>Thu, 23 Mar 2017 04:00:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/quickstart/configure-cms/</guid>
+      <description>You setup your site with Forestry and now you&amp;rsquo;re ready to configure your CMS. This doc will go over:
+ Setting up correct paths for images and other media Configuring your content model (the fields used on each page, post, etc)  Setting up Image Paths When your team uploads images and other media, you want to ensure they&amp;rsquo;re going to the right directory. Set this up by going to Settings &amp;gt; File Paths.</description>
+    </item>
+    
+    <item>
+      <title>Setup Your Site</title>
+      <link>https://forestry.io/docs/quickstart/setup-site/</link>
+      <pubDate>Thu, 23 Mar 2017 04:00:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/quickstart/setup-site/</guid>
+      <description>This doc will walk you through:
+ Setting up your site repository with Forestry Making your first commit by publishing some changes  Import Site from Repo Sign up for a free account with Forestry.io then add a new site from your dashboard.
+If you don&amp;rsquo;t have a Jekyll or Hugo site, click the link in the bottom of the setup window to launch the demo site.
+Select your Static Site Generator Before choosing your repository, Forestry needs to know which static site generator is used to build your site.</description>
+    </item>
+    
+    <item>
+      <title>Product Tour</title>
+      <link>https://forestry.io/docs/quickstart/tour/</link>
+      <pubDate>Thu, 23 Mar 2017 04:00:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/quickstart/tour/</guid>
+      <description>Overview This tour will walk you through setting up your first site in Forestry. It demonstrates the primary features and editing functionality of the CMS.
+Getting Started Sign up for a Forestry account, and then navigate to the dashboard.
+ Click &amp;ldquo;Try our Jekyll starter template!&amp;rdquo; Select your Git Provider from the list of options. A window will open asking you to give Forestry access to your repositories. If you are not already logged in, your provider will prompt you for login credentials first.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://forestry.io/docs/front-matter-templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/front-matter-templates/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on Forestry.io</title>
+    <link>https://forestry.io/docs/guides/</link>
+    <description>Recent content in Guides on Forestry.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Dec 2017 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://forestry.io/docs/guides/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using GitHub Pages to Build Your Jekyll Site</title>
+      <link>https://forestry.io/docs/guides/hosting/github-pages-jekyll/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://forestry.io/docs/guides/hosting/github-pages-jekyll/</guid>
+      <description>Using Jekyll with GitHub Pages GitHub can handle building your Jekyll site without the need of Forestry or a CI tool. GitHub will build your Jekyll site each time a new commit is pushed to GitHub and serve it automatically.
+Limitations When using GitHub to build your GitHub Pages site, you are restricted to using the white-listed GitHub Pages Jekyll version and plugins.
+Getting Started This requires the GitHub pages gem.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://forestry.io/docs/guides/developing-with-hugo/</link>
+      <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/guides/developing-with-hugo/</guid>
+      <description>Hugo is a fast static site generator, with a lot of enterprise features. If you’re building a large business, publication, or community website Hugo is likely the right choice due to features likes localization, RSS Feed &amp;amp; Sitemap generation, and much more.
+Choose Hugo if you:  Are building a site that requires a lot of enterprise features, such customizable as RSS Feeds, Sitemaps, AMP (Accelerated Mobile Pages), etc. Have a site with more than 500 pages, as Hugo is blazingly fast Feel learning a new language to build your theme templates isn’t a challenge for you.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://forestry.io/docs/guides/developing-with-jekyll/</link>
+      <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/guides/developing-with-jekyll/</guid>
+      <description>Jekyll is one of the oldest static site generators available. Built by GitHub, it has tons of community support and is very stable. Additional features can be added onto Jekyll through the use of plugins. It also uses the templating language Liquid, which feels very familiar to developers and is also used by Shopify and other large-scale applications.
+Choose Jekyll if you:  Want a static site generator with great stability and the biggest community.</description>
+    </item>
+    
+  </channel>
+</rss>

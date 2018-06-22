@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Careers on Forestry.io</title>
+    <link>https://forestry.io/careers/</link>
+    <description>Recent content in Careers on Forestry.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Dec 2017 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://forestry.io/careers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Software Engineer</title>
+      <link>https://forestry.io/careers/software-engineer/</link>
+      <pubDate>Wed, 09 Aug 2017 10:20:51 +0000</pubDate>
+      
+      <guid>https://forestry.io/careers/software-engineer/</guid>
+      <description>Full-Time • Charlottetown, PE  Forestry.io is a small team, led by engineers, and based in Charlottetown, Prince Edward Island. We are hiring a software engineer to help us build a Content Management System for the next generation of websites.
+We’re taking a developer-centric approach to content management by supporting modern tools like Git, Hugo and Jekyll.
+What You Will Do  Develop a CMS that will allow our customers to build and edit the world&amp;rsquo;s best websites</description>
+    </item>
+    
+  </channel>
+</rss>
