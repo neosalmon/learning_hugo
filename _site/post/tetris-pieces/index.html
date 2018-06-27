@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Tetris Pieces ~ Tims Curious Creations</title>
+    <meta name="description" content="Welcome to the wide weird world of Tim Holman, this is the stuff he's made, and a little about how it was done.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="alternate" type="application/rss+xml" title="RSS for tholman.com" href="/feed.xml" />
+  </head>
+
+  <body>
+    <section class="wrapper">
+      <div class="content">
+        <header>
+  <div class="about">
+    <h2>THE CURIOUS CREATIONS OF</h2>
+    <h1>TIM HOLMAN</h1>
+
+    <p>
+      I'm a tinkerer, tuner & tamperer who's been around the block.
+    </p>
+
+    <p class="links">
+      <b>Give me a buzz:</b>
+      <a href="http://twitter.com/twholman">Twitter</a>,
+      <a href="http://codepen.io/tholman">CodePen</a>,
+      <a href="http://github.com/tholman">Github</a>,
+      <a href="https://www.linkedin.com/in/twholman">StinkedIn</a>,
+      <a href="http://tinyletter.com/tims-log">Email log</a> &
+      <a href="mailto:timothy.w.holman@gmail.com" target="_blank">Email</a>.
+    </p>
+
+    <p>
+      <b>Send some love:</b><br>
+      <a href="https://www.buymeacoffee.com/tholman" target="_blank">Buy me a Coffee</a>
+    </p>
+
+    
+      <p>
+        <b>Or you can:</b><br>
+        Check out my <a href="/">latest</a>.
+      </p>
+    
+  </div>
+</header>
+        
+        <article>
+          <h1>Tetris Pieces</h1>
+          <p><em>A couple of months ago, I did a little commission work for Electric Object, in the form of Abstract Clocks. While working on the clocks, I ended up creating a bunch of different proof of concepts and directions. This was one of them.</em></p>
+
+<p>The initial idea for “<a href="http://tholman.com/tetris-pieces">Tetris pieces</a>” was to create a bunch of small video game demo’s that would use AI to play on your wall, I had looked at snake, a brick breaker game and a maze solver. Ultimately, I found myself drawn to the different renderings of Tetris games. It was so mezmerizing watching tetris play out automatically on the Electric Object, I had to stick with it.</p>
+
+<p>To begin the project, I began researching tetri’s AI’s, and immediately found one that was <a href="https://codemyroad.wordpress.com/2013/04/14/tetris-ai-the-near-perfect-player/">absolutely perfect</a> built by a very talented developer, <a href="https://codemyroad.wordpress.com/author/leeyiyuan/">Yiyuan Lee</a>.</p>
+
+<p>You can read about how the AI works in the post linked above. Here’s a snippet about how the AI decides where to put each piece. Its definitely worth the read!</p>
+
+<blockquote>
+  <p>To meet this goal, our AI will decide the best move for a given Tetris piece by trying out all the possible moves (rotation and position). It computes a score for each possible move (together with the lookahead piece), and selects the one with the best score as its next move.<br /><br />The score for each move is computed by assessing the grid the move would result in. This assessment is based on four heuristics: aggregate height, complete lines, holes, and bumpiness, each of which the AI will try to either minimize or maximize.</p>
+</blockquote>
+
+<p>From this point, I forked the code and set my mind to hacking how the pieces were drawn, so I could have multiple different looks and feels.</p>
+
+<p><img src="http://localhost:4000/images/tetris-pieces-1.png" alt="Tetris Pieces, on display." /></p>
+
+<p>These are, from left to right.</p>
+
+<p>1: Ambient Blocks, in this version the tiles take up solid block colors. As the game goes on, the hue of these colors rotates very slowly, meaning whenever you look at the wall you should see slightly different colors. This playful touch made it my personal favorite.</p>
+
+<p>2: Classic Tetris, in this specific rendering I’ve copied the colors and patterns from the original GameBoy game, including that ever present green tinge.</p>
+
+<p>3: Colored Classic, using the colors of the tetris game that appeared on Super Nintendo, the colored tiles perhaps look the nicest on the screen, and definitely bring back some nostalgic feelings!</p>
+
+<p>All in all, the project was definitely a good experience. When you have to plow into someone elses code, with no background its funny what you can learn. Finding and editing the code that renders the tetris pieces to the canvas was a little tricky, but ultimately very rewarding.</p>
+
+<p>➶ <a href="http://tholman.com/tetris-pieces">Tetris Pieces in Action</a><br />
+➶ <a href="https://github.com/tholman/tetris-pieces">Tetris Pieces source on Github</a><br />
+➶ <a href="http://tholman.com/tetris-pieces">Tetris Pieces on Electric Object</a></p>
+
+        </article>
+        
+    </section>
+
+    <script type="text/javascript" src="/js/index.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-22825241-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-22825241-1');
+    </script>
+
+  </body>
+
+</html>

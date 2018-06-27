@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-27T13:36:31+05:30</updated><id>http://localhost:4000/</id><title type="html">The Curious Creations of Tim Holman</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><author><name>Tim Holman</name></author><entry><title type="html">Generative Artistry</title><link href="http://localhost:4000/post/generative-artistry/" rel="alternate" type="text/html" title="Generative Artistry" /><published>2018-06-14T00:00:00+05:30</published><updated>2018-06-14T00:00:00+05:30</updated><id>http://localhost:4000/post/generative-artistry</id><content type="html" xml:base="http://localhost:4000/post/generative-artistry/">&lt;p&gt;&lt;em&gt;Generative Artistry is a small venture I’m making into blogging actual code! Including something I’ve been thinking a lot about, self coding tutorials.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m super excited about &lt;a href=&quot;http://generativeartistry.com&quot;&gt;Generative Artistry&lt;/a&gt;, its going to be a great avenue for me to explore technical blogging, as well as an experimentation into how people learn to code. There’s been a ton of encouraging feedback, that is leading to my next release, which will be called Tutorial Markdown, a markdown style for interactive blogging.&lt;/p&gt;
+
+&lt;p&gt;The site itself is a simple blog, built on &lt;a href=&quot;https://gohugo.io/&quot;&gt;hugo&lt;/a&gt;, a static site build built with GO… its primary focus is speed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/generative-artistry-1.png&quot; alt=&quot;Generative Artistry Site&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The site provides a list of tutorials, simple as that.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/generative-artistry-2.png&quot; alt=&quot;Another Generative Artistry Site Pic&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The tutorials are where the magic really happens, as you scroll through the posts, the code is compiled together in a small editor (to the top left), and then executes in an iframe at the bottom left.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/generative-artistry-3.png&quot; alt=&quot;Generative Artistry tutorial page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This means that as you’re reading the post, you can scroll back and forth between code examples and see the difference and steps. This helps build a much stronger understanding about the code thats heading into the editor, and can hopefully help to foster a better learning process.&lt;/p&gt;
+
+&lt;p&gt;Tutorial Markdown is still in the works, but I’ll be sure to update this post when its ready!&lt;/p&gt;
+
+&lt;p&gt;➶ &lt;a href=&quot;http://generativeartistry.com&quot;&gt;Generative Artistry&lt;/a&gt;&lt;br /&gt;
+➶ &lt;a href=&quot;https://github.com/tholman/generative-artistry&quot;&gt;Generative Artistry on GitHub&lt;/a&gt;&lt;/p&gt;</content><author><name>Tim Holman</name></author><category term="code" /><summary type="html">Generative Artistry is a small venture I’m making into blogging actual code! Including something I’ve been thinking a lot about, self coding tutorials.</summary></entry><entry><title type="html">Generative Art Speedrun</title><link href="http://localhost:4000/post/generative-art-speedrun/" rel="alternate" type="text/html" title="Generative Art Speedrun" /><published>2018-04-01T00:00:00+05:30</published><updated>2018-04-01T00:00:00+05:30</updated><id>http://localhost:4000/post/generative-art-speedrun</id><content type="html" xml:base="http://localhost:4000/post/generative-art-speedrun/">&lt;p&gt;&lt;em&gt;I’ve had a big swing into generative art lately, and this talk has been a big part of my research, discovery and exploration.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This video is from JSConf Australia, when I first gave this talk. Since then, I’ve given it in a lot of different formats, and from a lot of different angles, including workshops and lightning talks. Generative art is rich with avenue’s for exploration, inspiration and all round fun!&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4Se0_w0ISYk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;➶ &lt;a href=&quot;https://www.youtube.com/watch?v=4Se0_w0ISYk&quot;&gt;Check out the video.&lt;/a&gt;&lt;/p&gt;</content><author><name>Tim Holman</name></author><category term="code" /><summary type="html">I’ve had a big swing into generative art lately, and this talk has been a big part of my research, discovery and exploration.</summary></entry><entry><title type="html">The Zen Zone</title><link href="http://localhost:4000/post/the-zen-zone/" rel="alternate" type="text/html" title="The Zen Zone" /><published>2018-02-07T00:00:00+05:30</published><updated>2018-02-07T00:00:00+05:30</updated><id>http://localhost:4000/post/the-zen-zone</id><content type="html" xml:base="http://localhost:4000/post/the-zen-zone/">&lt;p&gt;&lt;em&gt;The Zen Zone is an exploration into what it takes to slow myself down, switch off, meditate.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The idea behind the Zen Zone has been sitting in my head for a year or so now… the thought that I sometimes get stuck focusing on a simple boring task, but when I’m supposed to be focusing on something, like work for example, I find myself wandering aimlessly.&lt;/p&gt;
+
+&lt;p&gt;After using Vue recently for the &lt;a href=&quot;/post/what-have-you-made-today/&quot;&gt;What Have You Made Today&lt;/a&gt; extension, I decided to rock back to React for this one. Honestly I feel that both of them are very similar when it comes down to designing and ideating while you create… so no harm dancing around a little bit.&lt;/p&gt;
+
+&lt;p&gt;I set out to build a few simple “games” that would keep me captivated, and went in search of inspiration outside of the regular web circles.&lt;/p&gt;
+
+&lt;p&gt;The Switches game is inspired by… well, every day switching on the lights. As well as that little satisfaction you can get when animating things nicely in code.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/the-zen-zone-1.png&quot; alt=&quot;The Switches Game.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Swirl game has been inspired by the Japanese zen gardens, of which monks would focus on to help clear the mind.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/the-zen-zone-2.png&quot; alt=&quot;The Swirl Game.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Break game was inspired by the general nature and make-up of all things. Everything can be broken down into smaller and smaller pieces.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/the-zen-zone-3.png&quot; alt=&quot;The Break Game.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The games are stitched together in a way that makes me feel like I can expand upon these games easily, add more to the platform, and grow it out when I feel.&lt;/p&gt;
+
+&lt;p&gt;Having launched the project, there is a lot to be done straight off the cuff design and development wise. So lots do do still!&lt;/p&gt;
+
+&lt;p&gt;➶ &lt;a href=&quot;https://thezen.zone&quot;&gt;The Zen Zone&lt;/a&gt;&lt;br /&gt;
+➶ &lt;a href=&quot;https://github.com/tholman/the-zen-zone&quot;&gt;The Zen Zone on GitHub&lt;/a&gt;&lt;/p&gt;</content><author><name>Tim Holman</name></author><category term="code" /><summary type="html">The Zen Zone is an exploration into what it takes to slow myself down, switch off, meditate.</summary></entry><entry><title type="html">Jolly JS Journeys</title><link href="http://localhost:4000/post/jolly-js-journeys/" rel="alternate" type="text/html" title="Jolly JS Journeys" /><published>2018-01-24T00:00:00+05:30</published><updated>2018-01-24T00:00:00+05:30</updated><id>http://localhost:4000/post/jolly-js-journeys</id><content type="html" xml:base="http://localhost:4000/post/jolly-js-journeys/">&lt;p&gt;&lt;em&gt;Had a blast at JSConf Asia! I’ve been talking about the journey of creation for a while now, and am always changing how I want to present it. This is one of my favorite renditions.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Honestly, JSConf Asia was really top notch this year, I met an incredible group of developers from all different backgrounds. Could barely sleep afterwards. I highly recommend it to anyone thinking of going!&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iGPzwotXgfk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;➶ &lt;a href=&quot;https://www.youtube.com/watch?v=iGPzwotXgfk&quot;&gt;Watch on YouTube.&lt;/a&gt;&lt;/p&gt;</content><author><name>Tim Holman</name></author><category term="talk" /><summary type="html">Had a blast at JSConf Asia! I’ve been talking about the journey of creation for a while now, and am always changing how I want to present it. This is one of my favorite renditions.</summary></entry><entry><title type="html">S.JS</title><link href="http://localhost:4000/post/s-js/" rel="alternate" type="text/html" title="S.JS" /><published>2018-01-09T00:00:00+05:30</published><updated>2018-01-09T00:00:00+05:30</updated><id>http://localhost:4000/post/s-js</id><content type="html" xml:base="http://localhost:4000/post/s-js/">&lt;p&gt;&lt;em&gt;Canvas JavaScript polyfill for the vital and pivotal S we all drew in school.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The web canvas is a powerful tool, the API is fairly straight forward, and provides us with the tools to draw almost anything. Circles, squares and lines are the building blocks we have used since the dawn of time…&lt;/p&gt;
+
+&lt;p&gt;That said, there is also one other basic shape… that we all learn in school… passed down through generations… as old as time… no one really knows its origin.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/s-js-1.png&quot; alt=&quot;S.JS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Absolutely a must have for any canvas project.&lt;/p&gt;
+
+&lt;p&gt;➶ &lt;a href=&quot;https://github.com/tholman/s.js&quot;&gt;S.JS on GitHub&lt;/a&gt;&lt;/p&gt;</content><author><name>Tim Holman</name></author><category term="code" /><summary type="html">Canvas JavaScript polyfill for the vital and pivotal S we all drew in school.</summary></entry><entry><title type="html">What have you made today?</title><link href="http://localhost:4000/post/what-have-you-made-today/" rel="alternate" type="text/html" title="What have you made today?" /><published>2017-12-11T00:00:00+05:30</published><updated>2017-12-11T00:00:00+05:30</updated><id>http://localhost:4000/post/what-have-you-made-today</id><content type="html" xml:base="http://localhost:4000/post/what-have-you-made-today/">&lt;p&gt;&lt;em&gt;Got a little sick of my old “new tab” page, so I built something small to replace it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The idea of this little project was to build something that replaced the default “Chrome” new tabs page, which, although good, would be a little frustrating at times… it would load a whole google search bar, when really I was using the browsers URL bar to search anyway. It was also sending off requests this way and the next, which weren’t really neccesary.&lt;/p&gt;
+
+&lt;p&gt;All I really wanted was a simple speed dial, and some motivational text. So thats what I did!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/what-have-you-made-today-1.png&quot; alt=&quot;The extension in action&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One pleasant surprise, was that the FireFox addon’s use exactly the same api’s as Chrome, and that there is a &lt;a href=&quot;https://developer.mozilla.org/en-US/Add-ons/WebExtensions&quot;&gt;whole documentation&lt;/a&gt; amongst browsers, about how to implement said extensions. Yay for standards!&lt;/p&gt;
+
+&lt;p&gt;➶ &lt;a href=&quot;https://github.com/tholman/what-have-you-made-today&quot;&gt;The extension on GitHub&lt;/a&gt;&lt;br /&gt;
+➶ &lt;a href=&quot;https://chrome.google.com/webstore/detail/new-tab-what-have-you-mad/pjifadilbibcjmmomhihbpggjamnpfim&quot;&gt;Chrome install page&lt;/a&gt;&lt;br /&gt;
+➶ &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/what-have-you-made-today/&quot;&gt;FireFox install page&lt;/a&gt;&lt;/p&gt;</content><author><name>Tim Holman</name></author><category term="code" /><summary type="html">Got a little sick of my old “new tab” page, so I built something small to replace it.</summary></entry><entry><title type="html">Toolsday - Headless Chrome</title><link href="http://localhost:4000/post/toolsday-headless-chrome/" rel="alternate" type="text/html" title="Toolsday - Headless Chrome" /><published>2017-09-01T00:00:00+05:30</published><updated>2017-09-01T00:00:00+05:30</updated><id>http://localhost:4000/post/toolsday-headless-chrome</id><content type="html" xml:base="http://localhost:4000/post/toolsday-headless-chrome/">&lt;p&gt;&lt;em&gt;I had the pleasure of speaking with Una Kravets &amp;amp; Chris Dhanaraj about Headless Chrome&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.toolsday.io&quot;&gt;Toolsday&lt;/a&gt; has been a favorite podcast of mine since its conception, so it was great to be a part of it, speaking about Headless Chrome.&lt;/p&gt;
+
+&lt;p&gt;➶ &lt;a href=&quot;http://www.toolsday.io/episodes/headlesschrome.html&quot;&gt;Podcast and shownotes&lt;/a&gt;&lt;/p&gt;</content><author><name>Tim Holman</name></author><category term="code" /><summary type="html">I had the pleasure of speaking with Una Kravets &amp;amp; Chris Dhanaraj about Headless Chrome</summary></entry><entry><title type="html">Tetris Pieces</title><link href="http://localhost:4000/post/tetris-pieces/" rel="alternate" type="text/html" title="Tetris Pieces" /><published>2017-08-19T00:00:00+05:30</published><updated>2017-08-19T00:00:00+05:30</updated><id>http://localhost:4000/post/tetris-pieces</id><content type="html" xml:base="http://localhost:4000/post/tetris-pieces/">&lt;p&gt;&lt;em&gt;A couple of months ago, I did a little commission work for Electric Object, in the form of Abstract Clocks. While working on the clocks, I ended up creating a bunch of different proof of concepts and directions. This was one of them.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The initial idea for “&lt;a href=&quot;http://tholman.com/tetris-pieces&quot;&gt;Tetris pieces&lt;/a&gt;” was to create a bunch of small video game demo’s that would use AI to play on your wall, I had looked at snake, a brick breaker game and a maze solver. Ultimately, I found myself drawn to the different renderings of Tetris games. It was so mezmerizing watching tetris play out automatically on the Electric Object, I had to stick with it.&lt;/p&gt;
+
+&lt;p&gt;To begin the project, I began researching tetri’s AI’s, and immediately found one that was &lt;a href=&quot;https://codemyroad.wordpress.com/2013/04/14/tetris-ai-the-near-perfect-player/&quot;&gt;absolutely perfect&lt;/a&gt; built by a very talented developer, &lt;a href=&quot;https://codemyroad.wordpress.com/author/leeyiyuan/&quot;&gt;Yiyuan Lee&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can read about how the AI works in the post linked above. Here’s a snippet about how the AI decides where to put each piece. Its definitely worth the read!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To meet this goal, our AI will decide the best move for a given Tetris piece by trying out all the possible moves (rotation and position). It computes a score for each possible move (together with the lookahead piece), and selects the one with the best score as its next move.&lt;br /&gt;&lt;br /&gt;The score for each move is computed by assessing the grid the move would result in. This assessment is based on four heuristics: aggregate height, complete lines, holes, and bumpiness, each of which the AI will try to either minimize or maximize.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;From this point, I forked the code and set my mind to hacking how the pieces were drawn, so I could have multiple different looks and feels.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/tetris-pieces-1.png&quot; alt=&quot;Tetris Pieces, on display.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These are, from left to right.&lt;/p&gt;
+
+&lt;p&gt;1: Ambient Blocks, in this version the tiles take up solid block colors. As the game goes on, the hue of these colors rotates very slowly, meaning whenever you look at the wall you should see slightly different colors. This playful touch made it my personal favorite.&lt;/p&gt;
+
+&lt;p&gt;2: Classic Tetris, in this specific rendering I’ve copied the colors and patterns from the original GameBoy game, including that ever present green tinge.&lt;/p&gt;
+
+&lt;p&gt;3: Colored Classic, using the colors of the tetris game that appeared on Super Nintendo, the colored tiles perhaps look the nicest on the screen, and definitely bring back some nostalgic feelings!&lt;/p&gt;
+
+&lt;p&gt;All in all, the project was definitely a good experience. When you have to plow into someone elses code, with no background its funny what you can learn. Finding and editing the code that renders the tetris pieces to the canvas was a little tricky, but ultimately very rewarding.&lt;/p&gt;
+
+&lt;p&gt;➶ &lt;a href=&quot;http://tholman.com/tetris-pieces&quot;&gt;Tetris Pieces in Action&lt;/a&gt;&lt;br /&gt;
+➶ &lt;a href=&quot;https://github.com/tholman/tetris-pieces&quot;&gt;Tetris Pieces source on Github&lt;/a&gt;&lt;br /&gt;
+➶ &lt;a href=&quot;http://tholman.com/tetris-pieces&quot;&gt;Tetris Pieces on Electric Object&lt;/a&gt;&lt;/p&gt;</content><author><name>Tim Holman</name></author><category term="code" /><summary type="html">A couple of months ago, I did a little commission work for Electric Object, in the form of Abstract Clocks. While working on the clocks, I ended up creating a bunch of different proof of concepts and directions. This was one of them.</summary></entry><entry><title type="html">Smelvetica</title><link href="http://localhost:4000/post/smelvetica/" rel="alternate" type="text/html" title="Smelvetica" /><published>2017-05-01T00:00:00+05:30</published><updated>2017-05-01T00:00:00+05:30</updated><id>http://localhost:4000/post/smelvetica</id><content type="html" xml:base="http://localhost:4000/post/smelvetica/">&lt;p&gt;&lt;em&gt;“If you really hate someone, teach them to recognize bad kerning” ~ XKCD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://tholman.com/smelvetica&quot;&gt;Smelvetica&lt;/a&gt; is an experimentation in taking one of the worlds most beloved fonts, and turning it into a morbid monstrocity.&lt;/p&gt;
+
+&lt;p&gt;This project began by pulling the original “Helvetica” font from my system files, and making a copy of it. From there I opened it in &lt;a href=&quot;https://fontforge.github.io/en-US/&quot;&gt;FontForge&lt;/a&gt;, which is a brilliant open source font editor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/smelvetica-1.png&quot; alt=&quot;Helvetica opened up for editing in FontForge.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From here, the task was fairly simple. I opened up each “version” of Helvetica (these being bold, oblique, light etc), randomly went through the capital and non capital letters and moved them around within their guide grids. This had the desired effect of ruining their beautifully crafted kerning, as such, creating “Smelvetica”.&lt;/p&gt;
+
+&lt;p&gt;With the fonts completed, the remaining work was to wrap it all up with a nice &lt;a href=&quot;http://tholman.com/smelvetica&quot;&gt;web page&lt;/a&gt;, and some &lt;a href=&quot;https://github.com/tholman/smelvetica#how-do-i-install-it&quot;&gt;installation instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/smelvetica-2.png&quot; alt=&quot;The Smelvetica website.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/tholman/smelvetica#how-do-i-install-it&quot;&gt;installation&lt;/a&gt; ended up being the most devious part of the prank in the end, since it would install on the system it makes it really difficult for anyone to understand why everything looks just that little bit wrong.&lt;/p&gt;
+
+&lt;p&gt;➶ &lt;a href=&quot;http://tholman.com/smelvetica&quot;&gt;Smelvetica website &amp;amp; examples&lt;/a&gt;&lt;br /&gt;
+➶ &lt;a href=&quot;https://github.com/tholman/smelvetica&quot;&gt;Smelvetica source and installation instructions&lt;/a&gt;&lt;/p&gt;</content><author><name>Tim Holman</name></author><category term="design" /><summary type="html">“If you really hate someone, teach them to recognize bad kerning” ~ XKCD</summary></entry><entry><title type="html">Passive Aggressive Office Simulator</title><link href="http://localhost:4000/post/passive-aggressive-office-simulator/" rel="alternate" type="text/html" title="Passive Aggressive Office Simulator" /><published>2017-05-01T00:00:00+05:30</published><updated>2017-05-01T00:00:00+05:30</updated><id>http://localhost:4000/post/passive-aggressive-office-simulator</id><content type="html" xml:base="http://localhost:4000/post/passive-aggressive-office-simulator/">&lt;p&gt;&lt;em&gt;“Remember everybody, the crisper is for green vegetables only, anything else found in it will be thrown out at the end of the day.” ~ Passive aggressive post-it note.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the funnier things I found from office life was the small messages that would blast out to the whole company “There’s a fire drill tomorrow.”, “The coffee machine on the first floor is broken” etc. Now that I’m working remotely, in a weird way, I miss them. As such, the passive agressive office simulator Slackbot was born.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/office-simulator-1.png&quot; alt=&quot;Welcome to office simulator!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The core of this slackbot is the npm module, &lt;a href=&quot;https://github.com/mishk0/slack-bot-api&quot;&gt;slackbots&lt;/a&gt;, which honestly made the whole process a breeze. The bot itself is broken into a few key pieces.&lt;/p&gt;
+
+&lt;p&gt;The first piece, is the scheduler, which will take specific actions (namely sending a passive aggressive message), and give it a time to be shared with everyone. These are generally within work hours.&lt;/p&gt;
+
+&lt;p&gt;The second piece is a “ticker”, which keeps the script checking the time, and seeing if there is anything that needs to be ran.&lt;/p&gt;
+
+&lt;p&gt;The final piece, is of course, the messages themselves. They were all hand written by me, and also include wildcard variants… so something like the day of the week, or a piece of stationary (please put the stapler back where you found it!) could be switched out, to add a small extra dimension of randomness.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/office-simulator-2.png&quot; alt=&quot;Really keeping it passive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another little piece, which I felt gave it that little bit of extra “officey” cringe, was follow up messages. If your office is out of ink, you’ll be sure to get another message when it gets back in!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/office-simulator-3.png&quot; alt=&quot;Oh no, we're out of ink&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;… 5 days later&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/office-simulator-4.png&quot; alt=&quot;Phew, we have ink again.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Building a slackbot was a fun way to spend a day or two, honestly, the amount of articles and support docs out there makes it one of those technical, yet quickly rewarding projects!&lt;/p&gt;
+
+&lt;p&gt;➶ &lt;a href=&quot;https://github.com/tholman/office-simulator&quot;&gt;Office Simulator source and installation instructions&lt;/a&gt;&lt;/p&gt;</content><author><name>Tim Holman</name></author><category term="code" /><summary type="html">“Remember everybody, the crisper is for green vegetables only, anything else found in it will be thrown out at the end of the day.” ~ Passive aggressive post-it note.</summary></entry></feed>
